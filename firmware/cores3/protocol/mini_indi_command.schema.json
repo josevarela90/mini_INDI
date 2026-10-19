@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mini Indi Command",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "keyword",
+    "target",
+    "action"
+  ],
+  "properties": {
+    "keyword": {
+      "const": "mini indi"
+    },
+    "target": {
+      "enum": [
+        "light",
+        "drive",
+        "head"
+      ]
+    },
+    "action": {
+      "enum": [
+        "on",
+        "off",
+        "forward",
+        "backward",
+        "left",
+        "right",
+        "stop",
+        "center"
+      ]
+    },
+    "value": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "target": {
+            "const": "light"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "action": {
+            "enum": [
+              "on",
+              "off"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "target": {
+            "const": "drive"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "action": {
+            "enum": [
+              "forward",
+              "backward",
+              "left",
+              "right",
+              "stop"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "target": {
+            "const": "head"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "action": {
+            "enum": [
+              "left",
+              "right",
+              "center"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Indicador,Intentos,Éxitos,Tasa (%),Nota
+Activaciones locales aceptadas,11,11,100.0,No mide recall del wake
+Continuidad wake → consulta,11,11,100.0,11/11 activaciones iniciaron consulta
+Consultas informativas,9,7,77.77777777777777,2 timeouts de ACK TTS
+Comandos IoT ejecutables observados,2,2,100.0,Encender/apagar luz; n=2
+Interacciones completas,11,9,81.81818181818181,Éxito funcional observado

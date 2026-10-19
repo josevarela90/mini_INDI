@@ -1,0 +1,26 @@
+# Secretos / credenciales
+firmware/cores3/include/secrets.h
+.env
+*.pem
+*.key
+
+# PlatformIO / Python
+.pio/
+.vscode/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# LaTeX
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+
+# Sistema
+.DS_Store
+Thumbs.db

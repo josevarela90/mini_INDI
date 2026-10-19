@@ -1,0 +1,1594 @@
+TTS COMPLETO: 430472/430472
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.136300
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.136300
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.020726
+Ring samples: 28672/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.020726
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.014198
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.014198
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.098005
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.098005
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.155894
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.155894
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.153113
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.153113
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.082645
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.082645
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.027344
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.027344
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.023134
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.023134
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.059917
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.059917
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.160342
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.160342
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.111240
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.111240
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.230743
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.230743
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.374438
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.374438
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.610331
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.610331
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.694172
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.694172
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.461387
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.461387
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.634689
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.634689
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.266616
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.266616
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.104555
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.104555
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.061575
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.061575
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.212168
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.212168
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.229797
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.229797
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.343089
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.343089
+MINI INDI FUERTE ACEPTADO: 0.343089
+METRIC,16,M5_WAKE_LATENCY_MS,209
+METRIC,16,WAKE_SCORE,0.343089
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,17,QUERY_START_MS,695353
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (695176) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 2260 ms
+
+GRABACION TERMINADA: 72364 bytes
+PENSANDO...
+TX AUDIO: 8192/72364
+TX AUDIO: 16384/72364
+TX AUDIO: 24576/72364
+TX AUDIO: 32768/72364
+TX AUDIO: 40960/72364
+TX AUDIO: 49152/72364
+TX AUDIO: 57344/72364
+TX AUDIO: 65536/72364
+TX AUDIO: 72364/72364
+METRIC,17,M5_AUDIO_PREP_SEND_MS,8973
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+ROBOT: Berlín
+TTS COMPLETO: 39072/39072
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.494458
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.494458
+MINI INDI FUERTE ACEPTADO: 0.494458
+METRIC,17,M5_WAKE_LATENCY_MS,210
+METRIC,17,WAKE_SCORE,0.494458
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,18,QUERY_START_MS,721645
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (721468) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 2720 ms
+
+GRABACION TERMINADA: 87084 bytes
+PENSANDO...
+TX AUDIO: 8192/87084
+TX AUDIO: 16384/87084
+TX AUDIO: 24576/87084
+TX AUDIO: 32768/87084
+TX AUDIO: 40960/87084
+TX AUDIO: 49152/87084
+TX AUDIO: 57344/87084
+TX AUDIO: 65536/87084
+TX AUDIO: 73728/87084
+TX AUDIO: 81920/87084
+TX AUDIO: 87084/87084
+METRIC,18,M5_AUDIO_PREP_SEND_MS,24663
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+ROBOT: El terminal terrestre de Ambato es el terminal de la ciudad de Ambato, Ecuador.
+TTS COMPLETO: 209568/209568
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.309101
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.309101
+MINI INDI FUERTE ACEPTADO: 0.309101
+METRIC,18,M5_WAKE_LATENCY_MS,210
+METRIC,18,WAKE_SCORE,0.309101
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,19,QUERY_START_MS,807757
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (807580) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 3440 ms
+
+GRABACION TERMINADA: 110124 bytes
+PENSANDO...
+TX AUDIO: 8192/110124
+TX AUDIO: 16384/110124
+TX AUDIO: 24576/110124
+TX AUDIO: 32768/110124
+TX AUDIO: 40960/110124
+TX AUDIO: 49152/110124
+TX AUDIO: 57344/110124
+TX AUDIO: 65536/110124
+TX AUDIO: 73728/110124
+TX AUDIO: 81920/110124
+TX AUDIO: 90112/110124
+TX AUDIO: 98304/110124
+TX AUDIO: 106496/110124
+TX AUDIO: 110124/110124
+METRIC,19,M5_AUDIO_PREP_SEND_MS,14980
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+ROBOT: El terminal terrestre tiene una pantalla táctil, un teclado y una batería.
+TTS COMPLETO: 231584/231584
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.049121
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.049121
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.158629
+Ring samples: 28672/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.158629
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.122619
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.122619
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.054229
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.054229
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.118220
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.118220
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.088330
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.088330
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.126134
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.126134
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.100778
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.100778
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.120504
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.120504
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.166334
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.166334
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.016254
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.016254
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.036472
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.036472
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.003305
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.003305
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.048464
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.048464
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.019499
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.019499
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.117713
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.117713
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.073724
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.073724
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.042468
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.042468
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.154637
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.154637
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.076045
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.076045
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.029850
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.029850
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.010684
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.010684
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.132293
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.132293
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.002006
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.002006
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.125499
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.125499
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.043839
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.043839
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.016316
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.016316
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.168855
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.168855
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.189501
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.189501
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.215577
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.215577
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.202524
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.202524
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.109505
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.109505
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.134765
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.134765
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.117199
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.117199
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.142634
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.142634
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.229638
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.229638
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.304513
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.304513
+MINI INDI FUERTE ACEPTADO: 0.304513
+METRIC,19,M5_WAKE_LATENCY_MS,209
+METRIC,19,WAKE_SCORE,0.304513
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,20,QUERY_START_MS,900437
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (900260) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 3300 ms
+
+GRABACION TERMINADA: 105644 bytes
+PENSANDO...
+TX AUDIO: 8192/105644
+TX AUDIO: 16384/105644
+TX AUDIO: 24576/105644
+TX AUDIO: 32768/105644
+TX AUDIO: 40960/105644
+TX AUDIO: 49152/105644
+TX AUDIO: 57344/105644
+TX AUDIO: 65536/105644
+TX AUDIO: 73728/105644
+TX AUDIO: 81920/105644
+TX AUDIO: 90112/105644
+TX AUDIO: 98304/105644
+TX AUDIO: 105644/105644
+METRIC,20,M5_AUDIO_PREP_SEND_MS,18060
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+ROBOT: Moviendo la cabeza.
+JETSON ERROR: TIMEOUT esperando TTS ACK en 12288/68256
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.303026
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.303026
+MINI INDI FUERTE ACEPTADO: 0.303026
+METRIC,20,M5_WAKE_LATENCY_MS,210
+METRIC,20,WAKE_SCORE,0.303026
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,21,QUERY_START_MS,939679
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (939502) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 1040 ms
+
+GRABACION TERMINADA: 33324 bytes
+PENSANDO...
+TX AUDIO: 8192/33324
+TX AUDIO: 16384/33324
+TX AUDIO: 24576/33324
+TX AUDIO: 32768/33324
+TX AUDIO: 33324/33324
+METRIC,21,M5_AUDIO_PREP_SEND_MS,7888
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+COMANDO INMEDIATO: enciende la luz
+ESP-NOW LUZ ON err=0
+JSON COMMAND: ACEPTADO
+TIMEOUT ESPERANDO JETSON
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.085678
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.085678
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.057625
+Ring samples: 28672/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.057625
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.065700
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.065700
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.044336
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.044336
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.169760
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.169760
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.108539
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.108539
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.174160
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.174160
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.064172
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.064172
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.081578
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.081578
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.209764
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.209764
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.154357
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.154357
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.037762
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.037762
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.043461
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.043461
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.006857
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.006857
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.056893
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.056893
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.010329
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.010329
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.016541
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.016541
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.029334
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.029334
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.081726
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.081726
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.313312
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.313312
+MINI INDI FUERTE ACEPTADO: 0.313312
+METRIC,21,M5_WAKE_LATENCY_MS,209
+METRIC,21,WAKE_SCORE,0.313312
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,22,QUERY_START_MS,979281
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (979104) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 1260 ms
+
+GRABACION TERMINADA: 40364 bytes
+PENSANDO...
+TX AUDIO: 8192/40364
+TX AUDIO: 16384/40364
+TX AUDIO: 24576/40364
+TX AUDIO: 32768/40364
+TX AUDIO: 40364/40364
+METRIC,22,M5_AUDIO_PREP_SEND_MS,6890
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+ROBOT: La luz es de color blanco.
+TTS COMPLETO: 90784/90784
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.007661
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.007661
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.228451
+Ring samples: 28672/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.228451
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.237579
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.237579
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.362677
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.362677
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.315869
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.315869
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.508025
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.508025
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.402718
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.402718
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.262878
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.262878
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.088151
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.088151
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.167272
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.167272
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.168401
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.168401
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.176766
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.176766
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.208283
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.208283
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.087438
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.087438
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.139042
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.139042
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.028618
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.028618
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.150040
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.150040
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.160160
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.160160
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.070509
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.070509
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.252291
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.252291
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.206161
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.206161
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.249752
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.249752
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.275967
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.275967
+MINI INDI FUERTE ACEPTADO: 0.275967
+METRIC,22,M5_WAKE_LATENCY_MS,209
+METRIC,22,WAKE_SCORE,0.275967
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,23,QUERY_START_MS,1019868
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (1019691) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 3840 ms
+
+GRABACION TERMINADA: 122924 bytes
+PENSANDO...
+TX AUDIO: 8192/122924
+TX AUDIO: 16384/122924
+TX AUDIO: 24576/122924
+TX AUDIO: 32768/122924
+TX AUDIO: 40960/122924
+TX AUDIO: 49152/122924
+TX AUDIO: 57344/122924
+TX AUDIO: 65536/122924
+TX AUDIO: 73728/122924
+TX AUDIO: 81920/122924
+TX AUDIO: 90112/122924
+TX AUDIO: 98304/122924
+TX AUDIO: 106496/122924
+TX AUDIO: 114688/122924
+TX AUDIO: 122880/122924
+TX AUDIO: 122924/122924
+METRIC,23,M5_AUDIO_PREP_SEND_MS,10088
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+ROBOT: En la parte posterior del terminal terrestre.
+TTS COMPLETO: 122528/122528
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.107705
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.107705
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.067616
+Ring samples: 28672/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.067616
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.028127
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.028127
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.051882
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.051882
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.057895
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.057895
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.048291
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.048291
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.177061
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.177061
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.082786
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.082786
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.251936
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.251936
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.117695
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.117695
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.175773
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.175773
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.266725
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.266725
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.236647
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.236647
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.261468
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.261468
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.410945
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.410945
+MINI INDI FUERTE ACEPTADO: 0.410945
+METRIC,23,M5_WAKE_LATENCY_MS,209
+METRIC,23,WAKE_SCORE,0.410945
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,24,QUERY_START_MS,1067474
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (1067297) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 2340 ms
+
+GRABACION TERMINADA: 74924 bytes
+PENSANDO...
+TX AUDIO: 8192/74924
+TX AUDIO: 16384/74924
+TX AUDIO: 24576/74924
+TX AUDIO: 32768/74924
+TX AUDIO: 40960/74924
+TX AUDIO: 49152/74924
+TX AUDIO: 57344/74924
+TX AUDIO: 65536/74924
+TX AUDIO: 73728/74924
+TX AUDIO: 74924/74924
+METRIC,24,M5_AUDIO_PREP_SEND_MS,10180
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+ROBOT: No puedo realizar ese movimiento.
+TTS COMPLETO: 101536/101536
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.012851
+Ring samples: 24576/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=0.012851
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.009894
+Ring samples: 28672/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.009894
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.014691
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.014691
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.279347
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.279347
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.098488
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.098488
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.155688
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.155688
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.111149
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.111149
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.041805
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.041805
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.102152
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.102152
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.058615
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.058615
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.259239
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.259239
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.020779
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.020779
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.262415
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.262415
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.258761
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.258761
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.255072
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.255072
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.346953
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.346953
+MINI INDI FUERTE ACEPTADO: 0.346953
+METRIC,24,M5_WAKE_LATENCY_MS,209
+METRIC,24,WAKE_SCORE,0.346953
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,25,QUERY_START_MS,1105395
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (1105218) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 3640 ms
+
+GRABACION TERMINADA: 116524 bytes
+PENSANDO...
+TX AUDIO: 8192/116524
+TX AUDIO: 16384/116524
+TX AUDIO: 24576/116524
+TX AUDIO: 32768/116524
+TX AUDIO: 40960/116524
+TX AUDIO: 49152/116524
+TX AUDIO: 57344/116524
+TX AUDIO: 65536/116524
+TX AUDIO: 73728/116524
+TX AUDIO: 81920/116524
+TX AUDIO: 90112/116524
+TX AUDIO: 98304/116524
+TX AUDIO: 106496/116524
+TX AUDIO: 114688/116524
+TX AUDIO: 116524/116524
+METRIC,25,M5_AUDIO_PREP_SEND_MS,14980
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+ROBOT: Lo siento, pero no tengo la capacidad de proporcionar información sobre el hospital regional de Muerto.
+JETSON ERROR: TIMEOUT esperando TTS ACK en 38912/277664
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.115439
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.115439
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.152332
+Ring samples: 28672/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.152332
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.252687
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.252687
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.170637
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.170637
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.134863
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.134863
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.040326
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.040326
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.101389
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.101389
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.250798
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.250798
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.199464
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.199464
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.149467
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.149467
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.274542
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.274542
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.251816
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=-0.251816
+
+========== WAKE CONTINUO ==========
+WAKE score: -0.128096
+Ring samples: 32000/32000
+Procesamiento: 203 ms
+====================================
+WAKE CHECK score=-0.128096
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.078337
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.078337
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.142519
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.142519
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.348306
+Ring samples: 32000/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.348306
+MINI INDI FUERTE ACEPTADO: 0.348306
+METRIC,25,M5_WAKE_LATENCY_MS,209
+METRIC,25,WAKE_SCORE,0.348306
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,26,QUERY_START_MS,1149548
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (1149371) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 4240 ms
+
+GRABACION TERMINADA: 135724 bytes
+PENSANDO...
+TX AUDIO: 8192/135724
+TX AUDIO: 16384/135724
+TX AUDIO: 24576/135724
+TX AUDIO: 32768/135724
+TX AUDIO: 40960/135724
+TX AUDIO: 49152/135724
+TX AUDIO: 57344/135724
+TX AUDIO: 65536/135724
+TX AUDIO: 73728/135724
+TX AUDIO: 81920/135724
+TX AUDIO: 90112/135724
+TX AUDIO: 98304/135724
+TX AUDIO: 106496/135724
+TX AUDIO: 114688/135724
+TX AUDIO: 122880/135724
+TX AUDIO: 131072/135724
+TX AUDIO: 135724/135724
+METRIC,26,M5_AUDIO_PREP_SEND_MS,14886
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+ROBOT: Lo siento, pero como asistente de inteligencia artificial, no tengo la capacidad de proporcionar información geográfica o ubicación específica. Te recomendaría que consultes la página web
+TTS COMPLETO: 554772/554772
+
+ROBOT DORMIDO
+WAKE CONTINUO INICIADO
+
+========== WAKE CONTINUO ==========
+WAKE score: 0.283003
+Ring samples: 24576/32000
+Procesamiento: 202 ms
+====================================
+WAKE CHECK score=0.283003
+MINI INDI FUERTE ACEPTADO: 0.283003
+METRIC,26,M5_WAKE_LATENCY_MS,210
+METRIC,26,WAKE_SCORE,0.283003
+WAKE CONTINUO DETENIDO
+
+================================
+MINI INDI DETECTADO LOCALMENTE
+SIN VERIFICACION VOSK DE WAKE
+================================
+
+ROBOT DESPIERTO
+
+TE ESCUCHO
+
+ROBOT DESPIERTO
+METRIC,27,QUERY_START_MS,1235964
+
+================================
+HABLA - VAD ACTIVO
+================================
+ESCUCHANDO...
+E (1235787) I2S: i2s_driver_uninstall(2048): I2S port 1 has not installed
+VAD: fin de voz detectado
+Audio pregunta: 1180 ms
+
+GRABACION TERMINADA: 37804 bytes
+PENSANDO...
+TX AUDIO: 8192/37804
+TX AUDIO: 16384/37804
+TX AUDIO: 24576/37804
+TX AUDIO: 32768/37804
+TX AUDIO: 37804/37804
+METRIC,27,M5_AUDIO_PREP_SEND_MS,3778
+PREGUNTA COMPLETA ENVIADA A JETSON
+
+COMANDO INMEDIATO: apaga la luz
+ESP-NOW LUZ OFF err=0
+JSON COMMAND: ACEPTADO

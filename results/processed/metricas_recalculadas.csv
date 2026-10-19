@@ -1,0 +1,15 @@
+metrica,valor,unidad,n,criterio
+Activaciones locales aceptadas,11.0,eventos,11,Activaciones aceptadas observadas; no equivale a recall del detector
+Continuidad wake->consulta,100.0,%,11,11/11 activaciones aceptadas continuaron a captura de consulta
+Exito consultas informativas,77.7778,%,9,7/9 consultas finalizaron correctamente
+Exito comandos IoT,100.0,%,2,2/2 comandos ejecutables finalizaron correctamente; muestra exploratoria
+Exito funcional global observado,81.8182,%,11,9/11 interacciones completas exitosas
+Latencia wake local media,209.36363636363637,ms,11,Media sobre 11 activaciones aceptadas
+Latencia extremo-a-extremo explicita media,39.090333333333334,s,9,Solo 9 interacciones exitosas con tiempo completo explícito
+Latencia extremo-a-extremo explicita mediana,29.307,s,9,Solo 9 interacciones exitosas con tiempo completo explícito
+Latencia consultas completas media,48.34928571428571,s,7,7 consultas informativas exitosas
+Latencia comandos IoT media,6.684,s,2,2 comandos IoT exitosos
+ASR Vosk medio,1.3713636363636363,s,11,Campaña cuantitativa ejecutada con Vosk
+Ollama medio,0.8656666666666666,s,9,Consultas que invocaron Ollama
+Router/Piper medio,4.549333333333333,s,9,Consultas con esa etapa registrada
+Timeouts TTS ACK,2.0,eventos,11,Dos interacciones no completaron transferencia de TTS

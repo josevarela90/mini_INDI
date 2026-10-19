@@ -1,0 +1,12 @@
+Prueba,Transcripción,Wake score,Latencia wake M5 (ms),M5 audio+prep+envío (s),Vosk (s),Ollama (s),Qwen/router/Piper (s),Jetson total hasta fin TTS (s),Total comando Jetson (s),Latencia remota observable (s),Latencia total observada (s),Tipo,Estado final,Comando Core,ESP-NOW err,Error Jetson
+1,cuál es la capital de alemania,0.343089,209.0,8.973,1.231,0.316,3.514,12.774,,12.774,21.747,Consulta,Éxito consulta,,,
+2,cuál es el terminal terrestre de ambato,0.494458,210.0,24.663,1.253,0.931,4.664,53.126,,53.126,77.789,Consulta,Éxito consulta,,,
+3,que más tiene terminal terrestre,0.309101,210.0,14.98,2.112,1.0,5.043,59.332,,59.332,74.312,Consulta,Éxito consulta,,,
+4,en calles este el terminal terrestre ambato,0.304513,209.0,18.06,1.818,0.891,4.006,,,16.0,34.06,Consulta,Fallo TTS/WebSocket,,,RuntimeError('TIMEOUT esperando TTS ACK en 12288/68256')
+5,enciende la luz,0.303026,210.0,7.888,0.93,,,,0.936,0.936,8.824,Comando IoT,Éxito IoT,enciende la luz,0.0,
+6,el color de la luz,0.313312,209.0,6.89,1.121,0.497,3.743,22.417,,22.417,29.307000000000002,Consulta,Éxito consulta,,,
+7,en qué lugar de embates del terminal terrestre,0.275967,209.0,10.088,1.602,0.616,4.087,27.474,,27.474,37.562,Consulta,Éxito consulta,,,
+8,cambia el color de la luz,0.410945,209.0,10.18,0.946,0.836,4.079,18.068,,18.068,28.248,Consulta,Éxito consulta,,,
+9,dónde está el hospital regional de muerto,0.346953,209.0,14.98,1.74,0.973,5.01,,,21.0,35.980000000000004,Consulta,Fallo TTS/WebSocket,,,RuntimeError('TIMEOUT esperando TTS ACK en 38912/277664')
+10,dónde está ubicada en el hospital regional de ambato,0.348306,209.0,14.886,1.572,1.731,6.798,54.594,,54.594,69.48,Consulta,Éxito consulta,,,
+11,apaga la luz,0.283003,210.0,3.778,0.76,,,,0.766,0.766,4.5440000000000005,Comando IoT,Éxito IoT,apaga la luz,0.0,

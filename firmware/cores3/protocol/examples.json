@@ -1,0 +1,70 @@
+{
+  "wake_keyword": "mini indi",
+  "commands": [
+    {
+      "keyword": "mini indi",
+      "target": "light",
+      "action": "on"
+    },
+    {
+      "keyword": "mini indi",
+      "target": "light",
+      "action": "off"
+    },
+    {
+      "keyword": "mini indi",
+      "target": "drive",
+      "action": "forward",
+      "value": 65
+    },
+    {
+      "keyword": "mini indi",
+      "target": "drive",
+      "action": "backward",
+      "value": 55
+    },
+    {
+      "keyword": "mini indi",
+      "target": "drive",
+      "action": "left",
+      "value": 55
+    },
+    {
+      "keyword": "mini indi",
+      "target": "drive",
+      "action": "right",
+      "value": 55
+    },
+    {
+      "keyword": "mini indi",
+      "target": "drive",
+      "action": "stop"
+    },
+    {
+      "keyword": "mini indi",
+      "target": "head",
+      "action": "left"
+    },
+    {
+      "keyword": "mini indi",
+      "target": "head",
+      "action": "center"
+    },
+    {
+      "keyword": "mini indi",
+      "target": "head",
+      "action": "right"
+    }
+  ],
+  "jetson_result_example": {
+    "type": "result",
+    "speech": "De acuerdo, avanzando.",
+    "audio_bytes": 0,
+    "command": {
+      "keyword": "mini indi",
+      "target": "drive",
+      "action": "forward",
+      "value": 65
+    }
+  }
+}

@@ -1,0 +1,7 @@
+Evento,Cantidad
+Conexiones CoreS3 observadas,1
+Desconexiones WebSocket observadas,0
+Errores de procesamiento,2
+Timeouts TTS ACK,2
+Consultas enviadas desde CoreS3,11
+Consultas recibidas por Jetson,11

@@ -1,0 +1,3039 @@
+-- Logs begin at Fri 1999-12-31 20:01:00 -05, end at Tue 2026-09-08 12:23:41 -05. --
+Dec 31 20:01:05 ubuntu systemd[1]: Started Mini Indi WebSocket Server.
+Dec 31 20:01:11 ubuntu python[1075]: ============================================================
+Dec 31 20:01:11 ubuntu python[1075]: JETSON ROBOT - MINI INDI
+Dec 31 20:01:11 ubuntu python[1075]: WAKE: Mini Indi local en CoreS3
+Dec 31 20:01:11 ubuntu python[1075]: AUDIO: WebSocket por bloques
+Dec 31 20:01:11 ubuntu python[1075]: VOSK + JSON + QWEN + PIPER
+Dec 31 20:01:11 ubuntu python[1075]: Puerto: 8765
+Dec 31 20:01:11 ubuntu python[1075]: ============================================================
+Dec 31 20:01:11 ubuntu python[1075]: Precargando Vosk...
+Dec 31 20:01:11 ubuntu python[1075]: ============================================================
+Dec 31 20:01:11 ubuntu python[1075]: CARGANDO VOSK
+Dec 31 20:01:11 ubuntu python[1075]: /home/user/robot_assistant_jetson/models/vosk-model-small-es-0.42
+Dec 31 20:01:11 ubuntu python[1075]: ============================================================
+Dec 31 20:01:14 ubuntu python[1075]: Vosk cargado
+Dec 31 20:01:14 ubuntu python[1075]: ============================================================
+Dec 31 20:01:14 ubuntu python[1075]: Vosk listo en: 2.91 s
+Dec 31 20:01:14 ubuntu python[1075]: ============================================================
+Dec 31 20:01:14 ubuntu python[1075]: PRECARGANDO QWEN
+Dec 31 20:01:14 ubuntu python[1075]: ============================================================
+Dec 31 20:02:19 ubuntu python[1075]: Qwen listo en: 65.358 s
+Dec 31 20:02:19 ubuntu python[1075]: Esperando CoreS3...
+Dec 31 20:02:41 ubuntu python[1075]: ============================================================
+Dec 31 20:02:41 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 62213)
+Dec 31 20:02:41 ubuntu python[1075]: ============================================================
+Dec 31 20:02:43 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:02:43 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:02:44 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:02:46 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:02:47 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:02:47 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:02:49 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:02:49 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:02:49 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:02:49 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:02:50 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:02:50 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:02:50 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:02:50 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:02:50 ubuntu python[1075]: ============================================================
+Dec 31 20:02:50 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:02:50 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:02:50 ubuntu python[1075]: ============================================================
+Dec 31 20:02:51 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:02:51 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:02:51 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:02:51 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.781 s
+Dec 31 20:02:53 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:02:54 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:02:55 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:02:56 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:02:56 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:02:58 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:02:59 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:02:59 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:02:59 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:03:02 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:03:02 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:03:02 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:03:02 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:03:02 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:03:02 ubuntu python[1075]: ============================================================
+Dec 31 20:03:02 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:03:02 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:03:02 ubuntu python[1075]: ============================================================
+Dec 31 20:03:03 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:03:03 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:03:03 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:03:03 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.554 s
+Dec 31 20:03:05 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:03:05 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:03:06 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:03:06 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:03:08 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:03:08 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:03:19 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:03:19 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:03:20 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:03:22 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:03:27 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:03:28 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:03:28 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:03:28 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:03:28 ubuntu python[1075]: ============================================================
+Dec 31 20:03:28 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:03:28 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:03:28 ubuntu python[1075]: ============================================================
+Dec 31 20:03:28 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:03:28 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:03:28 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:03:28 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.456 s
+Dec 31 20:03:48 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:03:48 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:03:49 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:03:49 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:03:49 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:03:49 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:03:50 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:03:50 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:03:51 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:03:52 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:03:53 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:03:53 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:03:54 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:03:54 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:03:54 ubuntu python[1075]: ============================================================
+Dec 31 20:03:54 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:03:54 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:03:54 ubuntu python[1075]: ============================================================
+Dec 31 20:03:55 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:03:55 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:03:55 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:03:55 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.532 s
+Dec 31 20:04:01 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:04:01 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:04:01 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:04:01 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:04:01 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:04:01 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:04:01 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:04:01 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:04:01 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:04:01 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:04:02 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:04:02 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:04:02 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:04:03 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:04:03 ubuntu python[1075]: ============================================================
+Dec 31 20:04:03 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:04:03 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:04:03 ubuntu python[1075]: ============================================================
+Dec 31 20:04:03 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:04:03 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:04:03 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:04:03 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.459 s
+Dec 31 20:04:13 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:04:13 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:04:14 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:04:16 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:04:17 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:04:18 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:04:24 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:04:25 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:04:25 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:04:25 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:04:25 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:04:25 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:04:26 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:04:26 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:04:26 ubuntu python[1075]: ============================================================
+Dec 31 20:04:26 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:04:26 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:04:26 ubuntu python[1075]: ============================================================
+Dec 31 20:04:26 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:04:26 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:04:26 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:04:26 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.454 s
+Dec 31 20:04:31 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:04:31 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:04:31 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:04:45 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:04:51 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:04:51 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:04:53 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:04:54 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:04:54 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:05:00 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:05:00 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:05:00 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:05:00 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:05:00 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:05:00 ubuntu python[1075]: ============================================================
+Dec 31 20:05:00 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:05:00 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:05:00 ubuntu python[1075]: ============================================================
+Dec 31 20:05:01 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:05:01 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:05:01 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:05:01 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.54 s
+Dec 31 20:05:06 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:05:06 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:05:06 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:05:12 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:05:13 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:05:21 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:05:21 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:05:24 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:05:24 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:05:47 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:05:50 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:05:50 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:05:50 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:05:51 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:06:46 ubuntu python[1075]: ============================================================
+Dec 31 20:06:46 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 62215)
+Dec 31 20:06:46 ubuntu python[1075]: ============================================================
+Dec 31 20:06:49 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:06:49 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:06:50 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:06:58 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:06:58 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:07:10 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:07:10 ubuntu python[1075]: CoreS3 desconectado: ('192.168.50.208', 62213)
+Dec 31 20:07:10 ubuntu python[1075]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:07:21 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:08:03 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:08:03 ubuntu python[1075]: CoreS3 desconectado: ('192.168.50.208', 62215)
+Dec 31 20:08:03 ubuntu python[1075]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:08:07 ubuntu python[1075]: ============================================================
+Dec 31 20:08:07 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 62216)
+Dec 31 20:08:07 ubuntu python[1075]: ============================================================
+Dec 31 20:08:11 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:08:14 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:08:17 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:08:23 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:08:23 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:08:23 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:08:25 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:08:26 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:08:26 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:08:26 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:08:27 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:08:27 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:08:32 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:08:34 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:08:34 ubuntu python[1075]: ============================================================
+Dec 31 20:08:34 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:08:34 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:08:34 ubuntu python[1075]: ============================================================
+Dec 31 20:08:34 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:08:34 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:08:34 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:08:34 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.433 s
+Dec 31 20:08:36 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:08:38 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:08:49 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:08:49 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:08:50 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:08:50 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:09:21 ubuntu python[1075]: CoreS3 desconectado: ('192.168.50.208', 62216)
+Dec 31 20:09:21 ubuntu python[1075]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:09:25 ubuntu python[1075]: ============================================================
+Dec 31 20:09:25 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 62217)
+Dec 31 20:09:25 ubuntu python[1075]: ============================================================
+Dec 31 20:09:40 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:09:49 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:09:49 ubuntu python[1075]: CoreS3 desconectado: ('192.168.50.208', 62217)
+Dec 31 20:09:49 ubuntu python[1075]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:09:52 ubuntu python[1075]: ============================================================
+Dec 31 20:09:52 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 62218)
+Dec 31 20:09:52 ubuntu python[1075]: ============================================================
+Dec 31 20:09:54 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:09:55 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:09:56 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:09:56 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:09:56 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:09:57 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:09:57 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:09:57 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:09:58 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:09:58 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:10:00 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:10:01 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:10:04 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:10:04 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:10:04 ubuntu python[1075]: ============================================================
+Dec 31 20:10:04 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:10:04 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:10:04 ubuntu python[1075]: ============================================================
+Dec 31 20:10:05 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:10:05 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:10:05 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:10:05 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.453 s
+Dec 31 20:10:06 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:10:14 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:10:14 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:10:14 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:10:15 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:10:15 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:10:15 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:10:15 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:10:21 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:10:21 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:10:21 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:10:21 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:10:21 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:10:22 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:10:22 ubuntu python[1075]: ============================================================
+Dec 31 20:10:22 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:10:22 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:10:22 ubuntu python[1075]: ============================================================
+Dec 31 20:10:22 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:10:22 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:10:22 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:10:22 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.447 s
+Dec 31 20:10:25 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:10:25 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:10:26 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:10:26 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:10:27 ubuntu python[1075]: WAKE RX: 16384 / 48044
+Dec 31 20:10:29 ubuntu python[1075]: WAKE RX: 20480 / 48044
+Dec 31 20:10:29 ubuntu python[1075]: WAKE RX: 24576 / 48044
+Dec 31 20:10:29 ubuntu python[1075]: WAKE RX: 28672 / 48044
+Dec 31 20:10:30 ubuntu python[1075]: WAKE RX: 32768 / 48044
+Dec 31 20:10:30 ubuntu python[1075]: WAKE RX: 36864 / 48044
+Dec 31 20:10:31 ubuntu python[1075]: WAKE RX: 40960 / 48044
+Dec 31 20:10:31 ubuntu python[1075]: WAKE RX: 45056 / 48044
+Dec 31 20:10:32 ubuntu python[1075]: WAKE RX: 48044 / 48044
+Dec 31 20:10:32 ubuntu python[1075]: WAKE_VERIFY_END: 48044 / 48044
+Dec 31 20:10:32 ubuntu python[1075]: ============================================================
+Dec 31 20:10:32 ubuntu python[1075]: VERIFICANDO WAKE: MINI INDI
+Dec 31 20:10:32 ubuntu python[1075]: Bytes: 48044
+Dec 31 20:10:32 ubuntu python[1075]: ============================================================
+Dec 31 20:10:32 ubuntu python[1075]: WAKE VOSK:
+Dec 31 20:10:32 ubuntu python[1075]: WAKE NORMALIZADO:
+Dec 31 20:10:32 ubuntu python[1075]: WAKE RESULTADO: RECHAZADO
+Dec 31 20:10:32 ubuntu python[1075]: WAKE VOSK TIEMPO: 0.463 s
+Dec 31 20:10:39 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:10:39 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:10:40 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:10:50 ubuntu python[1075]: WAKE RX: 12288 / 48044
+Dec 31 20:10:54 ubuntu python[1075]: CoreS3 desconectado: ('192.168.50.208', 62218)
+Dec 31 20:10:54 ubuntu python[1075]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:10:55 ubuntu python[1075]: ============================================================
+Dec 31 20:10:55 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 62219)
+Dec 31 20:10:55 ubuntu python[1075]: ============================================================
+Dec 31 20:10:57 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:11:12 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:11:12 ubuntu python[1075]: WAKE RX: 8192 / 48044
+Dec 31 20:12:03 ubuntu python[1075]: ============================================================
+Dec 31 20:12:03 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 62220)
+Dec 31 20:12:03 ubuntu python[1075]: ============================================================
+Dec 31 20:12:06 ubuntu python[1075]: WAKE_VERIFY_START: 48044 bytes
+Dec 31 20:12:49 ubuntu python[1075]: WAKE RX: 4096 / 48044
+Dec 31 20:12:49 ubuntu python[1075]: CoreS3 desconectado: ('192.168.50.208', 62220)
+Dec 31 20:12:49 ubuntu python[1075]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:12:49 ubuntu python[1075]: ============================================================
+Dec 31 20:12:49 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 62221)
+Dec 31 20:12:49 ubuntu python[1075]: ============================================================
+Dec 31 20:13:31 ubuntu python[1075]: ============================================================
+Dec 31 20:13:31 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 61302)
+Dec 31 20:13:31 ubuntu python[1075]: ============================================================
+Dec 31 20:13:37 ubuntu python[1075]: QUERY_START:
+Dec 31 20:13:37 ubuntu python[1075]: Esperando 57644 bytes
+Dec 31 20:13:39 ubuntu python[1075]: AUDIO RX: 8192 / 57644
+Dec 31 20:13:43 ubuntu python[1075]: AUDIO RX: 16384 / 57644
+Dec 31 20:13:44 ubuntu python[1075]: AUDIO RX: 24576 / 57644
+Dec 31 20:13:47 ubuntu python[1075]: AUDIO RX: 32768 / 57644
+Dec 31 20:13:49 ubuntu python[1075]: AUDIO RX: 40960 / 57644
+Dec 31 20:13:50 ubuntu python[1075]: AUDIO RX: 49152 / 57644
+Dec 31 20:13:53 ubuntu python[1075]: AUDIO RX: 57344 / 57644
+Dec 31 20:13:53 ubuntu python[1075]: AUDIO RX: 57644 / 57644
+Dec 31 20:13:53 ubuntu python[1075]: QUERY_END:
+Dec 31 20:13:53 ubuntu python[1075]: Recibido: 57644 / 57644
+Dec 31 20:13:53 ubuntu python[1075]: ============================================================
+Dec 31 20:13:53 ubuntu python[1075]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:13:53 ubuntu python[1075]: Bytes: 57644
+Dec 31 20:13:53 ubuntu python[1075]: ============================================================
+Dec 31 20:13:54 ubuntu python[1075]: Vosk: 0.436 s
+Dec 31 20:13:54 ubuntu python[1075]: TRANSCRIPCION:
+Dec 31 20:14:07 ubuntu python[1075]: QUERY_START:
+Dec 31 20:14:07 ubuntu python[1075]: Esperando 57644 bytes
+Dec 31 20:14:10 ubuntu python[1075]: AUDIO RX: 8192 / 57644
+Dec 31 20:14:11 ubuntu python[1075]: AUDIO RX: 16384 / 57644
+Dec 31 20:14:17 ubuntu python[1075]: AUDIO RX: 24576 / 57644
+Dec 31 20:14:17 ubuntu python[1075]: AUDIO RX: 32768 / 57644
+Dec 31 20:14:36 ubuntu python[1075]: AUDIO RX: 40960 / 57644
+Dec 31 20:14:45 ubuntu python[1075]: AUDIO RX: 49152 / 57644
+Dec 31 20:14:49 ubuntu python[1075]: CoreS3 desconectado: ('192.168.50.208', 61302)
+Dec 31 20:14:49 ubuntu python[1075]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:15:00 ubuntu python[1075]: ============================================================
+Dec 31 20:15:00 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 61304)
+Dec 31 20:15:00 ubuntu python[1075]: ============================================================
+Dec 31 20:15:00 ubuntu python[1075]: ============================================================
+Dec 31 20:15:00 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 61303)
+Dec 31 20:15:00 ubuntu python[1075]: ============================================================
+Dec 31 20:15:00 ubuntu python[1075]: CoreS3 desconectado: ('192.168.50.208', 61303)
+Dec 31 20:15:00 ubuntu python[1075]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:15:18 ubuntu python[1075]: QUERY_START:
+Dec 31 20:15:18 ubuntu python[1075]: Esperando 320044 bytes
+Dec 31 20:15:21 ubuntu python[1075]: AUDIO RX: 8192 / 320044
+Dec 31 20:15:29 ubuntu python[1075]: AUDIO RX: 16384 / 320044
+Dec 31 20:16:29 ubuntu python[1075]: ============================================================
+Dec 31 20:16:29 ubuntu python[1075]: CoreS3 conectado: ('192.168.50.208', 61307)
+Dec 31 20:16:29 ubuntu python[1075]: ============================================================
+Dec 31 20:16:31 ubuntu python[1075]: CoreS3 desconectado: ('192.168.50.208', 61304)
+Dec 31 20:16:31 ubuntu python[1075]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:16:45 ubuntu python[1075]: QUERY_START:
+Dec 31 20:16:45 ubuntu python[1075]: Esperando 57644 bytes
+Dec 31 20:16:48 ubuntu python[1075]: AUDIO RX: 8192 / 57644
+Dec 31 20:16:49 ubuntu python[1075]: AUDIO RX: 16384 / 57644
+Dec 31 20:16:50 ubuntu python[1075]: AUDIO RX: 24576 / 57644
+Dec 31 20:16:51 ubuntu python[1075]: AUDIO RX: 32768 / 57644
+Dec 31 20:16:52 ubuntu python[1075]: AUDIO RX: 40960 / 57644
+Dec 31 20:16:53 ubuntu python[1075]: AUDIO RX: 49152 / 57644
+Dec 31 20:16:53 ubuntu python[1075]: AUDIO RX: 57344 / 57644
+Dec 31 20:16:53 ubuntu python[1075]: AUDIO RX: 57644 / 57644
+Dec 31 20:16:55 ubuntu python[1075]: QUERY_END:
+Dec 31 20:16:55 ubuntu python[1075]: Recibido: 57644 / 57644
+Dec 31 20:16:55 ubuntu python[1075]: ============================================================
+Dec 31 20:16:55 ubuntu python[1075]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:16:55 ubuntu python[1075]: Bytes: 57644
+Dec 31 20:16:55 ubuntu python[1075]: ============================================================
+Dec 31 20:16:56 ubuntu python[1075]: Vosk: 0.489 s
+Dec 31 20:16:56 ubuntu python[1075]: TRANSCRIPCION:
+Dec 31 20:17:04 ubuntu python[1075]: QUERY_START:
+Dec 31 20:17:04 ubuntu python[1075]: Esperando 57644 bytes
+Dec 31 20:17:06 ubuntu python[1075]: AUDIO RX: 8192 / 57644
+Dec 31 20:17:06 ubuntu python[1075]: AUDIO RX: 16384 / 57644
+Dec 31 20:17:10 ubuntu systemd[1]: Stopping Mini Indi WebSocket Server...
+Dec 31 20:17:10 ubuntu systemd[1]: mini-indi.service: Succeeded.
+Dec 31 20:17:10 ubuntu systemd[1]: Stopped Mini Indi WebSocket Server.
+Dec 31 20:17:10 ubuntu systemd[1]: Started Mini Indi WebSocket Server.
+Dec 31 20:17:11 ubuntu python[4146]: ============================================================
+Dec 31 20:17:11 ubuntu python[4146]: JETSON ROBOT - MINI INDI
+Dec 31 20:17:11 ubuntu python[4146]: WAKE: Mini Indi local en CoreS3
+Dec 31 20:17:11 ubuntu python[4146]: AUDIO: WebSocket por bloques
+Dec 31 20:17:11 ubuntu python[4146]: VOSK + JSON + QWEN + PIPER
+Dec 31 20:17:11 ubuntu python[4146]: Puerto: 8765
+Dec 31 20:17:11 ubuntu python[4146]: ============================================================
+Dec 31 20:17:11 ubuntu python[4146]: Precargando Vosk...
+Dec 31 20:17:11 ubuntu python[4146]: ============================================================
+Dec 31 20:17:11 ubuntu python[4146]: CARGANDO VOSK
+Dec 31 20:17:11 ubuntu python[4146]: /home/user/robot_assistant_jetson/models/vosk-model-small-es-0.42
+Dec 31 20:17:11 ubuntu python[4146]: ============================================================
+Dec 31 20:17:13 ubuntu python[4146]: Vosk cargado
+Dec 31 20:17:13 ubuntu python[4146]: ============================================================
+Dec 31 20:17:13 ubuntu python[4146]: Vosk listo en: 1.466 s
+Dec 31 20:17:13 ubuntu python[4146]: ============================================================
+Dec 31 20:17:13 ubuntu python[4146]: PRECARGANDO QWEN
+Dec 31 20:17:13 ubuntu python[4146]: ============================================================
+Dec 31 20:17:13 ubuntu python[4146]: Qwen listo en: 0.337 s
+Dec 31 20:17:13 ubuntu python[4146]: Esperando CoreS3...
+Dec 31 20:17:16 ubuntu python[4146]: ============================================================
+Dec 31 20:17:16 ubuntu python[4146]: CoreS3 conectado: ('192.168.50.208', 61308)
+Dec 31 20:17:16 ubuntu python[4146]: ============================================================
+Dec 31 20:17:27 ubuntu python[4146]: QUERY_START:
+Dec 31 20:17:27 ubuntu python[4146]: Esperando 57644 bytes
+Dec 31 20:17:31 ubuntu python[4146]: AUDIO RX: 8192 / 57644
+Dec 31 20:17:32 ubuntu python[4146]: AUDIO RX: 16384 / 57644
+Dec 31 20:17:36 ubuntu python[4146]: AUDIO RX: 24576 / 57644
+Dec 31 20:17:41 ubuntu python[4146]: AUDIO RX: 32768 / 57644
+Dec 31 20:17:41 ubuntu python[4146]: AUDIO RX: 40960 / 57644
+Dec 31 20:17:42 ubuntu python[4146]: AUDIO RX: 49152 / 57644
+Dec 31 20:17:43 ubuntu python[4146]: AUDIO RX: 57344 / 57644
+Dec 31 20:17:43 ubuntu python[4146]: AUDIO RX: 57644 / 57644
+Dec 31 20:17:43 ubuntu python[4146]: QUERY_END:
+Dec 31 20:17:43 ubuntu python[4146]: Recibido: 57644 / 57644
+Dec 31 20:17:43 ubuntu python[4146]: ============================================================
+Dec 31 20:17:43 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:17:43 ubuntu python[4146]: Bytes: 57644
+Dec 31 20:17:43 ubuntu python[4146]: ============================================================
+Dec 31 20:17:44 ubuntu python[4146]: Vosk: 0.664 s
+Dec 31 20:17:44 ubuntu python[4146]: TRANSCRIPCION:
+Dec 31 20:17:55 ubuntu python[4146]: QUERY_START:
+Dec 31 20:17:55 ubuntu python[4146]: Esperando 57644 bytes
+Dec 31 20:18:04 ubuntu python[4146]: AUDIO RX: 8192 / 57644
+Dec 31 20:18:26 ubuntu python[4146]: AUDIO RX: 16384 / 57644
+Dec 31 20:19:03 ubuntu python[4146]: CoreS3 desconectado: ('192.168.50.208', 61308)
+Dec 31 20:19:03 ubuntu python[4146]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:19:08 ubuntu python[4146]: ============================================================
+Dec 31 20:19:08 ubuntu python[4146]: CoreS3 conectado: ('192.168.50.208', 61309)
+Dec 31 20:19:08 ubuntu python[4146]: ============================================================
+Dec 31 20:19:17 ubuntu python[4146]: QUERY_START:
+Dec 31 20:19:17 ubuntu python[4146]: Esperando 57644 bytes
+Dec 31 20:19:20 ubuntu python[4146]: AUDIO RX: 8192 / 57644
+Dec 31 20:19:20 ubuntu python[4146]: AUDIO RX: 16384 / 57644
+Dec 31 20:19:20 ubuntu python[4146]: AUDIO RX: 24576 / 57644
+Dec 31 20:19:23 ubuntu python[4146]: AUDIO RX: 32768 / 57644
+Dec 31 20:19:23 ubuntu python[4146]: AUDIO RX: 40960 / 57644
+Dec 31 20:20:10 ubuntu python[4146]: ============================================================
+Dec 31 20:20:10 ubuntu python[4146]: CoreS3 conectado: ('192.168.50.208', 61310)
+Dec 31 20:20:10 ubuntu python[4146]: ============================================================
+Dec 31 20:20:19 ubuntu python[4146]: QUERY_START:
+Dec 31 20:20:19 ubuntu python[4146]: Esperando 57644 bytes
+Dec 31 20:20:20 ubuntu python[4146]: AUDIO RX: 8192 / 57644
+Dec 31 20:20:21 ubuntu python[4146]: AUDIO RX: 16384 / 57644
+Dec 31 20:20:21 ubuntu python[4146]: AUDIO RX: 24576 / 57644
+Dec 31 20:20:25 ubuntu python[4146]: AUDIO RX: 32768 / 57644
+Dec 31 20:20:26 ubuntu python[4146]: AUDIO RX: 40960 / 57644
+Dec 31 20:20:26 ubuntu python[4146]: AUDIO RX: 49152 / 57644
+Dec 31 20:20:33 ubuntu python[4146]: AUDIO RX: 57344 / 57644
+Dec 31 20:20:33 ubuntu python[4146]: AUDIO RX: 57644 / 57644
+Dec 31 20:20:33 ubuntu python[4146]: QUERY_END:
+Dec 31 20:20:33 ubuntu python[4146]: Recibido: 57644 / 57644
+Dec 31 20:20:33 ubuntu python[4146]: ============================================================
+Dec 31 20:20:33 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:20:33 ubuntu python[4146]: Bytes: 57644
+Dec 31 20:20:33 ubuntu python[4146]: ============================================================
+Dec 31 20:20:34 ubuntu python[4146]: Vosk: 0.495 s
+Dec 31 20:20:34 ubuntu python[4146]: TRANSCRIPCION:
+Dec 31 20:20:37 ubuntu python[4146]: AUDIO RX: 49152 / 57644
+Dec 31 20:20:37 ubuntu python[4146]: CoreS3 desconectado: ('192.168.50.208', 61309)
+Dec 31 20:20:37 ubuntu python[4146]: Codigo: CloseCode.ABNORMAL_CLOSURE
+Dec 31 20:21:02 ubuntu python[4146]: QUERY_START:
+Dec 31 20:21:02 ubuntu python[4146]: Esperando 57644 bytes
+Dec 31 20:21:02 ubuntu python[4146]: AUDIO RX: 8192 / 57644
+Dec 31 20:21:03 ubuntu python[4146]: AUDIO RX: 16384 / 57644
+Dec 31 20:21:04 ubuntu python[4146]: AUDIO RX: 24576 / 57644
+Dec 31 20:21:04 ubuntu python[4146]: AUDIO RX: 32768 / 57644
+Dec 31 20:21:04 ubuntu python[4146]: AUDIO RX: 40960 / 57644
+Dec 31 20:21:05 ubuntu python[4146]: AUDIO RX: 49152 / 57644
+Dec 31 20:21:06 ubuntu python[4146]: AUDIO RX: 57344 / 57644
+Dec 31 20:21:06 ubuntu python[4146]: AUDIO RX: 57644 / 57644
+Dec 31 20:21:06 ubuntu python[4146]: QUERY_END:
+Dec 31 20:21:06 ubuntu python[4146]: Recibido: 57644 / 57644
+Dec 31 20:21:06 ubuntu python[4146]: ============================================================
+Dec 31 20:21:06 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:21:06 ubuntu python[4146]: Bytes: 57644
+Dec 31 20:21:06 ubuntu python[4146]: ============================================================
+Dec 31 20:21:06 ubuntu python[4146]: Vosk: 0.527 s
+Dec 31 20:21:06 ubuntu python[4146]: TRANSCRIPCION:
+Dec 31 20:21:22 ubuntu python[4146]: QUERY_START:
+Dec 31 20:21:22 ubuntu python[4146]: Esperando 57644 bytes
+Dec 31 20:21:23 ubuntu python[4146]: AUDIO RX: 8192 / 57644
+Dec 31 20:21:24 ubuntu python[4146]: AUDIO RX: 16384 / 57644
+Dec 31 20:21:25 ubuntu python[4146]: AUDIO RX: 24576 / 57644
+Dec 31 20:21:25 ubuntu python[4146]: AUDIO RX: 32768 / 57644
+Dec 31 20:21:25 ubuntu python[4146]: AUDIO RX: 40960 / 57644
+Dec 31 20:21:25 ubuntu python[4146]: AUDIO RX: 49152 / 57644
+Dec 31 20:21:25 ubuntu python[4146]: AUDIO RX: 57344 / 57644
+Dec 31 20:21:25 ubuntu python[4146]: AUDIO RX: 57644 / 57644
+Dec 31 20:21:25 ubuntu python[4146]: QUERY_END:
+Dec 31 20:21:25 ubuntu python[4146]: Recibido: 57644 / 57644
+Dec 31 20:21:25 ubuntu python[4146]: ============================================================
+Dec 31 20:21:25 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:21:25 ubuntu python[4146]: Bytes: 57644
+Dec 31 20:21:25 ubuntu python[4146]: ============================================================
+Dec 31 20:21:26 ubuntu python[4146]: Vosk: 0.618 s
+Dec 31 20:21:26 ubuntu python[4146]: TRANSCRIPCION:
+Dec 31 20:21:50 ubuntu python[4146]: QUERY_START:
+Dec 31 20:21:50 ubuntu python[4146]: Esperando 320044 bytes
+Dec 31 20:21:50 ubuntu python[4146]: AUDIO RX: 8192 / 320044
+Dec 31 20:21:50 ubuntu python[4146]: AUDIO RX: 16384 / 320044
+Dec 31 20:21:50 ubuntu python[4146]: AUDIO RX: 24576 / 320044
+Dec 31 20:21:51 ubuntu python[4146]: AUDIO RX: 32768 / 320044
+Dec 31 20:21:51 ubuntu python[4146]: AUDIO RX: 40960 / 320044
+Dec 31 20:21:51 ubuntu python[4146]: AUDIO RX: 49152 / 320044
+Dec 31 20:21:52 ubuntu python[4146]: AUDIO RX: 57344 / 320044
+Dec 31 20:21:52 ubuntu python[4146]: AUDIO RX: 65536 / 320044
+Dec 31 20:21:52 ubuntu python[4146]: AUDIO RX: 73728 / 320044
+Dec 31 20:21:52 ubuntu python[4146]: AUDIO RX: 81920 / 320044
+Dec 31 20:21:53 ubuntu python[4146]: AUDIO RX: 90112 / 320044
+Dec 31 20:21:53 ubuntu python[4146]: AUDIO RX: 98304 / 320044
+Dec 31 20:21:53 ubuntu python[4146]: AUDIO RX: 106496 / 320044
+Dec 31 20:21:53 ubuntu python[4146]: AUDIO RX: 114688 / 320044
+Dec 31 20:21:53 ubuntu python[4146]: AUDIO RX: 122880 / 320044
+Dec 31 20:21:54 ubuntu python[4146]: AUDIO RX: 131072 / 320044
+Dec 31 20:21:54 ubuntu python[4146]: AUDIO RX: 139264 / 320044
+Dec 31 20:21:54 ubuntu python[4146]: AUDIO RX: 147456 / 320044
+Dec 31 20:21:54 ubuntu python[4146]: AUDIO RX: 155648 / 320044
+Dec 31 20:21:54 ubuntu python[4146]: AUDIO RX: 163840 / 320044
+Dec 31 20:21:55 ubuntu python[4146]: AUDIO RX: 172032 / 320044
+Dec 31 20:21:55 ubuntu python[4146]: AUDIO RX: 180224 / 320044
+Dec 31 20:21:55 ubuntu python[4146]: AUDIO RX: 188416 / 320044
+Dec 31 20:21:55 ubuntu python[4146]: AUDIO RX: 196608 / 320044
+Dec 31 20:21:55 ubuntu python[4146]: AUDIO RX: 204800 / 320044
+Dec 31 20:21:55 ubuntu python[4146]: AUDIO RX: 212992 / 320044
+Dec 31 20:21:56 ubuntu python[4146]: AUDIO RX: 221184 / 320044
+Dec 31 20:21:56 ubuntu python[4146]: AUDIO RX: 229376 / 320044
+Dec 31 20:21:57 ubuntu python[4146]: AUDIO RX: 237568 / 320044
+Dec 31 20:21:57 ubuntu python[4146]: AUDIO RX: 245760 / 320044
+Dec 31 20:21:57 ubuntu python[4146]: AUDIO RX: 253952 / 320044
+Dec 31 20:21:57 ubuntu python[4146]: AUDIO RX: 262144 / 320044
+Dec 31 20:21:58 ubuntu python[4146]: AUDIO RX: 270336 / 320044
+Dec 31 20:21:58 ubuntu python[4146]: AUDIO RX: 278528 / 320044
+Dec 31 20:21:58 ubuntu python[4146]: AUDIO RX: 286720 / 320044
+Dec 31 20:21:58 ubuntu python[4146]: AUDIO RX: 294912 / 320044
+Dec 31 20:21:59 ubuntu python[4146]: AUDIO RX: 303104 / 320044
+Dec 31 20:21:59 ubuntu python[4146]: AUDIO RX: 311296 / 320044
+Dec 31 20:22:01 ubuntu python[4146]: AUDIO RX: 319488 / 320044
+Dec 31 20:22:01 ubuntu python[4146]: AUDIO RX: 320044 / 320044
+Dec 31 20:22:01 ubuntu python[4146]: QUERY_END:
+Dec 31 20:22:01 ubuntu python[4146]: Recibido: 320044 / 320044
+Dec 31 20:22:01 ubuntu python[4146]: ============================================================
+Dec 31 20:22:01 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:22:01 ubuntu python[4146]: Bytes: 320044
+Dec 31 20:22:01 ubuntu python[4146]: ============================================================
+Dec 31 20:22:03 ubuntu python[4146]: Vosk: 2.536 s
+Dec 31 20:22:03 ubuntu python[4146]: TRANSCRIPCION:
+Dec 31 20:22:10 ubuntu python[4146]: QUERY_START:
+Dec 31 20:22:10 ubuntu python[4146]: Esperando 69164 bytes
+Dec 31 20:22:10 ubuntu python[4146]: AUDIO RX: 8192 / 69164
+Dec 31 20:22:10 ubuntu python[4146]: AUDIO RX: 16384 / 69164
+Dec 31 20:22:10 ubuntu python[4146]: AUDIO RX: 24576 / 69164
+Dec 31 20:22:11 ubuntu python[4146]: AUDIO RX: 32768 / 69164
+Dec 31 20:22:11 ubuntu python[4146]: AUDIO RX: 40960 / 69164
+Dec 31 20:22:11 ubuntu python[4146]: AUDIO RX: 49152 / 69164
+Dec 31 20:22:11 ubuntu python[4146]: AUDIO RX: 57344 / 69164
+Dec 31 20:22:12 ubuntu python[4146]: AUDIO RX: 65536 / 69164
+Dec 31 20:22:12 ubuntu python[4146]: AUDIO RX: 69164 / 69164
+Dec 31 20:22:12 ubuntu python[4146]: QUERY_END:
+Dec 31 20:22:12 ubuntu python[4146]: Recibido: 69164 / 69164
+Dec 31 20:22:12 ubuntu python[4146]: ============================================================
+Dec 31 20:22:12 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:22:12 ubuntu python[4146]: Bytes: 69164
+Dec 31 20:22:12 ubuntu python[4146]: ============================================================
+Dec 31 20:22:13 ubuntu python[4146]: Vosk: 0.859 s
+Dec 31 20:22:13 ubuntu python[4146]: TRANSCRIPCION: cuál es la capital de ecuador
+Dec 31 20:22:13 ubuntu python[4146]: No es comando fisico
+Dec 31 20:22:13 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:22:13 ubuntu python[4146]: ============================================================
+Dec 31 20:22:13 ubuntu python[4146]: TEXTO: cuál es la capital de ecuador
+Dec 31 20:22:13 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:22:14 ubuntu python[4146]: Ollama terminado en: 1.423 s
+Dec 31 20:22:20 ubuntu python[4146]: Piper terminado en: 5.16 s
+Dec 31 20:22:20 ubuntu python[4146]: TOTAL: 6.585 s
+Dec 31 20:22:20 ubuntu python[4146]: Qwen/router/Piper: 6.591 s
+Dec 31 20:22:20 ubuntu python[4146]: Respuesta: La capital de Ecuador es Quito.
+Dec 31 20:22:20 ubuntu python[4146]: Audio Piper: 98464 bytes
+Dec 31 20:22:20 ubuntu python[4146]: TTS TX: 2048 / 98464
+Dec 31 20:22:20 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:22:20 ubuntu python[4146]: TTS TX: 4096 / 98464
+Dec 31 20:22:21 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:22:21 ubuntu python[4146]: TTS TX: 6144 / 98464
+Dec 31 20:22:22 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:22:22 ubuntu python[4146]: TTS TX: 8192 / 98464
+Dec 31 20:22:22 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:22:22 ubuntu python[4146]: TTS TX: 10240 / 98464
+Dec 31 20:22:22 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:22:22 ubuntu python[4146]: TTS TX: 12288 / 98464
+Dec 31 20:22:22 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:22:22 ubuntu python[4146]: TTS TX: 14336 / 98464
+Dec 31 20:22:22 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:22:22 ubuntu python[4146]: TTS TX: 16384 / 98464
+Dec 31 20:22:25 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:22:25 ubuntu python[4146]: TTS TX: 18432 / 98464
+Dec 31 20:22:25 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:22:25 ubuntu python[4146]: TTS TX: 20480 / 98464
+Dec 31 20:22:25 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:22:25 ubuntu python[4146]: TTS TX: 22528 / 98464
+Dec 31 20:22:25 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:22:25 ubuntu python[4146]: TTS TX: 24576 / 98464
+Dec 31 20:22:26 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:22:26 ubuntu python[4146]: TTS TX: 26624 / 98464
+Dec 31 20:22:26 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:22:26 ubuntu python[4146]: TTS TX: 28672 / 98464
+Dec 31 20:22:26 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:22:26 ubuntu python[4146]: TTS TX: 30720 / 98464
+Dec 31 20:22:26 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:22:26 ubuntu python[4146]: TTS TX: 32768 / 98464
+Dec 31 20:22:28 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:22:28 ubuntu python[4146]: TTS TX: 34816 / 98464
+Dec 31 20:22:28 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:22:28 ubuntu python[4146]: TTS TX: 36864 / 98464
+Dec 31 20:22:28 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:22:28 ubuntu python[4146]: TTS TX: 38912 / 98464
+Dec 31 20:22:28 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:22:28 ubuntu python[4146]: TTS TX: 40960 / 98464
+Dec 31 20:22:28 ubuntu python[4146]: TTS ACK: 40960
+Dec 31 20:22:28 ubuntu python[4146]: TTS TX: 43008 / 98464
+Dec 31 20:22:28 ubuntu python[4146]: TTS ACK: 43008
+Dec 31 20:22:28 ubuntu python[4146]: TTS TX: 45056 / 98464
+Dec 31 20:22:29 ubuntu python[4146]: TTS ACK: 45056
+Dec 31 20:22:29 ubuntu python[4146]: TTS TX: 47104 / 98464
+Dec 31 20:22:29 ubuntu python[4146]: TTS ACK: 47104
+Dec 31 20:22:29 ubuntu python[4146]: TTS TX: 49152 / 98464
+Dec 31 20:22:29 ubuntu python[4146]: TTS ACK: 49152
+Dec 31 20:22:29 ubuntu python[4146]: TTS TX: 51200 / 98464
+Dec 31 20:22:29 ubuntu python[4146]: TTS ACK: 51200
+Dec 31 20:22:29 ubuntu python[4146]: TTS TX: 53248 / 98464
+Dec 31 20:22:29 ubuntu python[4146]: TTS ACK: 53248
+Dec 31 20:22:29 ubuntu python[4146]: TTS TX: 55296 / 98464
+Dec 31 20:22:29 ubuntu python[4146]: TTS ACK: 55296
+Dec 31 20:22:29 ubuntu python[4146]: TTS TX: 57344 / 98464
+Dec 31 20:22:30 ubuntu python[4146]: TTS ACK: 57344
+Dec 31 20:22:30 ubuntu python[4146]: TTS TX: 59392 / 98464
+Dec 31 20:22:30 ubuntu python[4146]: TTS ACK: 59392
+Dec 31 20:22:30 ubuntu python[4146]: TTS TX: 61440 / 98464
+Dec 31 20:22:30 ubuntu python[4146]: TTS ACK: 61440
+Dec 31 20:22:30 ubuntu python[4146]: TTS TX: 63488 / 98464
+Dec 31 20:22:30 ubuntu python[4146]: TTS ACK: 63488
+Dec 31 20:22:30 ubuntu python[4146]: TTS TX: 65536 / 98464
+Dec 31 20:22:31 ubuntu python[4146]: TTS ACK: 65536
+Dec 31 20:22:31 ubuntu python[4146]: TTS TX: 67584 / 98464
+Dec 31 20:22:31 ubuntu python[4146]: TTS ACK: 67584
+Dec 31 20:22:31 ubuntu python[4146]: TTS TX: 69632 / 98464
+Dec 31 20:22:31 ubuntu python[4146]: TTS ACK: 69632
+Dec 31 20:22:31 ubuntu python[4146]: TTS TX: 71680 / 98464
+Dec 31 20:22:31 ubuntu python[4146]: TTS ACK: 71680
+Dec 31 20:22:31 ubuntu python[4146]: TTS TX: 73728 / 98464
+Dec 31 20:22:31 ubuntu python[4146]: TTS ACK: 73728
+Dec 31 20:22:31 ubuntu python[4146]: TTS TX: 75776 / 98464
+Dec 31 20:22:31 ubuntu python[4146]: TTS ACK: 75776
+Dec 31 20:22:31 ubuntu python[4146]: TTS TX: 77824 / 98464
+Dec 31 20:22:32 ubuntu python[4146]: TTS ACK: 77824
+Dec 31 20:22:32 ubuntu python[4146]: TTS TX: 79872 / 98464
+Dec 31 20:22:32 ubuntu python[4146]: TTS ACK: 79872
+Dec 31 20:22:32 ubuntu python[4146]: TTS TX: 81920 / 98464
+Dec 31 20:22:32 ubuntu python[4146]: TTS ACK: 81920
+Dec 31 20:22:32 ubuntu python[4146]: TTS TX: 83968 / 98464
+Dec 31 20:22:32 ubuntu python[4146]: TTS ACK: 83968
+Dec 31 20:22:32 ubuntu python[4146]: TTS TX: 86016 / 98464
+Dec 31 20:22:32 ubuntu python[4146]: TTS ACK: 86016
+Dec 31 20:22:32 ubuntu python[4146]: TTS TX: 88064 / 98464
+Dec 31 20:22:33 ubuntu python[4146]: TTS ACK: 88064
+Dec 31 20:22:33 ubuntu python[4146]: TTS TX: 90112 / 98464
+Dec 31 20:22:33 ubuntu python[4146]: TTS ACK: 90112
+Dec 31 20:22:33 ubuntu python[4146]: TTS TX: 92160 / 98464
+Dec 31 20:22:33 ubuntu python[4146]: TTS ACK: 92160
+Dec 31 20:22:33 ubuntu python[4146]: TTS TX: 94208 / 98464
+Dec 31 20:22:33 ubuntu python[4146]: TTS ACK: 94208
+Dec 31 20:22:33 ubuntu python[4146]: TTS TX: 96256 / 98464
+Dec 31 20:22:34 ubuntu python[4146]: TTS ACK: 96256
+Dec 31 20:22:34 ubuntu python[4146]: TTS TX: 98304 / 98464
+Dec 31 20:22:34 ubuntu python[4146]: TTS ACK: 98304
+Dec 31 20:22:34 ubuntu python[4146]: TTS TX: 98464 / 98464
+Dec 31 20:22:34 ubuntu python[4146]: TTS ACK: 98464
+Dec 31 20:22:34 ubuntu python[4146]: TOTAL: 21.928 s
+Dec 31 20:22:43 ubuntu python[4146]: QUERY_START:
+Dec 31 20:22:43 ubuntu python[4146]: Esperando 71724 bytes
+Dec 31 20:22:43 ubuntu python[4146]: AUDIO RX: 8192 / 71724
+Dec 31 20:22:43 ubuntu python[4146]: AUDIO RX: 16384 / 71724
+Dec 31 20:22:44 ubuntu python[4146]: AUDIO RX: 24576 / 71724
+Dec 31 20:22:46 ubuntu python[4146]: AUDIO RX: 32768 / 71724
+Dec 31 20:22:46 ubuntu python[4146]: AUDIO RX: 40960 / 71724
+Dec 31 20:22:46 ubuntu python[4146]: AUDIO RX: 49152 / 71724
+Dec 31 20:22:46 ubuntu python[4146]: AUDIO RX: 57344 / 71724
+Dec 31 20:22:47 ubuntu python[4146]: AUDIO RX: 65536 / 71724
+Dec 31 20:22:47 ubuntu python[4146]: AUDIO RX: 71724 / 71724
+Dec 31 20:22:47 ubuntu python[4146]: QUERY_END:
+Dec 31 20:22:47 ubuntu python[4146]: Recibido: 71724 / 71724
+Dec 31 20:22:47 ubuntu python[4146]: ============================================================
+Dec 31 20:22:47 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:22:47 ubuntu python[4146]: Bytes: 71724
+Dec 31 20:22:47 ubuntu python[4146]: ============================================================
+Dec 31 20:22:48 ubuntu python[4146]: Vosk: 1.308 s
+Dec 31 20:22:48 ubuntu python[4146]: TRANSCRIPCION: cuando capital de grecia
+Dec 31 20:22:48 ubuntu python[4146]: No es comando fisico
+Dec 31 20:22:48 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:22:48 ubuntu python[4146]: ============================================================
+Dec 31 20:22:48 ubuntu python[4146]: TEXTO: cuando capital de grecia
+Dec 31 20:22:48 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:22:49 ubuntu python[4146]: Ollama terminado en: 0.633 s
+Dec 31 20:22:53 ubuntu python[4146]: Piper terminado en: 3.702 s
+Dec 31 20:22:53 ubuntu python[4146]: TOTAL: 4.34 s
+Dec 31 20:22:53 ubuntu python[4146]: Qwen/router/Piper: 4.345 s
+Dec 31 20:22:53 ubuntu python[4146]: Respuesta: El capital de Grecia es Atenas.
+Dec 31 20:22:53 ubuntu python[4146]: Audio Piper: 118432 bytes
+Dec 31 20:22:53 ubuntu python[4146]: TTS TX: 2048 / 118432
+Dec 31 20:22:53 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:22:53 ubuntu python[4146]: TTS TX: 4096 / 118432
+Dec 31 20:22:53 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:22:53 ubuntu python[4146]: TTS TX: 6144 / 118432
+Dec 31 20:22:54 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:22:54 ubuntu python[4146]: TTS TX: 8192 / 118432
+Dec 31 20:22:54 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:22:54 ubuntu python[4146]: TTS TX: 10240 / 118432
+Dec 31 20:22:54 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:22:54 ubuntu python[4146]: TTS TX: 12288 / 118432
+Dec 31 20:22:55 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:22:55 ubuntu python[4146]: TTS TX: 14336 / 118432
+Dec 31 20:22:55 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:22:55 ubuntu python[4146]: TTS TX: 16384 / 118432
+Dec 31 20:22:55 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:22:55 ubuntu python[4146]: TTS TX: 18432 / 118432
+Dec 31 20:22:55 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:22:55 ubuntu python[4146]: TTS TX: 20480 / 118432
+Dec 31 20:22:56 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:22:56 ubuntu python[4146]: TTS TX: 22528 / 118432
+Dec 31 20:22:56 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:22:56 ubuntu python[4146]: TTS TX: 24576 / 118432
+Dec 31 20:22:56 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:22:56 ubuntu python[4146]: TTS TX: 26624 / 118432
+Dec 31 20:22:56 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:22:56 ubuntu python[4146]: TTS TX: 28672 / 118432
+Dec 31 20:22:56 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:22:56 ubuntu python[4146]: TTS TX: 30720 / 118432
+Dec 31 20:22:56 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:22:56 ubuntu python[4146]: TTS TX: 32768 / 118432
+Dec 31 20:22:57 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:22:57 ubuntu python[4146]: TTS TX: 34816 / 118432
+Dec 31 20:22:57 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:22:57 ubuntu python[4146]: TTS TX: 36864 / 118432
+Dec 31 20:22:57 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:22:57 ubuntu python[4146]: TTS TX: 38912 / 118432
+Dec 31 20:22:57 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:22:57 ubuntu python[4146]: TTS TX: 40960 / 118432
+Dec 31 20:22:57 ubuntu python[4146]: TTS ACK: 40960
+Dec 31 20:22:57 ubuntu python[4146]: TTS TX: 43008 / 118432
+Dec 31 20:22:58 ubuntu python[4146]: TTS ACK: 43008
+Dec 31 20:22:58 ubuntu python[4146]: TTS TX: 45056 / 118432
+Dec 31 20:22:58 ubuntu python[4146]: TTS ACK: 45056
+Dec 31 20:22:58 ubuntu python[4146]: TTS TX: 47104 / 118432
+Dec 31 20:22:58 ubuntu python[4146]: TTS ACK: 47104
+Dec 31 20:22:58 ubuntu python[4146]: TTS TX: 49152 / 118432
+Dec 31 20:22:58 ubuntu python[4146]: TTS ACK: 49152
+Dec 31 20:22:58 ubuntu python[4146]: TTS TX: 51200 / 118432
+Dec 31 20:22:58 ubuntu python[4146]: TTS ACK: 51200
+Dec 31 20:22:58 ubuntu python[4146]: TTS TX: 53248 / 118432
+Dec 31 20:22:58 ubuntu python[4146]: TTS ACK: 53248
+Dec 31 20:22:58 ubuntu python[4146]: TTS TX: 55296 / 118432
+Dec 31 20:22:59 ubuntu python[4146]: TTS ACK: 55296
+Dec 31 20:22:59 ubuntu python[4146]: TTS TX: 57344 / 118432
+Dec 31 20:22:59 ubuntu python[4146]: TTS ACK: 57344
+Dec 31 20:22:59 ubuntu python[4146]: TTS TX: 59392 / 118432
+Dec 31 20:22:59 ubuntu python[4146]: TTS ACK: 59392
+Dec 31 20:22:59 ubuntu python[4146]: TTS TX: 61440 / 118432
+Dec 31 20:23:00 ubuntu python[4146]: TTS ACK: 61440
+Dec 31 20:23:00 ubuntu python[4146]: TTS TX: 63488 / 118432
+Dec 31 20:23:01 ubuntu python[4146]: TTS ACK: 63488
+Dec 31 20:23:01 ubuntu python[4146]: TTS TX: 65536 / 118432
+Dec 31 20:23:01 ubuntu python[4146]: TTS ACK: 65536
+Dec 31 20:23:01 ubuntu python[4146]: TTS TX: 67584 / 118432
+Dec 31 20:23:01 ubuntu python[4146]: TTS ACK: 67584
+Dec 31 20:23:01 ubuntu python[4146]: TTS TX: 69632 / 118432
+Dec 31 20:23:01 ubuntu python[4146]: TTS ACK: 69632
+Dec 31 20:23:01 ubuntu python[4146]: TTS TX: 71680 / 118432
+Dec 31 20:23:01 ubuntu python[4146]: TTS ACK: 71680
+Dec 31 20:23:01 ubuntu python[4146]: TTS TX: 73728 / 118432
+Dec 31 20:23:01 ubuntu python[4146]: TTS ACK: 73728
+Dec 31 20:23:01 ubuntu python[4146]: TTS TX: 75776 / 118432
+Dec 31 20:23:02 ubuntu python[4146]: TTS ACK: 75776
+Dec 31 20:23:02 ubuntu python[4146]: TTS TX: 77824 / 118432
+Dec 31 20:23:02 ubuntu python[4146]: TTS ACK: 77824
+Dec 31 20:23:02 ubuntu python[4146]: TTS TX: 79872 / 118432
+Dec 31 20:23:02 ubuntu python[4146]: TTS ACK: 79872
+Dec 31 20:23:02 ubuntu python[4146]: TTS TX: 81920 / 118432
+Dec 31 20:23:03 ubuntu python[4146]: TTS ACK: 81920
+Dec 31 20:23:03 ubuntu python[4146]: TTS TX: 83968 / 118432
+Dec 31 20:23:03 ubuntu python[4146]: TTS ACK: 83968
+Dec 31 20:23:03 ubuntu python[4146]: TTS TX: 86016 / 118432
+Dec 31 20:23:03 ubuntu python[4146]: TTS ACK: 86016
+Dec 31 20:23:03 ubuntu python[4146]: TTS TX: 88064 / 118432
+Dec 31 20:23:04 ubuntu python[4146]: TTS ACK: 88064
+Dec 31 20:23:04 ubuntu python[4146]: TTS TX: 90112 / 118432
+Dec 31 20:23:04 ubuntu python[4146]: TTS ACK: 90112
+Dec 31 20:23:04 ubuntu python[4146]: TTS TX: 92160 / 118432
+Dec 31 20:23:04 ubuntu python[4146]: TTS ACK: 92160
+Dec 31 20:23:04 ubuntu python[4146]: TTS TX: 94208 / 118432
+Dec 31 20:23:05 ubuntu python[4146]: TTS ACK: 94208
+Dec 31 20:23:05 ubuntu python[4146]: TTS TX: 96256 / 118432
+Dec 31 20:23:05 ubuntu python[4146]: TTS ACK: 96256
+Dec 31 20:23:05 ubuntu python[4146]: TTS TX: 98304 / 118432
+Dec 31 20:23:07 ubuntu python[4146]: TTS ACK: 98304
+Dec 31 20:23:07 ubuntu python[4146]: TTS TX: 100352 / 118432
+Dec 31 20:23:07 ubuntu python[4146]: TTS ACK: 100352
+Dec 31 20:23:07 ubuntu python[4146]: TTS TX: 102400 / 118432
+Dec 31 20:23:07 ubuntu python[4146]: TTS ACK: 102400
+Dec 31 20:23:07 ubuntu python[4146]: TTS TX: 104448 / 118432
+Dec 31 20:23:08 ubuntu python[4146]: TTS ACK: 104448
+Dec 31 20:23:08 ubuntu python[4146]: TTS TX: 106496 / 118432
+Dec 31 20:23:08 ubuntu python[4146]: TTS ACK: 106496
+Dec 31 20:23:08 ubuntu python[4146]: TTS TX: 108544 / 118432
+Dec 31 20:23:08 ubuntu python[4146]: TTS ACK: 108544
+Dec 31 20:23:08 ubuntu python[4146]: TTS TX: 110592 / 118432
+Dec 31 20:23:08 ubuntu python[4146]: TTS ACK: 110592
+Dec 31 20:23:08 ubuntu python[4146]: TTS TX: 112640 / 118432
+Dec 31 20:23:09 ubuntu python[4146]: TTS ACK: 112640
+Dec 31 20:23:09 ubuntu python[4146]: TTS TX: 114688 / 118432
+Dec 31 20:23:09 ubuntu python[4146]: TTS ACK: 114688
+Dec 31 20:23:09 ubuntu python[4146]: TTS TX: 116736 / 118432
+Dec 31 20:23:09 ubuntu python[4146]: TTS ACK: 116736
+Dec 31 20:23:09 ubuntu python[4146]: TTS TX: 118432 / 118432
+Dec 31 20:23:10 ubuntu python[4146]: TTS ACK: 118432
+Dec 31 20:23:10 ubuntu python[4146]: TOTAL: 23.308 s
+Dec 31 20:23:24 ubuntu python[4146]: QUERY_START:
+Dec 31 20:23:24 ubuntu python[4146]: Esperando 64044 bytes
+Dec 31 20:23:28 ubuntu python[4146]: AUDIO RX: 8192 / 64044
+Dec 31 20:23:29 ubuntu python[4146]: AUDIO RX: 16384 / 64044
+Dec 31 20:23:30 ubuntu python[4146]: AUDIO RX: 24576 / 64044
+Dec 31 20:23:31 ubuntu python[4146]: AUDIO RX: 32768 / 64044
+Dec 31 20:23:32 ubuntu python[4146]: AUDIO RX: 40960 / 64044
+Dec 31 20:23:32 ubuntu python[4146]: AUDIO RX: 49152 / 64044
+Dec 31 20:23:33 ubuntu python[4146]: AUDIO RX: 57344 / 64044
+Dec 31 20:23:34 ubuntu python[4146]: AUDIO RX: 64044 / 64044
+Dec 31 20:23:34 ubuntu python[4146]: QUERY_END:
+Dec 31 20:23:34 ubuntu python[4146]: Recibido: 64044 / 64044
+Dec 31 20:23:34 ubuntu python[4146]: ============================================================
+Dec 31 20:23:34 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:23:34 ubuntu python[4146]: Bytes: 64044
+Dec 31 20:23:34 ubuntu python[4146]: ============================================================
+Dec 31 20:23:36 ubuntu python[4146]: Vosk: 1.538 s
+Dec 31 20:23:36 ubuntu python[4146]: TRANSCRIPCION: háblame sobre computadoras
+Dec 31 20:23:36 ubuntu python[4146]: No es comando fisico
+Dec 31 20:23:36 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:23:36 ubuntu python[4146]: ============================================================
+Dec 31 20:23:36 ubuntu python[4146]: TEXTO: háblame sobre computadoras
+Dec 31 20:23:36 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:23:37 ubuntu python[4146]: Ollama terminado en: 1.606 s
+Dec 31 20:23:42 ubuntu python[4146]: Piper terminado en: 4.887 s
+Dec 31 20:23:42 ubuntu python[4146]: TOTAL: 6.496 s
+Dec 31 20:23:42 ubuntu python[4146]: Qwen/router/Piper: 6.502 s
+Dec 31 20:23:42 ubuntu python[4146]: Respuesta: ¡Hola! En una computadora, los programas se ejecutan en el núcleo del procesador, también conocido como núcleo del núcleo. Este núcleo es el
+Dec 31 20:23:42 ubuntu python[4146]: Audio Piper: 430472 bytes
+Dec 31 20:23:42 ubuntu python[4146]: TTS TX: 2048 / 430472
+Dec 31 20:23:42 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:23:42 ubuntu python[4146]: TTS TX: 4096 / 430472
+Dec 31 20:23:42 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:23:42 ubuntu python[4146]: TTS TX: 6144 / 430472
+Dec 31 20:23:43 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:23:43 ubuntu python[4146]: TTS TX: 8192 / 430472
+Dec 31 20:23:43 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:23:43 ubuntu python[4146]: TTS TX: 10240 / 430472
+Dec 31 20:23:43 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:23:43 ubuntu python[4146]: TTS TX: 12288 / 430472
+Dec 31 20:23:44 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:23:44 ubuntu python[4146]: TTS TX: 14336 / 430472
+Dec 31 20:23:44 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:23:44 ubuntu python[4146]: TTS TX: 16384 / 430472
+Dec 31 20:23:44 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:23:44 ubuntu python[4146]: TTS TX: 18432 / 430472
+Dec 31 20:23:44 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:23:44 ubuntu python[4146]: TTS TX: 20480 / 430472
+Dec 31 20:23:44 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:23:44 ubuntu python[4146]: TTS TX: 22528 / 430472
+Dec 31 20:23:44 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:23:44 ubuntu python[4146]: TTS TX: 24576 / 430472
+Dec 31 20:23:44 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:23:44 ubuntu python[4146]: TTS TX: 26624 / 430472
+Dec 31 20:23:45 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:23:45 ubuntu python[4146]: TTS TX: 28672 / 430472
+Dec 31 20:23:45 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:23:45 ubuntu python[4146]: TTS TX: 30720 / 430472
+Dec 31 20:23:45 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:23:45 ubuntu python[4146]: TTS TX: 32768 / 430472
+Dec 31 20:23:45 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:23:45 ubuntu python[4146]: TTS TX: 34816 / 430472
+Dec 31 20:23:46 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:23:46 ubuntu python[4146]: TTS TX: 36864 / 430472
+Dec 31 20:23:46 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:23:46 ubuntu python[4146]: TTS TX: 38912 / 430472
+Dec 31 20:23:46 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:23:46 ubuntu python[4146]: TTS TX: 40960 / 430472
+Dec 31 20:23:47 ubuntu python[4146]: TTS ACK: 40960
+Dec 31 20:23:47 ubuntu python[4146]: TTS TX: 43008 / 430472
+Dec 31 20:23:47 ubuntu python[4146]: TTS ACK: 43008
+Dec 31 20:23:47 ubuntu python[4146]: TTS TX: 45056 / 430472
+Dec 31 20:23:47 ubuntu python[4146]: TTS ACK: 45056
+Dec 31 20:23:47 ubuntu python[4146]: TTS TX: 47104 / 430472
+Dec 31 20:23:47 ubuntu python[4146]: TTS ACK: 47104
+Dec 31 20:23:47 ubuntu python[4146]: TTS TX: 49152 / 430472
+Dec 31 20:23:47 ubuntu python[4146]: TTS ACK: 49152
+Dec 31 20:23:47 ubuntu python[4146]: TTS TX: 51200 / 430472
+Dec 31 20:23:48 ubuntu python[4146]: TTS ACK: 51200
+Dec 31 20:23:48 ubuntu python[4146]: TTS TX: 53248 / 430472
+Dec 31 20:23:48 ubuntu python[4146]: TTS ACK: 53248
+Dec 31 20:23:48 ubuntu python[4146]: TTS TX: 55296 / 430472
+Dec 31 20:23:48 ubuntu python[4146]: TTS ACK: 55296
+Dec 31 20:23:48 ubuntu python[4146]: TTS TX: 57344 / 430472
+Dec 31 20:23:48 ubuntu python[4146]: TTS ACK: 57344
+Dec 31 20:23:48 ubuntu python[4146]: TTS TX: 59392 / 430472
+Dec 31 20:23:49 ubuntu python[4146]: TTS ACK: 59392
+Dec 31 20:23:49 ubuntu python[4146]: TTS TX: 61440 / 430472
+Dec 31 20:23:49 ubuntu python[4146]: TTS ACK: 61440
+Dec 31 20:23:49 ubuntu python[4146]: TTS TX: 63488 / 430472
+Dec 31 20:23:49 ubuntu python[4146]: TTS ACK: 63488
+Dec 31 20:23:49 ubuntu python[4146]: TTS TX: 65536 / 430472
+Dec 31 20:23:49 ubuntu python[4146]: TTS ACK: 65536
+Dec 31 20:23:49 ubuntu python[4146]: TTS TX: 67584 / 430472
+Dec 31 20:23:49 ubuntu python[4146]: TTS ACK: 67584
+Dec 31 20:23:49 ubuntu python[4146]: TTS TX: 69632 / 430472
+Dec 31 20:23:50 ubuntu python[4146]: TTS ACK: 69632
+Dec 31 20:23:50 ubuntu python[4146]: TTS TX: 71680 / 430472
+Dec 31 20:23:50 ubuntu python[4146]: TTS ACK: 71680
+Dec 31 20:23:50 ubuntu python[4146]: TTS TX: 73728 / 430472
+Dec 31 20:23:50 ubuntu python[4146]: TTS ACK: 73728
+Dec 31 20:23:50 ubuntu python[4146]: TTS TX: 75776 / 430472
+Dec 31 20:23:50 ubuntu python[4146]: TTS ACK: 75776
+Dec 31 20:23:50 ubuntu python[4146]: TTS TX: 77824 / 430472
+Dec 31 20:23:50 ubuntu python[4146]: TTS ACK: 77824
+Dec 31 20:23:50 ubuntu python[4146]: TTS TX: 79872 / 430472
+Dec 31 20:23:50 ubuntu python[4146]: TTS ACK: 79872
+Dec 31 20:23:50 ubuntu python[4146]: TTS TX: 81920 / 430472
+Dec 31 20:23:50 ubuntu python[4146]: TTS ACK: 81920
+Dec 31 20:23:50 ubuntu python[4146]: TTS TX: 83968 / 430472
+Dec 31 20:23:50 ubuntu python[4146]: TTS ACK: 83968
+Dec 31 20:23:50 ubuntu python[4146]: TTS TX: 86016 / 430472
+Dec 31 20:23:50 ubuntu python[4146]: TTS ACK: 86016
+Dec 31 20:23:50 ubuntu python[4146]: TTS TX: 88064 / 430472
+Dec 31 20:23:51 ubuntu python[4146]: TTS ACK: 88064
+Dec 31 20:23:51 ubuntu python[4146]: TTS TX: 90112 / 430472
+Dec 31 20:23:51 ubuntu python[4146]: TTS ACK: 90112
+Dec 31 20:23:51 ubuntu python[4146]: TTS TX: 92160 / 430472
+Dec 31 20:23:51 ubuntu python[4146]: TTS ACK: 92160
+Dec 31 20:23:51 ubuntu python[4146]: TTS TX: 94208 / 430472
+Dec 31 20:23:52 ubuntu python[4146]: TTS ACK: 94208
+Dec 31 20:23:52 ubuntu python[4146]: TTS TX: 96256 / 430472
+Dec 31 20:23:53 ubuntu python[4146]: TTS ACK: 96256
+Dec 31 20:23:53 ubuntu python[4146]: TTS TX: 98304 / 430472
+Dec 31 20:23:53 ubuntu python[4146]: TTS ACK: 98304
+Dec 31 20:23:53 ubuntu python[4146]: TTS TX: 100352 / 430472
+Dec 31 20:23:53 ubuntu python[4146]: TTS ACK: 100352
+Dec 31 20:23:53 ubuntu python[4146]: TTS TX: 102400 / 430472
+Dec 31 20:23:53 ubuntu python[4146]: TTS ACK: 102400
+Dec 31 20:23:53 ubuntu python[4146]: TTS TX: 104448 / 430472
+Dec 31 20:23:53 ubuntu python[4146]: TTS ACK: 104448
+Dec 31 20:23:53 ubuntu python[4146]: TTS TX: 106496 / 430472
+Dec 31 20:23:53 ubuntu python[4146]: TTS ACK: 106496
+Dec 31 20:23:53 ubuntu python[4146]: TTS TX: 108544 / 430472
+Dec 31 20:23:53 ubuntu python[4146]: TTS ACK: 108544
+Dec 31 20:23:53 ubuntu python[4146]: TTS TX: 110592 / 430472
+Dec 31 20:23:53 ubuntu python[4146]: TTS ACK: 110592
+Dec 31 20:23:53 ubuntu python[4146]: TTS TX: 112640 / 430472
+Dec 31 20:23:54 ubuntu python[4146]: TTS ACK: 112640
+Dec 31 20:23:54 ubuntu python[4146]: TTS TX: 114688 / 430472
+Dec 31 20:23:54 ubuntu python[4146]: TTS ACK: 114688
+Dec 31 20:23:54 ubuntu python[4146]: TTS TX: 116736 / 430472
+Dec 31 20:23:54 ubuntu python[4146]: TTS ACK: 116736
+Dec 31 20:23:54 ubuntu python[4146]: TTS TX: 118784 / 430472
+Dec 31 20:23:54 ubuntu python[4146]: TTS ACK: 118784
+Dec 31 20:23:54 ubuntu python[4146]: TTS TX: 120832 / 430472
+Dec 31 20:23:54 ubuntu python[4146]: TTS ACK: 120832
+Dec 31 20:23:54 ubuntu python[4146]: TTS TX: 122880 / 430472
+Dec 31 20:23:55 ubuntu python[4146]: TTS ACK: 122880
+Dec 31 20:23:55 ubuntu python[4146]: TTS TX: 124928 / 430472
+Dec 31 20:23:55 ubuntu python[4146]: TTS ACK: 124928
+Dec 31 20:23:55 ubuntu python[4146]: TTS TX: 126976 / 430472
+Dec 31 20:23:55 ubuntu python[4146]: TTS ACK: 126976
+Dec 31 20:23:55 ubuntu python[4146]: TTS TX: 129024 / 430472
+Dec 31 20:23:55 ubuntu python[4146]: TTS ACK: 129024
+Dec 31 20:23:55 ubuntu python[4146]: TTS TX: 131072 / 430472
+Dec 31 20:23:56 ubuntu python[4146]: TTS ACK: 131072
+Dec 31 20:23:56 ubuntu python[4146]: TTS TX: 133120 / 430472
+Dec 31 20:23:56 ubuntu python[4146]: TTS ACK: 133120
+Dec 31 20:23:56 ubuntu python[4146]: TTS TX: 135168 / 430472
+Dec 31 20:23:56 ubuntu python[4146]: TTS ACK: 135168
+Dec 31 20:23:56 ubuntu python[4146]: TTS TX: 137216 / 430472
+Dec 31 20:23:56 ubuntu python[4146]: TTS ACK: 137216
+Dec 31 20:23:56 ubuntu python[4146]: TTS TX: 139264 / 430472
+Dec 31 20:23:56 ubuntu python[4146]: TTS ACK: 139264
+Dec 31 20:23:56 ubuntu python[4146]: TTS TX: 141312 / 430472
+Dec 31 20:23:56 ubuntu python[4146]: TTS ACK: 141312
+Dec 31 20:23:56 ubuntu python[4146]: TTS TX: 143360 / 430472
+Dec 31 20:23:56 ubuntu python[4146]: TTS ACK: 143360
+Dec 31 20:23:56 ubuntu python[4146]: TTS TX: 145408 / 430472
+Dec 31 20:23:57 ubuntu python[4146]: TTS ACK: 145408
+Dec 31 20:23:57 ubuntu python[4146]: TTS TX: 147456 / 430472
+Dec 31 20:23:57 ubuntu python[4146]: TTS ACK: 147456
+Dec 31 20:23:57 ubuntu python[4146]: TTS TX: 149504 / 430472
+Dec 31 20:23:57 ubuntu python[4146]: TTS ACK: 149504
+Dec 31 20:23:57 ubuntu python[4146]: TTS TX: 151552 / 430472
+Dec 31 20:23:58 ubuntu python[4146]: TTS ACK: 151552
+Dec 31 20:23:58 ubuntu python[4146]: TTS TX: 153600 / 430472
+Dec 31 20:23:59 ubuntu python[4146]: TTS ACK: 153600
+Dec 31 20:23:59 ubuntu python[4146]: TTS TX: 155648 / 430472
+Dec 31 20:23:59 ubuntu python[4146]: TTS ACK: 155648
+Dec 31 20:23:59 ubuntu python[4146]: TTS TX: 157696 / 430472
+Dec 31 20:23:59 ubuntu python[4146]: TTS ACK: 157696
+Dec 31 20:23:59 ubuntu python[4146]: TTS TX: 159744 / 430472
+Dec 31 20:23:59 ubuntu python[4146]: TTS ACK: 159744
+Dec 31 20:23:59 ubuntu python[4146]: TTS TX: 161792 / 430472
+Dec 31 20:23:59 ubuntu python[4146]: TTS ACK: 161792
+Dec 31 20:23:59 ubuntu python[4146]: TTS TX: 163840 / 430472
+Dec 31 20:23:59 ubuntu python[4146]: TTS ACK: 163840
+Dec 31 20:23:59 ubuntu python[4146]: TTS TX: 165888 / 430472
+Dec 31 20:24:02 ubuntu python[4146]: TTS ACK: 165888
+Dec 31 20:24:02 ubuntu python[4146]: TTS TX: 167936 / 430472
+Dec 31 20:24:02 ubuntu python[4146]: TTS ACK: 167936
+Dec 31 20:24:02 ubuntu python[4146]: TTS TX: 169984 / 430472
+Dec 31 20:24:02 ubuntu python[4146]: TTS ACK: 169984
+Dec 31 20:24:02 ubuntu python[4146]: TTS TX: 172032 / 430472
+Dec 31 20:24:02 ubuntu python[4146]: TTS ACK: 172032
+Dec 31 20:24:02 ubuntu python[4146]: TTS TX: 174080 / 430472
+Dec 31 20:24:02 ubuntu python[4146]: TTS ACK: 174080
+Dec 31 20:24:02 ubuntu python[4146]: TTS TX: 176128 / 430472
+Dec 31 20:24:03 ubuntu python[4146]: TTS ACK: 176128
+Dec 31 20:24:03 ubuntu python[4146]: TTS TX: 178176 / 430472
+Dec 31 20:24:03 ubuntu python[4146]: TTS ACK: 178176
+Dec 31 20:24:03 ubuntu python[4146]: TTS TX: 180224 / 430472
+Dec 31 20:24:03 ubuntu python[4146]: TTS ACK: 180224
+Dec 31 20:24:03 ubuntu python[4146]: TTS TX: 182272 / 430472
+Dec 31 20:24:03 ubuntu python[4146]: TTS ACK: 182272
+Dec 31 20:24:03 ubuntu python[4146]: TTS TX: 184320 / 430472
+Dec 31 20:24:03 ubuntu python[4146]: TTS ACK: 184320
+Dec 31 20:24:03 ubuntu python[4146]: TTS TX: 186368 / 430472
+Dec 31 20:24:03 ubuntu python[4146]: TTS ACK: 186368
+Dec 31 20:24:03 ubuntu python[4146]: TTS TX: 188416 / 430472
+Dec 31 20:24:03 ubuntu python[4146]: TTS ACK: 188416
+Dec 31 20:24:03 ubuntu python[4146]: TTS TX: 190464 / 430472
+Dec 31 20:24:04 ubuntu python[4146]: TTS ACK: 190464
+Dec 31 20:24:04 ubuntu python[4146]: TTS TX: 192512 / 430472
+Dec 31 20:24:04 ubuntu python[4146]: TTS ACK: 192512
+Dec 31 20:24:04 ubuntu python[4146]: TTS TX: 194560 / 430472
+Dec 31 20:24:05 ubuntu python[4146]: TTS ACK: 194560
+Dec 31 20:24:05 ubuntu python[4146]: TTS TX: 196608 / 430472
+Dec 31 20:24:05 ubuntu python[4146]: TTS ACK: 196608
+Dec 31 20:24:05 ubuntu python[4146]: TTS TX: 198656 / 430472
+Dec 31 20:24:05 ubuntu python[4146]: TTS ACK: 198656
+Dec 31 20:24:05 ubuntu python[4146]: TTS TX: 200704 / 430472
+Dec 31 20:24:05 ubuntu python[4146]: TTS ACK: 200704
+Dec 31 20:24:05 ubuntu python[4146]: TTS TX: 202752 / 430472
+Dec 31 20:24:05 ubuntu python[4146]: TTS ACK: 202752
+Dec 31 20:24:05 ubuntu python[4146]: TTS TX: 204800 / 430472
+Dec 31 20:24:05 ubuntu python[4146]: TTS ACK: 204800
+Dec 31 20:24:05 ubuntu python[4146]: TTS TX: 206848 / 430472
+Dec 31 20:24:05 ubuntu python[4146]: TTS ACK: 206848
+Dec 31 20:24:05 ubuntu python[4146]: TTS TX: 208896 / 430472
+Dec 31 20:24:06 ubuntu python[4146]: TTS ACK: 208896
+Dec 31 20:24:06 ubuntu python[4146]: TTS TX: 210944 / 430472
+Dec 31 20:24:06 ubuntu python[4146]: TTS ACK: 210944
+Dec 31 20:24:06 ubuntu python[4146]: TTS TX: 212992 / 430472
+Dec 31 20:24:07 ubuntu python[4146]: TTS ACK: 212992
+Dec 31 20:24:07 ubuntu python[4146]: TTS TX: 215040 / 430472
+Dec 31 20:24:08 ubuntu python[4146]: TTS ACK: 215040
+Dec 31 20:24:08 ubuntu python[4146]: TTS TX: 217088 / 430472
+Dec 31 20:24:08 ubuntu python[4146]: TTS ACK: 217088
+Dec 31 20:24:08 ubuntu python[4146]: TTS TX: 219136 / 430472
+Dec 31 20:24:08 ubuntu python[4146]: TTS ACK: 219136
+Dec 31 20:24:08 ubuntu python[4146]: TTS TX: 221184 / 430472
+Dec 31 20:24:08 ubuntu python[4146]: TTS ACK: 221184
+Dec 31 20:24:08 ubuntu python[4146]: TTS TX: 223232 / 430472
+Dec 31 20:24:09 ubuntu python[4146]: TTS ACK: 223232
+Dec 31 20:24:09 ubuntu python[4146]: TTS TX: 225280 / 430472
+Dec 31 20:24:10 ubuntu python[4146]: TTS ACK: 225280
+Dec 31 20:24:10 ubuntu python[4146]: TTS TX: 227328 / 430472
+Dec 31 20:24:10 ubuntu python[4146]: TTS ACK: 227328
+Dec 31 20:24:10 ubuntu python[4146]: TTS TX: 229376 / 430472
+Dec 31 20:24:11 ubuntu python[4146]: TTS ACK: 229376
+Dec 31 20:24:11 ubuntu python[4146]: TTS TX: 231424 / 430472
+Dec 31 20:24:12 ubuntu python[4146]: TTS ACK: 231424
+Dec 31 20:24:12 ubuntu python[4146]: TTS TX: 233472 / 430472
+Dec 31 20:24:13 ubuntu python[4146]: TTS ACK: 233472
+Dec 31 20:24:13 ubuntu python[4146]: TTS TX: 235520 / 430472
+Dec 31 20:24:13 ubuntu python[4146]: TTS ACK: 235520
+Dec 31 20:24:13 ubuntu python[4146]: TTS TX: 237568 / 430472
+Dec 31 20:24:14 ubuntu python[4146]: TTS ACK: 237568
+Dec 31 20:24:14 ubuntu python[4146]: TTS TX: 239616 / 430472
+Dec 31 20:24:14 ubuntu python[4146]: TTS ACK: 239616
+Dec 31 20:24:14 ubuntu python[4146]: TTS TX: 241664 / 430472
+Dec 31 20:24:14 ubuntu python[4146]: TTS ACK: 241664
+Dec 31 20:24:14 ubuntu python[4146]: TTS TX: 243712 / 430472
+Dec 31 20:24:15 ubuntu python[4146]: TTS ACK: 243712
+Dec 31 20:24:15 ubuntu python[4146]: TTS TX: 245760 / 430472
+Dec 31 20:24:15 ubuntu python[4146]: TTS ACK: 245760
+Dec 31 20:24:15 ubuntu python[4146]: TTS TX: 247808 / 430472
+Dec 31 20:24:15 ubuntu python[4146]: TTS ACK: 247808
+Dec 31 20:24:15 ubuntu python[4146]: TTS TX: 249856 / 430472
+Dec 31 20:24:16 ubuntu python[4146]: TTS ACK: 249856
+Dec 31 20:24:16 ubuntu python[4146]: TTS TX: 251904 / 430472
+Dec 31 20:24:16 ubuntu python[4146]: TTS ACK: 251904
+Dec 31 20:24:16 ubuntu python[4146]: TTS TX: 253952 / 430472
+Dec 31 20:24:16 ubuntu python[4146]: TTS ACK: 253952
+Dec 31 20:24:16 ubuntu python[4146]: TTS TX: 256000 / 430472
+Dec 31 20:24:16 ubuntu python[4146]: TTS ACK: 256000
+Dec 31 20:24:16 ubuntu python[4146]: TTS TX: 258048 / 430472
+Dec 31 20:24:16 ubuntu python[4146]: TTS ACK: 258048
+Dec 31 20:24:16 ubuntu python[4146]: TTS TX: 260096 / 430472
+Dec 31 20:24:16 ubuntu python[4146]: TTS ACK: 260096
+Dec 31 20:24:16 ubuntu python[4146]: TTS TX: 262144 / 430472
+Dec 31 20:24:17 ubuntu python[4146]: TTS ACK: 262144
+Dec 31 20:24:17 ubuntu python[4146]: TTS TX: 264192 / 430472
+Dec 31 20:24:17 ubuntu python[4146]: TTS ACK: 264192
+Dec 31 20:24:17 ubuntu python[4146]: TTS TX: 266240 / 430472
+Dec 31 20:24:17 ubuntu python[4146]: TTS ACK: 266240
+Dec 31 20:24:17 ubuntu python[4146]: TTS TX: 268288 / 430472
+Dec 31 20:24:17 ubuntu python[4146]: TTS ACK: 268288
+Dec 31 20:24:17 ubuntu python[4146]: TTS TX: 270336 / 430472
+Dec 31 20:24:17 ubuntu python[4146]: TTS ACK: 270336
+Dec 31 20:24:17 ubuntu python[4146]: TTS TX: 272384 / 430472
+Dec 31 20:24:18 ubuntu python[4146]: TTS ACK: 272384
+Dec 31 20:24:18 ubuntu python[4146]: TTS TX: 274432 / 430472
+Dec 31 20:24:18 ubuntu python[4146]: TTS ACK: 274432
+Dec 31 20:24:18 ubuntu python[4146]: TTS TX: 276480 / 430472
+Dec 31 20:24:18 ubuntu python[4146]: TTS ACK: 276480
+Dec 31 20:24:18 ubuntu python[4146]: TTS TX: 278528 / 430472
+Dec 31 20:24:18 ubuntu python[4146]: TTS ACK: 278528
+Dec 31 20:24:18 ubuntu python[4146]: TTS TX: 280576 / 430472
+Dec 31 20:24:19 ubuntu python[4146]: TTS ACK: 280576
+Dec 31 20:24:19 ubuntu python[4146]: TTS TX: 282624 / 430472
+Dec 31 20:24:19 ubuntu python[4146]: TTS ACK: 282624
+Dec 31 20:24:19 ubuntu python[4146]: TTS TX: 284672 / 430472
+Dec 31 20:24:19 ubuntu python[4146]: TTS ACK: 284672
+Dec 31 20:24:19 ubuntu python[4146]: TTS TX: 286720 / 430472
+Dec 31 20:24:20 ubuntu python[4146]: TTS ACK: 286720
+Dec 31 20:24:20 ubuntu python[4146]: TTS TX: 288768 / 430472
+Dec 31 20:24:23 ubuntu python[4146]: TTS ACK: 288768
+Dec 31 20:24:23 ubuntu python[4146]: TTS TX: 290816 / 430472
+Dec 31 20:24:23 ubuntu python[4146]: TTS ACK: 290816
+Dec 31 20:24:23 ubuntu python[4146]: TTS TX: 292864 / 430472
+Dec 31 20:24:23 ubuntu python[4146]: TTS ACK: 292864
+Dec 31 20:24:23 ubuntu python[4146]: TTS TX: 294912 / 430472
+Dec 31 20:24:23 ubuntu python[4146]: TTS ACK: 294912
+Dec 31 20:24:23 ubuntu python[4146]: TTS TX: 296960 / 430472
+Dec 31 20:24:24 ubuntu python[4146]: TTS ACK: 296960
+Dec 31 20:24:24 ubuntu python[4146]: TTS TX: 299008 / 430472
+Dec 31 20:24:24 ubuntu python[4146]: TTS ACK: 299008
+Dec 31 20:24:24 ubuntu python[4146]: TTS TX: 301056 / 430472
+Dec 31 20:24:25 ubuntu python[4146]: TTS ACK: 301056
+Dec 31 20:24:25 ubuntu python[4146]: TTS TX: 303104 / 430472
+Dec 31 20:24:26 ubuntu python[4146]: TTS ACK: 303104
+Dec 31 20:24:26 ubuntu python[4146]: TTS TX: 305152 / 430472
+Dec 31 20:24:26 ubuntu python[4146]: TTS ACK: 305152
+Dec 31 20:24:26 ubuntu python[4146]: TTS TX: 307200 / 430472
+Dec 31 20:24:26 ubuntu python[4146]: TTS ACK: 307200
+Dec 31 20:24:26 ubuntu python[4146]: TTS TX: 309248 / 430472
+Dec 31 20:24:26 ubuntu python[4146]: TTS ACK: 309248
+Dec 31 20:24:26 ubuntu python[4146]: TTS TX: 311296 / 430472
+Dec 31 20:24:26 ubuntu python[4146]: TTS ACK: 311296
+Dec 31 20:24:26 ubuntu python[4146]: TTS TX: 313344 / 430472
+Dec 31 20:24:27 ubuntu python[4146]: TTS ACK: 313344
+Dec 31 20:24:27 ubuntu python[4146]: TTS TX: 315392 / 430472
+Dec 31 20:24:27 ubuntu python[4146]: TTS ACK: 315392
+Dec 31 20:24:27 ubuntu python[4146]: TTS TX: 317440 / 430472
+Dec 31 20:24:27 ubuntu python[4146]: TTS ACK: 317440
+Dec 31 20:24:27 ubuntu python[4146]: TTS TX: 319488 / 430472
+Dec 31 20:24:28 ubuntu python[4146]: TTS ACK: 319488
+Dec 31 20:24:28 ubuntu python[4146]: TTS TX: 321536 / 430472
+Dec 31 20:24:28 ubuntu python[4146]: TTS ACK: 321536
+Dec 31 20:24:28 ubuntu python[4146]: TTS TX: 323584 / 430472
+Dec 31 20:24:28 ubuntu python[4146]: TTS ACK: 323584
+Dec 31 20:24:28 ubuntu python[4146]: TTS TX: 325632 / 430472
+Dec 31 20:24:28 ubuntu python[4146]: TTS ACK: 325632
+Dec 31 20:24:28 ubuntu python[4146]: TTS TX: 327680 / 430472
+Dec 31 20:24:28 ubuntu python[4146]: TTS ACK: 327680
+Dec 31 20:24:28 ubuntu python[4146]: TTS TX: 329728 / 430472
+Dec 31 20:24:29 ubuntu python[4146]: TTS ACK: 329728
+Dec 31 20:24:29 ubuntu python[4146]: TTS TX: 331776 / 430472
+Dec 31 20:24:29 ubuntu python[4146]: TTS ACK: 331776
+Dec 31 20:24:29 ubuntu python[4146]: TTS TX: 333824 / 430472
+Dec 31 20:24:29 ubuntu python[4146]: TTS ACK: 333824
+Dec 31 20:24:29 ubuntu python[4146]: TTS TX: 335872 / 430472
+Dec 31 20:24:29 ubuntu python[4146]: TTS ACK: 335872
+Dec 31 20:24:29 ubuntu python[4146]: TTS TX: 337920 / 430472
+Dec 31 20:24:29 ubuntu python[4146]: TTS ACK: 337920
+Dec 31 20:24:29 ubuntu python[4146]: TTS TX: 339968 / 430472
+Dec 31 20:24:30 ubuntu python[4146]: TTS ACK: 339968
+Dec 31 20:24:30 ubuntu python[4146]: TTS TX: 342016 / 430472
+Dec 31 20:24:30 ubuntu python[4146]: TTS ACK: 342016
+Dec 31 20:24:30 ubuntu python[4146]: TTS TX: 344064 / 430472
+Dec 31 20:24:30 ubuntu python[4146]: TTS ACK: 344064
+Dec 31 20:24:30 ubuntu python[4146]: TTS TX: 346112 / 430472
+Dec 31 20:24:30 ubuntu python[4146]: TTS ACK: 346112
+Dec 31 20:24:30 ubuntu python[4146]: TTS TX: 348160 / 430472
+Dec 31 20:24:30 ubuntu python[4146]: TTS ACK: 348160
+Dec 31 20:24:30 ubuntu python[4146]: TTS TX: 350208 / 430472
+Dec 31 20:24:30 ubuntu python[4146]: TTS ACK: 350208
+Dec 31 20:24:30 ubuntu python[4146]: TTS TX: 352256 / 430472
+Dec 31 20:24:30 ubuntu python[4146]: TTS ACK: 352256
+Dec 31 20:24:30 ubuntu python[4146]: TTS TX: 354304 / 430472
+Dec 31 20:24:30 ubuntu python[4146]: TTS ACK: 354304
+Dec 31 20:24:30 ubuntu python[4146]: TTS TX: 356352 / 430472
+Dec 31 20:24:30 ubuntu python[4146]: TTS ACK: 356352
+Dec 31 20:24:30 ubuntu python[4146]: TTS TX: 358400 / 430472
+Dec 31 20:24:31 ubuntu python[4146]: TTS ACK: 358400
+Dec 31 20:24:31 ubuntu python[4146]: TTS TX: 360448 / 430472
+Dec 31 20:24:31 ubuntu python[4146]: TTS ACK: 360448
+Dec 31 20:24:31 ubuntu python[4146]: TTS TX: 362496 / 430472
+Dec 31 20:24:32 ubuntu python[4146]: TTS ACK: 362496
+Dec 31 20:24:32 ubuntu python[4146]: TTS TX: 364544 / 430472
+Dec 31 20:24:32 ubuntu python[4146]: TTS ACK: 364544
+Dec 31 20:24:32 ubuntu python[4146]: TTS TX: 366592 / 430472
+Dec 31 20:24:32 ubuntu python[4146]: TTS ACK: 366592
+Dec 31 20:24:32 ubuntu python[4146]: TTS TX: 368640 / 430472
+Dec 31 20:24:32 ubuntu python[4146]: TTS ACK: 368640
+Dec 31 20:24:32 ubuntu python[4146]: TTS TX: 370688 / 430472
+Dec 31 20:24:33 ubuntu python[4146]: TTS ACK: 370688
+Dec 31 20:24:33 ubuntu python[4146]: TTS TX: 372736 / 430472
+Dec 31 20:24:33 ubuntu python[4146]: TTS ACK: 372736
+Dec 31 20:24:33 ubuntu python[4146]: TTS TX: 374784 / 430472
+Dec 31 20:24:33 ubuntu python[4146]: TTS ACK: 374784
+Dec 31 20:24:33 ubuntu python[4146]: TTS TX: 376832 / 430472
+Dec 31 20:24:34 ubuntu python[4146]: TTS ACK: 376832
+Dec 31 20:24:34 ubuntu python[4146]: TTS TX: 378880 / 430472
+Dec 31 20:24:34 ubuntu python[4146]: TTS ACK: 378880
+Dec 31 20:24:34 ubuntu python[4146]: TTS TX: 380928 / 430472
+Dec 31 20:24:34 ubuntu python[4146]: TTS ACK: 380928
+Dec 31 20:24:34 ubuntu python[4146]: TTS TX: 382976 / 430472
+Dec 31 20:24:34 ubuntu python[4146]: TTS ACK: 382976
+Dec 31 20:24:34 ubuntu python[4146]: TTS TX: 385024 / 430472
+Dec 31 20:24:34 ubuntu python[4146]: TTS ACK: 385024
+Dec 31 20:24:34 ubuntu python[4146]: TTS TX: 387072 / 430472
+Dec 31 20:24:35 ubuntu python[4146]: TTS ACK: 387072
+Dec 31 20:24:35 ubuntu python[4146]: TTS TX: 389120 / 430472
+Dec 31 20:24:35 ubuntu python[4146]: TTS ACK: 389120
+Dec 31 20:24:35 ubuntu python[4146]: TTS TX: 391168 / 430472
+Dec 31 20:24:35 ubuntu python[4146]: TTS ACK: 391168
+Dec 31 20:24:35 ubuntu python[4146]: TTS TX: 393216 / 430472
+Dec 31 20:24:35 ubuntu python[4146]: TTS ACK: 393216
+Dec 31 20:24:35 ubuntu python[4146]: TTS TX: 395264 / 430472
+Dec 31 20:24:35 ubuntu python[4146]: TTS ACK: 395264
+Dec 31 20:24:35 ubuntu python[4146]: TTS TX: 397312 / 430472
+Dec 31 20:24:36 ubuntu python[4146]: TTS ACK: 397312
+Dec 31 20:24:36 ubuntu python[4146]: TTS TX: 399360 / 430472
+Dec 31 20:24:36 ubuntu python[4146]: TTS ACK: 399360
+Dec 31 20:24:36 ubuntu python[4146]: TTS TX: 401408 / 430472
+Dec 31 20:24:36 ubuntu python[4146]: TTS ACK: 401408
+Dec 31 20:24:36 ubuntu python[4146]: TTS TX: 403456 / 430472
+Dec 31 20:24:36 ubuntu python[4146]: TTS ACK: 403456
+Dec 31 20:24:36 ubuntu python[4146]: TTS TX: 405504 / 430472
+Dec 31 20:24:36 ubuntu python[4146]: TTS ACK: 405504
+Dec 31 20:24:36 ubuntu python[4146]: TTS TX: 407552 / 430472
+Dec 31 20:24:36 ubuntu python[4146]: TTS ACK: 407552
+Dec 31 20:24:36 ubuntu python[4146]: TTS TX: 409600 / 430472
+Dec 31 20:24:36 ubuntu python[4146]: TTS ACK: 409600
+Dec 31 20:24:36 ubuntu python[4146]: TTS TX: 411648 / 430472
+Dec 31 20:24:36 ubuntu python[4146]: TTS ACK: 411648
+Dec 31 20:24:36 ubuntu python[4146]: TTS TX: 413696 / 430472
+Dec 31 20:24:37 ubuntu python[4146]: TTS ACK: 413696
+Dec 31 20:24:37 ubuntu python[4146]: TTS TX: 415744 / 430472
+Dec 31 20:24:37 ubuntu python[4146]: TTS ACK: 415744
+Dec 31 20:24:37 ubuntu python[4146]: TTS TX: 417792 / 430472
+Dec 31 20:24:37 ubuntu python[4146]: TTS ACK: 417792
+Dec 31 20:24:37 ubuntu python[4146]: TTS TX: 419840 / 430472
+Dec 31 20:24:37 ubuntu python[4146]: TTS ACK: 419840
+Dec 31 20:24:37 ubuntu python[4146]: TTS TX: 421888 / 430472
+Dec 31 20:24:38 ubuntu python[4146]: TTS ACK: 421888
+Dec 31 20:24:38 ubuntu python[4146]: TTS TX: 423936 / 430472
+Dec 31 20:24:38 ubuntu python[4146]: TTS ACK: 423936
+Dec 31 20:24:38 ubuntu python[4146]: TTS TX: 425984 / 430472
+Dec 31 20:24:38 ubuntu python[4146]: TTS ACK: 425984
+Dec 31 20:24:38 ubuntu python[4146]: TTS TX: 428032 / 430472
+Dec 31 20:24:38 ubuntu python[4146]: TTS ACK: 428032
+Dec 31 20:24:38 ubuntu python[4146]: TTS TX: 430080 / 430472
+Dec 31 20:24:38 ubuntu python[4146]: TTS ACK: 430080
+Dec 31 20:24:38 ubuntu python[4146]: TTS TX: 430472 / 430472
+Dec 31 20:24:39 ubuntu python[4146]: TTS ACK: 430472
+Dec 31 20:24:39 ubuntu python[4146]: TOTAL: 64.424 s
+Dec 31 20:25:01 ubuntu python[4146]: QUERY_START:
+Dec 31 20:25:01 ubuntu python[4146]: Esperando 72364 bytes
+Dec 31 20:25:02 ubuntu python[4146]: AUDIO RX: 8192 / 72364
+Dec 31 20:25:03 ubuntu python[4146]: AUDIO RX: 16384 / 72364
+Dec 31 20:25:03 ubuntu python[4146]: AUDIO RX: 24576 / 72364
+Dec 31 20:25:04 ubuntu python[4146]: AUDIO RX: 32768 / 72364
+Dec 31 20:25:04 ubuntu python[4146]: AUDIO RX: 40960 / 72364
+Dec 31 20:25:05 ubuntu python[4146]: AUDIO RX: 49152 / 72364
+Dec 31 20:25:05 ubuntu python[4146]: AUDIO RX: 57344 / 72364
+Dec 31 20:25:06 ubuntu python[4146]: AUDIO RX: 65536 / 72364
+Dec 31 20:25:07 ubuntu python[4146]: AUDIO RX: 72364 / 72364
+Dec 31 20:25:07 ubuntu python[4146]: QUERY_END:
+Dec 31 20:25:07 ubuntu python[4146]: Recibido: 72364 / 72364
+Dec 31 20:25:07 ubuntu python[4146]: ============================================================
+Dec 31 20:25:07 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:25:07 ubuntu python[4146]: Bytes: 72364
+Dec 31 20:25:07 ubuntu python[4146]: ============================================================
+Dec 31 20:25:08 ubuntu python[4146]: Vosk: 1.231 s
+Dec 31 20:25:08 ubuntu python[4146]: TRANSCRIPCION: cuál es la capital de alemania
+Dec 31 20:25:08 ubuntu python[4146]: No es comando fisico
+Dec 31 20:25:08 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:25:08 ubuntu python[4146]: ============================================================
+Dec 31 20:25:08 ubuntu python[4146]: TEXTO: cuál es la capital de alemania
+Dec 31 20:25:08 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:25:08 ubuntu python[4146]: Ollama terminado en: 0.316 s
+Dec 31 20:25:12 ubuntu python[4146]: Piper terminado en: 3.188 s
+Dec 31 20:25:12 ubuntu python[4146]: TOTAL: 3.509 s
+Dec 31 20:25:12 ubuntu python[4146]: Qwen/router/Piper: 3.514 s
+Dec 31 20:25:12 ubuntu python[4146]: Respuesta: Berlín
+Dec 31 20:25:12 ubuntu python[4146]: Audio Piper: 39072 bytes
+Dec 31 20:25:12 ubuntu python[4146]: TTS TX: 2048 / 39072
+Dec 31 20:25:12 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:25:12 ubuntu python[4146]: TTS TX: 4096 / 39072
+Dec 31 20:25:12 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:25:12 ubuntu python[4146]: TTS TX: 6144 / 39072
+Dec 31 20:25:12 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:25:12 ubuntu python[4146]: TTS TX: 8192 / 39072
+Dec 31 20:25:13 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:25:13 ubuntu python[4146]: TTS TX: 10240 / 39072
+Dec 31 20:25:13 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:25:13 ubuntu python[4146]: TTS TX: 12288 / 39072
+Dec 31 20:25:13 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:25:13 ubuntu python[4146]: TTS TX: 14336 / 39072
+Dec 31 20:25:13 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:25:13 ubuntu python[4146]: TTS TX: 16384 / 39072
+Dec 31 20:25:13 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:25:13 ubuntu python[4146]: TTS TX: 18432 / 39072
+Dec 31 20:25:13 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:25:13 ubuntu python[4146]: TTS TX: 20480 / 39072
+Dec 31 20:25:14 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:25:14 ubuntu python[4146]: TTS TX: 22528 / 39072
+Dec 31 20:25:14 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:25:14 ubuntu python[4146]: TTS TX: 24576 / 39072
+Dec 31 20:25:14 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:25:14 ubuntu python[4146]: TTS TX: 26624 / 39072
+Dec 31 20:25:16 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:25:16 ubuntu python[4146]: TTS TX: 28672 / 39072
+Dec 31 20:25:17 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:25:17 ubuntu python[4146]: TTS TX: 30720 / 39072
+Dec 31 20:25:18 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:25:18 ubuntu python[4146]: TTS TX: 32768 / 39072
+Dec 31 20:25:18 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:25:18 ubuntu python[4146]: TTS TX: 34816 / 39072
+Dec 31 20:25:18 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:25:18 ubuntu python[4146]: TTS TX: 36864 / 39072
+Dec 31 20:25:18 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:25:18 ubuntu python[4146]: TTS TX: 38912 / 39072
+Dec 31 20:25:19 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:25:19 ubuntu python[4146]: TTS TX: 39072 / 39072
+Dec 31 20:25:20 ubuntu python[4146]: TTS ACK: 39072
+Dec 31 20:25:20 ubuntu python[4146]: TOTAL: 12.774 s
+Dec 31 20:25:27 ubuntu python[4146]: QUERY_START:
+Dec 31 20:25:27 ubuntu python[4146]: Esperando 87084 bytes
+Dec 31 20:25:29 ubuntu python[4146]: AUDIO RX: 8192 / 87084
+Dec 31 20:25:31 ubuntu python[4146]: AUDIO RX: 16384 / 87084
+Dec 31 20:25:31 ubuntu python[4146]: AUDIO RX: 24576 / 87084
+Dec 31 20:25:36 ubuntu python[4146]: AUDIO RX: 32768 / 87084
+Dec 31 20:25:36 ubuntu python[4146]: AUDIO RX: 40960 / 87084
+Dec 31 20:25:42 ubuntu python[4146]: AUDIO RX: 49152 / 87084
+Dec 31 20:25:45 ubuntu python[4146]: AUDIO RX: 57344 / 87084
+Dec 31 20:25:46 ubuntu python[4146]: AUDIO RX: 65536 / 87084
+Dec 31 20:25:48 ubuntu python[4146]: AUDIO RX: 73728 / 87084
+Dec 31 20:25:49 ubuntu python[4146]: AUDIO RX: 81920 / 87084
+Dec 31 20:25:49 ubuntu python[4146]: AUDIO RX: 87084 / 87084
+Dec 31 20:25:49 ubuntu python[4146]: QUERY_END:
+Dec 31 20:25:49 ubuntu python[4146]: Recibido: 87084 / 87084
+Dec 31 20:25:49 ubuntu python[4146]: ============================================================
+Dec 31 20:25:49 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:25:49 ubuntu python[4146]: Bytes: 87084
+Dec 31 20:25:49 ubuntu python[4146]: ============================================================
+Dec 31 20:25:50 ubuntu python[4146]: Vosk: 1.253 s
+Dec 31 20:25:50 ubuntu python[4146]: TRANSCRIPCION: cuál es el terminal terrestre de ambato
+Dec 31 20:25:50 ubuntu python[4146]: No es comando fisico
+Dec 31 20:25:50 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:25:50 ubuntu python[4146]: ============================================================
+Dec 31 20:25:50 ubuntu python[4146]: TEXTO: cuál es el terminal terrestre de ambato
+Dec 31 20:25:50 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:25:51 ubuntu python[4146]: Ollama terminado en: 0.931 s
+Dec 31 20:25:55 ubuntu python[4146]: Piper terminado en: 3.725 s
+Dec 31 20:25:55 ubuntu python[4146]: TOTAL: 4.658 s
+Dec 31 20:25:55 ubuntu python[4146]: Qwen/router/Piper: 4.664 s
+Dec 31 20:25:55 ubuntu python[4146]: Respuesta: El terminal terrestre de Ambato es el terminal de la ciudad de Ambato, Ecuador.
+Dec 31 20:25:55 ubuntu python[4146]: Audio Piper: 209568 bytes
+Dec 31 20:25:55 ubuntu python[4146]: TTS TX: 2048 / 209568
+Dec 31 20:25:55 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:25:55 ubuntu python[4146]: TTS TX: 4096 / 209568
+Dec 31 20:25:55 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:25:55 ubuntu python[4146]: TTS TX: 6144 / 209568
+Dec 31 20:25:55 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:25:55 ubuntu python[4146]: TTS TX: 8192 / 209568
+Dec 31 20:25:56 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:25:56 ubuntu python[4146]: TTS TX: 10240 / 209568
+Dec 31 20:25:57 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:25:57 ubuntu python[4146]: TTS TX: 12288 / 209568
+Dec 31 20:25:57 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:25:57 ubuntu python[4146]: TTS TX: 14336 / 209568
+Dec 31 20:25:57 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:25:57 ubuntu python[4146]: TTS TX: 16384 / 209568
+Dec 31 20:25:57 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:25:57 ubuntu python[4146]: TTS TX: 18432 / 209568
+Dec 31 20:25:59 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:25:59 ubuntu python[4146]: TTS TX: 20480 / 209568
+Dec 31 20:26:00 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:26:00 ubuntu python[4146]: TTS TX: 22528 / 209568
+Dec 31 20:26:00 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:26:00 ubuntu python[4146]: TTS TX: 24576 / 209568
+Dec 31 20:26:02 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:26:02 ubuntu python[4146]: TTS TX: 26624 / 209568
+Dec 31 20:26:05 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:26:05 ubuntu python[4146]: TTS TX: 28672 / 209568
+Dec 31 20:26:05 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:26:05 ubuntu python[4146]: TTS TX: 30720 / 209568
+Dec 31 20:26:05 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:26:05 ubuntu python[4146]: TTS TX: 32768 / 209568
+Dec 31 20:26:06 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:26:06 ubuntu python[4146]: TTS TX: 34816 / 209568
+Dec 31 20:26:06 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:26:06 ubuntu python[4146]: TTS TX: 36864 / 209568
+Dec 31 20:26:07 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:26:07 ubuntu python[4146]: TTS TX: 38912 / 209568
+Dec 31 20:26:10 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:26:10 ubuntu python[4146]: TTS TX: 40960 / 209568
+Dec 31 20:26:12 ubuntu python[4146]: TTS ACK: 40960
+Dec 31 20:26:12 ubuntu python[4146]: TTS TX: 43008 / 209568
+Dec 31 20:26:12 ubuntu python[4146]: TTS ACK: 43008
+Dec 31 20:26:12 ubuntu python[4146]: TTS TX: 45056 / 209568
+Dec 31 20:26:13 ubuntu python[4146]: TTS ACK: 45056
+Dec 31 20:26:13 ubuntu python[4146]: TTS TX: 47104 / 209568
+Dec 31 20:26:13 ubuntu python[4146]: TTS ACK: 47104
+Dec 31 20:26:13 ubuntu python[4146]: TTS TX: 49152 / 209568
+Dec 31 20:26:14 ubuntu python[4146]: TTS ACK: 49152
+Dec 31 20:26:14 ubuntu python[4146]: TTS TX: 51200 / 209568
+Dec 31 20:26:16 ubuntu python[4146]: TTS ACK: 51200
+Dec 31 20:26:16 ubuntu python[4146]: TTS TX: 53248 / 209568
+Dec 31 20:26:17 ubuntu python[4146]: TTS ACK: 53248
+Dec 31 20:26:17 ubuntu python[4146]: TTS TX: 55296 / 209568
+Dec 31 20:26:17 ubuntu python[4146]: TTS ACK: 55296
+Dec 31 20:26:17 ubuntu python[4146]: TTS TX: 57344 / 209568
+Dec 31 20:26:17 ubuntu python[4146]: TTS ACK: 57344
+Dec 31 20:26:17 ubuntu python[4146]: TTS TX: 59392 / 209568
+Dec 31 20:26:18 ubuntu python[4146]: TTS ACK: 59392
+Dec 31 20:26:18 ubuntu python[4146]: TTS TX: 61440 / 209568
+Dec 31 20:26:19 ubuntu python[4146]: TTS ACK: 61440
+Dec 31 20:26:19 ubuntu python[4146]: TTS TX: 63488 / 209568
+Dec 31 20:26:19 ubuntu python[4146]: TTS ACK: 63488
+Dec 31 20:26:19 ubuntu python[4146]: TTS TX: 65536 / 209568
+Dec 31 20:26:20 ubuntu python[4146]: TTS ACK: 65536
+Dec 31 20:26:20 ubuntu python[4146]: TTS TX: 67584 / 209568
+Dec 31 20:26:20 ubuntu python[4146]: TTS ACK: 67584
+Dec 31 20:26:20 ubuntu python[4146]: TTS TX: 69632 / 209568
+Dec 31 20:26:20 ubuntu python[4146]: TTS ACK: 69632
+Dec 31 20:26:20 ubuntu python[4146]: TTS TX: 71680 / 209568
+Dec 31 20:26:20 ubuntu python[4146]: TTS ACK: 71680
+Dec 31 20:26:20 ubuntu python[4146]: TTS TX: 73728 / 209568
+Dec 31 20:26:20 ubuntu python[4146]: TTS ACK: 73728
+Dec 31 20:26:20 ubuntu python[4146]: TTS TX: 75776 / 209568
+Dec 31 20:26:20 ubuntu python[4146]: TTS ACK: 75776
+Dec 31 20:26:20 ubuntu python[4146]: TTS TX: 77824 / 209568
+Dec 31 20:26:21 ubuntu python[4146]: TTS ACK: 77824
+Dec 31 20:26:21 ubuntu python[4146]: TTS TX: 79872 / 209568
+Dec 31 20:26:21 ubuntu python[4146]: TTS ACK: 79872
+Dec 31 20:26:21 ubuntu python[4146]: TTS TX: 81920 / 209568
+Dec 31 20:26:22 ubuntu python[4146]: TTS ACK: 81920
+Dec 31 20:26:22 ubuntu python[4146]: TTS TX: 83968 / 209568
+Dec 31 20:26:22 ubuntu python[4146]: TTS ACK: 83968
+Dec 31 20:26:22 ubuntu python[4146]: TTS TX: 86016 / 209568
+Dec 31 20:26:22 ubuntu python[4146]: TTS ACK: 86016
+Dec 31 20:26:22 ubuntu python[4146]: TTS TX: 88064 / 209568
+Dec 31 20:26:22 ubuntu python[4146]: TTS ACK: 88064
+Dec 31 20:26:22 ubuntu python[4146]: TTS TX: 90112 / 209568
+Dec 31 20:26:22 ubuntu python[4146]: TTS ACK: 90112
+Dec 31 20:26:22 ubuntu python[4146]: TTS TX: 92160 / 209568
+Dec 31 20:26:23 ubuntu python[4146]: TTS ACK: 92160
+Dec 31 20:26:23 ubuntu python[4146]: TTS TX: 94208 / 209568
+Dec 31 20:26:23 ubuntu python[4146]: TTS ACK: 94208
+Dec 31 20:26:23 ubuntu python[4146]: TTS TX: 96256 / 209568
+Dec 31 20:26:23 ubuntu python[4146]: TTS ACK: 96256
+Dec 31 20:26:23 ubuntu python[4146]: TTS TX: 98304 / 209568
+Dec 31 20:26:24 ubuntu python[4146]: TTS ACK: 98304
+Dec 31 20:26:24 ubuntu python[4146]: TTS TX: 100352 / 209568
+Dec 31 20:26:24 ubuntu python[4146]: TTS ACK: 100352
+Dec 31 20:26:24 ubuntu python[4146]: TTS TX: 102400 / 209568
+Dec 31 20:26:24 ubuntu python[4146]: TTS ACK: 102400
+Dec 31 20:26:24 ubuntu python[4146]: TTS TX: 104448 / 209568
+Dec 31 20:26:25 ubuntu python[4146]: TTS ACK: 104448
+Dec 31 20:26:25 ubuntu python[4146]: TTS TX: 106496 / 209568
+Dec 31 20:26:25 ubuntu python[4146]: TTS ACK: 106496
+Dec 31 20:26:25 ubuntu python[4146]: TTS TX: 108544 / 209568
+Dec 31 20:26:25 ubuntu python[4146]: TTS ACK: 108544
+Dec 31 20:26:25 ubuntu python[4146]: TTS TX: 110592 / 209568
+Dec 31 20:26:25 ubuntu python[4146]: TTS ACK: 110592
+Dec 31 20:26:25 ubuntu python[4146]: TTS TX: 112640 / 209568
+Dec 31 20:26:25 ubuntu python[4146]: TTS ACK: 112640
+Dec 31 20:26:25 ubuntu python[4146]: TTS TX: 114688 / 209568
+Dec 31 20:26:26 ubuntu python[4146]: TTS ACK: 114688
+Dec 31 20:26:26 ubuntu python[4146]: TTS TX: 116736 / 209568
+Dec 31 20:26:26 ubuntu python[4146]: TTS ACK: 116736
+Dec 31 20:26:26 ubuntu python[4146]: TTS TX: 118784 / 209568
+Dec 31 20:26:28 ubuntu python[4146]: TTS ACK: 118784
+Dec 31 20:26:28 ubuntu python[4146]: TTS TX: 120832 / 209568
+Dec 31 20:26:29 ubuntu python[4146]: TTS ACK: 120832
+Dec 31 20:26:29 ubuntu python[4146]: TTS TX: 122880 / 209568
+Dec 31 20:26:29 ubuntu python[4146]: TTS ACK: 122880
+Dec 31 20:26:29 ubuntu python[4146]: TTS TX: 124928 / 209568
+Dec 31 20:26:30 ubuntu python[4146]: TTS ACK: 124928
+Dec 31 20:26:30 ubuntu python[4146]: TTS TX: 126976 / 209568
+Dec 31 20:26:30 ubuntu python[4146]: TTS ACK: 126976
+Dec 31 20:26:30 ubuntu python[4146]: TTS TX: 129024 / 209568
+Dec 31 20:26:30 ubuntu python[4146]: TTS ACK: 129024
+Dec 31 20:26:30 ubuntu python[4146]: TTS TX: 131072 / 209568
+Dec 31 20:26:31 ubuntu python[4146]: TTS ACK: 131072
+Dec 31 20:26:31 ubuntu python[4146]: TTS TX: 133120 / 209568
+Dec 31 20:26:31 ubuntu python[4146]: TTS ACK: 133120
+Dec 31 20:26:31 ubuntu python[4146]: TTS TX: 135168 / 209568
+Dec 31 20:26:31 ubuntu python[4146]: TTS ACK: 135168
+Dec 31 20:26:31 ubuntu python[4146]: TTS TX: 137216 / 209568
+Dec 31 20:26:31 ubuntu python[4146]: TTS ACK: 137216
+Dec 31 20:26:31 ubuntu python[4146]: TTS TX: 139264 / 209568
+Dec 31 20:26:31 ubuntu python[4146]: TTS ACK: 139264
+Dec 31 20:26:31 ubuntu python[4146]: TTS TX: 141312 / 209568
+Dec 31 20:26:31 ubuntu python[4146]: TTS ACK: 141312
+Dec 31 20:26:31 ubuntu python[4146]: TTS TX: 143360 / 209568
+Dec 31 20:26:31 ubuntu python[4146]: TTS ACK: 143360
+Dec 31 20:26:31 ubuntu python[4146]: TTS TX: 145408 / 209568
+Dec 31 20:26:32 ubuntu python[4146]: TTS ACK: 145408
+Dec 31 20:26:32 ubuntu python[4146]: TTS TX: 147456 / 209568
+Dec 31 20:26:33 ubuntu python[4146]: TTS ACK: 147456
+Dec 31 20:26:33 ubuntu python[4146]: TTS TX: 149504 / 209568
+Dec 31 20:26:33 ubuntu python[4146]: TTS ACK: 149504
+Dec 31 20:26:33 ubuntu python[4146]: TTS TX: 151552 / 209568
+Dec 31 20:26:33 ubuntu python[4146]: TTS ACK: 151552
+Dec 31 20:26:33 ubuntu python[4146]: TTS TX: 153600 / 209568
+Dec 31 20:26:33 ubuntu python[4146]: TTS ACK: 153600
+Dec 31 20:26:33 ubuntu python[4146]: TTS TX: 155648 / 209568
+Dec 31 20:26:33 ubuntu python[4146]: TTS ACK: 155648
+Dec 31 20:26:33 ubuntu python[4146]: TTS TX: 157696 / 209568
+Dec 31 20:26:33 ubuntu python[4146]: TTS ACK: 157696
+Dec 31 20:26:33 ubuntu python[4146]: TTS TX: 159744 / 209568
+Dec 31 20:26:34 ubuntu python[4146]: TTS ACK: 159744
+Dec 31 20:26:34 ubuntu python[4146]: TTS TX: 161792 / 209568
+Dec 31 20:26:34 ubuntu python[4146]: TTS ACK: 161792
+Dec 31 20:26:34 ubuntu python[4146]: TTS TX: 163840 / 209568
+Dec 31 20:26:34 ubuntu python[4146]: TTS ACK: 163840
+Dec 31 20:26:34 ubuntu python[4146]: TTS TX: 165888 / 209568
+Dec 31 20:26:35 ubuntu python[4146]: TTS ACK: 165888
+Dec 31 20:26:35 ubuntu python[4146]: TTS TX: 167936 / 209568
+Dec 31 20:26:35 ubuntu python[4146]: TTS ACK: 167936
+Dec 31 20:26:35 ubuntu python[4146]: TTS TX: 169984 / 209568
+Dec 31 20:26:35 ubuntu python[4146]: TTS ACK: 169984
+Dec 31 20:26:35 ubuntu python[4146]: TTS TX: 172032 / 209568
+Dec 31 20:26:35 ubuntu python[4146]: TTS ACK: 172032
+Dec 31 20:26:35 ubuntu python[4146]: TTS TX: 174080 / 209568
+Dec 31 20:26:36 ubuntu python[4146]: TTS ACK: 174080
+Dec 31 20:26:36 ubuntu python[4146]: TTS TX: 176128 / 209568
+Dec 31 20:26:37 ubuntu python[4146]: TTS ACK: 176128
+Dec 31 20:26:37 ubuntu python[4146]: TTS TX: 178176 / 209568
+Dec 31 20:26:37 ubuntu python[4146]: TTS ACK: 178176
+Dec 31 20:26:37 ubuntu python[4146]: TTS TX: 180224 / 209568
+Dec 31 20:26:38 ubuntu python[4146]: TTS ACK: 180224
+Dec 31 20:26:38 ubuntu python[4146]: TTS TX: 182272 / 209568
+Dec 31 20:26:39 ubuntu python[4146]: TTS ACK: 182272
+Dec 31 20:26:39 ubuntu python[4146]: TTS TX: 184320 / 209568
+Dec 31 20:26:39 ubuntu python[4146]: TTS ACK: 184320
+Dec 31 20:26:39 ubuntu python[4146]: TTS TX: 186368 / 209568
+Dec 31 20:26:39 ubuntu python[4146]: TTS ACK: 186368
+Dec 31 20:26:39 ubuntu python[4146]: TTS TX: 188416 / 209568
+Dec 31 20:26:39 ubuntu python[4146]: TTS ACK: 188416
+Dec 31 20:26:39 ubuntu python[4146]: TTS TX: 190464 / 209568
+Dec 31 20:26:39 ubuntu python[4146]: TTS ACK: 190464
+Dec 31 20:26:39 ubuntu python[4146]: TTS TX: 192512 / 209568
+Dec 31 20:26:40 ubuntu python[4146]: TTS ACK: 192512
+Dec 31 20:26:40 ubuntu python[4146]: TTS TX: 194560 / 209568
+Dec 31 20:26:40 ubuntu python[4146]: TTS ACK: 194560
+Dec 31 20:26:40 ubuntu python[4146]: TTS TX: 196608 / 209568
+Dec 31 20:26:40 ubuntu python[4146]: TTS ACK: 196608
+Dec 31 20:26:40 ubuntu python[4146]: TTS TX: 198656 / 209568
+Dec 31 20:26:40 ubuntu python[4146]: TTS ACK: 198656
+Dec 31 20:26:40 ubuntu python[4146]: TTS TX: 200704 / 209568
+Dec 31 20:26:40 ubuntu python[4146]: TTS ACK: 200704
+Dec 31 20:26:40 ubuntu python[4146]: TTS TX: 202752 / 209568
+Dec 31 20:26:41 ubuntu python[4146]: TTS ACK: 202752
+Dec 31 20:26:41 ubuntu python[4146]: TTS TX: 204800 / 209568
+Dec 31 20:26:41 ubuntu python[4146]: TTS ACK: 204800
+Dec 31 20:26:41 ubuntu python[4146]: TTS TX: 206848 / 209568
+Dec 31 20:26:42 ubuntu python[4146]: TTS ACK: 206848
+Dec 31 20:26:42 ubuntu python[4146]: TTS TX: 208896 / 209568
+Dec 31 20:26:42 ubuntu python[4146]: TTS ACK: 208896
+Dec 31 20:26:42 ubuntu python[4146]: TTS TX: 209568 / 209568
+Dec 31 20:26:42 ubuntu python[4146]: TTS ACK: 209568
+Dec 31 20:26:42 ubuntu python[4146]: TOTAL: 53.126 s
+Dec 31 20:26:54 ubuntu python[4146]: QUERY_START:
+Dec 31 20:26:54 ubuntu python[4146]: Esperando 110124 bytes
+Dec 31 20:26:55 ubuntu python[4146]: AUDIO RX: 8192 / 110124
+Dec 31 20:26:55 ubuntu python[4146]: AUDIO RX: 16384 / 110124
+Dec 31 20:26:55 ubuntu python[4146]: AUDIO RX: 24576 / 110124
+Dec 31 20:26:57 ubuntu python[4146]: AUDIO RX: 32768 / 110124
+Dec 31 20:26:58 ubuntu python[4146]: AUDIO RX: 40960 / 110124
+Dec 31 20:26:58 ubuntu python[4146]: AUDIO RX: 49152 / 110124
+Dec 31 20:26:58 ubuntu python[4146]: AUDIO RX: 57344 / 110124
+Dec 31 20:26:59 ubuntu python[4146]: AUDIO RX: 65536 / 110124
+Dec 31 20:26:59 ubuntu python[4146]: AUDIO RX: 73728 / 110124
+Dec 31 20:26:59 ubuntu python[4146]: AUDIO RX: 81920 / 110124
+Dec 31 20:27:00 ubuntu python[4146]: AUDIO RX: 90112 / 110124
+Dec 31 20:27:00 ubuntu python[4146]: AUDIO RX: 98304 / 110124
+Dec 31 20:27:05 ubuntu python[4146]: AUDIO RX: 106496 / 110124
+Dec 31 20:27:05 ubuntu python[4146]: AUDIO RX: 110124 / 110124
+Dec 31 20:27:05 ubuntu python[4146]: QUERY_END:
+Dec 31 20:27:05 ubuntu python[4146]: Recibido: 110124 / 110124
+Dec 31 20:27:05 ubuntu python[4146]: ============================================================
+Dec 31 20:27:05 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:27:05 ubuntu python[4146]: Bytes: 110124
+Dec 31 20:27:05 ubuntu python[4146]: ============================================================
+Dec 31 20:27:08 ubuntu python[4146]: Vosk: 2.112 s
+Dec 31 20:27:08 ubuntu python[4146]: TRANSCRIPCION: que más tiene terminal terrestre
+Dec 31 20:27:08 ubuntu python[4146]: No es comando fisico
+Dec 31 20:27:08 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:27:08 ubuntu python[4146]: ============================================================
+Dec 31 20:27:08 ubuntu python[4146]: TEXTO: que más tiene terminal terrestre
+Dec 31 20:27:08 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:27:09 ubuntu python[4146]: Ollama terminado en: 1.0 s
+Dec 31 20:27:13 ubuntu python[4146]: Piper terminado en: 4.036 s
+Dec 31 20:27:13 ubuntu python[4146]: TOTAL: 5.038 s
+Dec 31 20:27:13 ubuntu python[4146]: Qwen/router/Piper: 5.043 s
+Dec 31 20:27:13 ubuntu python[4146]: Respuesta: El terminal terrestre tiene una pantalla táctil, un teclado y una batería.
+Dec 31 20:27:13 ubuntu python[4146]: Audio Piper: 231584 bytes
+Dec 31 20:27:13 ubuntu python[4146]: TTS TX: 2048 / 231584
+Dec 31 20:27:13 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:27:13 ubuntu python[4146]: TTS TX: 4096 / 231584
+Dec 31 20:27:13 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:27:13 ubuntu python[4146]: TTS TX: 6144 / 231584
+Dec 31 20:27:13 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:27:13 ubuntu python[4146]: TTS TX: 8192 / 231584
+Dec 31 20:27:13 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:27:13 ubuntu python[4146]: TTS TX: 10240 / 231584
+Dec 31 20:27:13 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:27:13 ubuntu python[4146]: TTS TX: 12288 / 231584
+Dec 31 20:27:14 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:27:14 ubuntu python[4146]: TTS TX: 14336 / 231584
+Dec 31 20:27:14 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:27:14 ubuntu python[4146]: TTS TX: 16384 / 231584
+Dec 31 20:27:14 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:27:14 ubuntu python[4146]: TTS TX: 18432 / 231584
+Dec 31 20:27:15 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:27:15 ubuntu python[4146]: TTS TX: 20480 / 231584
+Dec 31 20:27:15 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:27:15 ubuntu python[4146]: TTS TX: 22528 / 231584
+Dec 31 20:27:15 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:27:15 ubuntu python[4146]: TTS TX: 24576 / 231584
+Dec 31 20:27:15 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:27:15 ubuntu python[4146]: TTS TX: 26624 / 231584
+Dec 31 20:27:15 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:27:15 ubuntu python[4146]: TTS TX: 28672 / 231584
+Dec 31 20:27:15 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:27:15 ubuntu python[4146]: TTS TX: 30720 / 231584
+Dec 31 20:27:15 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:27:15 ubuntu python[4146]: TTS TX: 32768 / 231584
+Dec 31 20:27:16 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:27:16 ubuntu python[4146]: TTS TX: 34816 / 231584
+Dec 31 20:27:16 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:27:16 ubuntu python[4146]: TTS TX: 36864 / 231584
+Dec 31 20:27:16 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:27:16 ubuntu python[4146]: TTS TX: 38912 / 231584
+Dec 31 20:27:16 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:27:16 ubuntu python[4146]: TTS TX: 40960 / 231584
+Dec 31 20:27:17 ubuntu python[4146]: TTS ACK: 40960
+Dec 31 20:27:17 ubuntu python[4146]: TTS TX: 43008 / 231584
+Dec 31 20:27:17 ubuntu python[4146]: TTS ACK: 43008
+Dec 31 20:27:17 ubuntu python[4146]: TTS TX: 45056 / 231584
+Dec 31 20:27:18 ubuntu python[4146]: TTS ACK: 45056
+Dec 31 20:27:18 ubuntu python[4146]: TTS TX: 47104 / 231584
+Dec 31 20:27:18 ubuntu python[4146]: TTS ACK: 47104
+Dec 31 20:27:18 ubuntu python[4146]: TTS TX: 49152 / 231584
+Dec 31 20:27:19 ubuntu python[4146]: TTS ACK: 49152
+Dec 31 20:27:19 ubuntu python[4146]: TTS TX: 51200 / 231584
+Dec 31 20:27:19 ubuntu python[4146]: TTS ACK: 51200
+Dec 31 20:27:19 ubuntu python[4146]: TTS TX: 53248 / 231584
+Dec 31 20:27:20 ubuntu python[4146]: TTS ACK: 53248
+Dec 31 20:27:20 ubuntu python[4146]: TTS TX: 55296 / 231584
+Dec 31 20:27:22 ubuntu python[4146]: TTS ACK: 55296
+Dec 31 20:27:22 ubuntu python[4146]: TTS TX: 57344 / 231584
+Dec 31 20:27:22 ubuntu python[4146]: TTS ACK: 57344
+Dec 31 20:27:22 ubuntu python[4146]: TTS TX: 59392 / 231584
+Dec 31 20:27:23 ubuntu python[4146]: TTS ACK: 59392
+Dec 31 20:27:23 ubuntu python[4146]: TTS TX: 61440 / 231584
+Dec 31 20:27:24 ubuntu python[4146]: TTS ACK: 61440
+Dec 31 20:27:24 ubuntu python[4146]: TTS TX: 63488 / 231584
+Dec 31 20:27:25 ubuntu python[4146]: TTS ACK: 63488
+Dec 31 20:27:25 ubuntu python[4146]: TTS TX: 65536 / 231584
+Dec 31 20:27:25 ubuntu python[4146]: TTS ACK: 65536
+Dec 31 20:27:25 ubuntu python[4146]: TTS TX: 67584 / 231584
+Dec 31 20:27:25 ubuntu python[4146]: TTS ACK: 67584
+Dec 31 20:27:25 ubuntu python[4146]: TTS TX: 69632 / 231584
+Dec 31 20:27:25 ubuntu python[4146]: TTS ACK: 69632
+Dec 31 20:27:25 ubuntu python[4146]: TTS TX: 71680 / 231584
+Dec 31 20:27:26 ubuntu python[4146]: TTS ACK: 71680
+Dec 31 20:27:26 ubuntu python[4146]: TTS TX: 73728 / 231584
+Dec 31 20:27:26 ubuntu python[4146]: TTS ACK: 73728
+Dec 31 20:27:26 ubuntu python[4146]: TTS TX: 75776 / 231584
+Dec 31 20:27:27 ubuntu python[4146]: TTS ACK: 75776
+Dec 31 20:27:27 ubuntu python[4146]: TTS TX: 77824 / 231584
+Dec 31 20:27:28 ubuntu python[4146]: TTS ACK: 77824
+Dec 31 20:27:28 ubuntu python[4146]: TTS TX: 79872 / 231584
+Dec 31 20:27:28 ubuntu python[4146]: TTS ACK: 79872
+Dec 31 20:27:28 ubuntu python[4146]: TTS TX: 81920 / 231584
+Dec 31 20:27:28 ubuntu python[4146]: TTS ACK: 81920
+Dec 31 20:27:28 ubuntu python[4146]: TTS TX: 83968 / 231584
+Dec 31 20:27:29 ubuntu python[4146]: TTS ACK: 83968
+Dec 31 20:27:29 ubuntu python[4146]: TTS TX: 86016 / 231584
+Dec 31 20:27:29 ubuntu python[4146]: TTS ACK: 86016
+Dec 31 20:27:29 ubuntu python[4146]: TTS TX: 88064 / 231584
+Dec 31 20:27:29 ubuntu python[4146]: TTS ACK: 88064
+Dec 31 20:27:29 ubuntu python[4146]: TTS TX: 90112 / 231584
+Dec 31 20:27:30 ubuntu python[4146]: TTS ACK: 90112
+Dec 31 20:27:30 ubuntu python[4146]: TTS TX: 92160 / 231584
+Dec 31 20:27:30 ubuntu python[4146]: TTS ACK: 92160
+Dec 31 20:27:30 ubuntu python[4146]: TTS TX: 94208 / 231584
+Dec 31 20:27:30 ubuntu python[4146]: TTS ACK: 94208
+Dec 31 20:27:30 ubuntu python[4146]: TTS TX: 96256 / 231584
+Dec 31 20:27:31 ubuntu python[4146]: TTS ACK: 96256
+Dec 31 20:27:31 ubuntu python[4146]: TTS TX: 98304 / 231584
+Dec 31 20:27:32 ubuntu python[4146]: TTS ACK: 98304
+Dec 31 20:27:32 ubuntu python[4146]: TTS TX: 100352 / 231584
+Dec 31 20:27:33 ubuntu python[4146]: TTS ACK: 100352
+Dec 31 20:27:33 ubuntu python[4146]: TTS TX: 102400 / 231584
+Dec 31 20:27:34 ubuntu python[4146]: TTS ACK: 102400
+Dec 31 20:27:34 ubuntu python[4146]: TTS TX: 104448 / 231584
+Dec 31 20:27:34 ubuntu python[4146]: TTS ACK: 104448
+Dec 31 20:27:34 ubuntu python[4146]: TTS TX: 106496 / 231584
+Dec 31 20:27:34 ubuntu python[4146]: TTS ACK: 106496
+Dec 31 20:27:34 ubuntu python[4146]: TTS TX: 108544 / 231584
+Dec 31 20:27:34 ubuntu python[4146]: TTS ACK: 108544
+Dec 31 20:27:34 ubuntu python[4146]: TTS TX: 110592 / 231584
+Dec 31 20:27:34 ubuntu python[4146]: TTS ACK: 110592
+Dec 31 20:27:34 ubuntu python[4146]: TTS TX: 112640 / 231584
+Dec 31 20:27:35 ubuntu python[4146]: TTS ACK: 112640
+Dec 31 20:27:35 ubuntu python[4146]: TTS TX: 114688 / 231584
+Dec 31 20:27:35 ubuntu python[4146]: TTS ACK: 114688
+Dec 31 20:27:35 ubuntu python[4146]: TTS TX: 116736 / 231584
+Dec 31 20:27:37 ubuntu python[4146]: TTS ACK: 116736
+Dec 31 20:27:37 ubuntu python[4146]: TTS TX: 118784 / 231584
+Dec 31 20:27:38 ubuntu python[4146]: TTS ACK: 118784
+Dec 31 20:27:38 ubuntu python[4146]: TTS TX: 120832 / 231584
+Dec 31 20:27:38 ubuntu python[4146]: TTS ACK: 120832
+Dec 31 20:27:38 ubuntu python[4146]: TTS TX: 122880 / 231584
+Dec 31 20:27:39 ubuntu python[4146]: TTS ACK: 122880
+Dec 31 20:27:39 ubuntu python[4146]: TTS TX: 124928 / 231584
+Dec 31 20:27:39 ubuntu python[4146]: TTS ACK: 124928
+Dec 31 20:27:39 ubuntu python[4146]: TTS TX: 126976 / 231584
+Dec 31 20:27:39 ubuntu python[4146]: TTS ACK: 126976
+Dec 31 20:27:39 ubuntu python[4146]: TTS TX: 129024 / 231584
+Dec 31 20:27:39 ubuntu python[4146]: TTS ACK: 129024
+Dec 31 20:27:39 ubuntu python[4146]: TTS TX: 131072 / 231584
+Dec 31 20:27:40 ubuntu python[4146]: TTS ACK: 131072
+Dec 31 20:27:40 ubuntu python[4146]: TTS TX: 133120 / 231584
+Dec 31 20:27:40 ubuntu python[4146]: TTS ACK: 133120
+Dec 31 20:27:40 ubuntu python[4146]: TTS TX: 135168 / 231584
+Dec 31 20:27:43 ubuntu python[4146]: TTS ACK: 135168
+Dec 31 20:27:43 ubuntu python[4146]: TTS TX: 137216 / 231584
+Dec 31 20:27:43 ubuntu python[4146]: TTS ACK: 137216
+Dec 31 20:27:43 ubuntu python[4146]: TTS TX: 139264 / 231584
+Dec 31 20:27:44 ubuntu python[4146]: TTS ACK: 139264
+Dec 31 20:27:44 ubuntu python[4146]: TTS TX: 141312 / 231584
+Dec 31 20:27:44 ubuntu python[4146]: TTS ACK: 141312
+Dec 31 20:27:44 ubuntu python[4146]: TTS TX: 143360 / 231584
+Dec 31 20:27:45 ubuntu python[4146]: TTS ACK: 143360
+Dec 31 20:27:45 ubuntu python[4146]: TTS TX: 145408 / 231584
+Dec 31 20:27:46 ubuntu python[4146]: TTS ACK: 145408
+Dec 31 20:27:46 ubuntu python[4146]: TTS TX: 147456 / 231584
+Dec 31 20:27:46 ubuntu python[4146]: TTS ACK: 147456
+Dec 31 20:27:46 ubuntu python[4146]: TTS TX: 149504 / 231584
+Dec 31 20:27:46 ubuntu python[4146]: TTS ACK: 149504
+Dec 31 20:27:46 ubuntu python[4146]: TTS TX: 151552 / 231584
+Dec 31 20:27:46 ubuntu python[4146]: TTS ACK: 151552
+Dec 31 20:27:46 ubuntu python[4146]: TTS TX: 153600 / 231584
+Dec 31 20:27:46 ubuntu python[4146]: TTS ACK: 153600
+Dec 31 20:27:46 ubuntu python[4146]: TTS TX: 155648 / 231584
+Dec 31 20:27:48 ubuntu python[4146]: TTS ACK: 155648
+Dec 31 20:27:48 ubuntu python[4146]: TTS TX: 157696 / 231584
+Dec 31 20:27:48 ubuntu python[4146]: TTS ACK: 157696
+Dec 31 20:27:48 ubuntu python[4146]: TTS TX: 159744 / 231584
+Dec 31 20:27:48 ubuntu python[4146]: TTS ACK: 159744
+Dec 31 20:27:48 ubuntu python[4146]: TTS TX: 161792 / 231584
+Dec 31 20:27:48 ubuntu python[4146]: TTS ACK: 161792
+Dec 31 20:27:48 ubuntu python[4146]: TTS TX: 163840 / 231584
+Dec 31 20:27:48 ubuntu python[4146]: TTS ACK: 163840
+Dec 31 20:27:48 ubuntu python[4146]: TTS TX: 165888 / 231584
+Dec 31 20:27:49 ubuntu python[4146]: TTS ACK: 165888
+Dec 31 20:27:49 ubuntu python[4146]: TTS TX: 167936 / 231584
+Dec 31 20:27:49 ubuntu python[4146]: TTS ACK: 167936
+Dec 31 20:27:49 ubuntu python[4146]: TTS TX: 169984 / 231584
+Dec 31 20:27:49 ubuntu python[4146]: TTS ACK: 169984
+Dec 31 20:27:49 ubuntu python[4146]: TTS TX: 172032 / 231584
+Dec 31 20:27:50 ubuntu python[4146]: TTS ACK: 172032
+Dec 31 20:27:50 ubuntu python[4146]: TTS TX: 174080 / 231584
+Dec 31 20:27:50 ubuntu python[4146]: TTS ACK: 174080
+Dec 31 20:27:50 ubuntu python[4146]: TTS TX: 176128 / 231584
+Dec 31 20:27:50 ubuntu python[4146]: TTS ACK: 176128
+Dec 31 20:27:50 ubuntu python[4146]: TTS TX: 178176 / 231584
+Dec 31 20:27:52 ubuntu python[4146]: TTS ACK: 178176
+Dec 31 20:27:52 ubuntu python[4146]: TTS TX: 180224 / 231584
+Dec 31 20:27:52 ubuntu python[4146]: TTS ACK: 180224
+Dec 31 20:27:52 ubuntu python[4146]: TTS TX: 182272 / 231584
+Dec 31 20:27:52 ubuntu python[4146]: TTS ACK: 182272
+Dec 31 20:27:52 ubuntu python[4146]: TTS TX: 184320 / 231584
+Dec 31 20:27:52 ubuntu python[4146]: TTS ACK: 184320
+Dec 31 20:27:52 ubuntu python[4146]: TTS TX: 186368 / 231584
+Dec 31 20:27:53 ubuntu python[4146]: TTS ACK: 186368
+Dec 31 20:27:53 ubuntu python[4146]: TTS TX: 188416 / 231584
+Dec 31 20:27:55 ubuntu python[4146]: TTS ACK: 188416
+Dec 31 20:27:55 ubuntu python[4146]: TTS TX: 190464 / 231584
+Dec 31 20:27:55 ubuntu python[4146]: TTS ACK: 190464
+Dec 31 20:27:55 ubuntu python[4146]: TTS TX: 192512 / 231584
+Dec 31 20:27:55 ubuntu python[4146]: TTS ACK: 192512
+Dec 31 20:27:55 ubuntu python[4146]: TTS TX: 194560 / 231584
+Dec 31 20:27:56 ubuntu python[4146]: TTS ACK: 194560
+Dec 31 20:27:56 ubuntu python[4146]: TTS TX: 196608 / 231584
+Dec 31 20:27:56 ubuntu python[4146]: TTS ACK: 196608
+Dec 31 20:27:56 ubuntu python[4146]: TTS TX: 198656 / 231584
+Dec 31 20:27:57 ubuntu python[4146]: TTS ACK: 198656
+Dec 31 20:27:57 ubuntu python[4146]: TTS TX: 200704 / 231584
+Dec 31 20:27:58 ubuntu python[4146]: TTS ACK: 200704
+Dec 31 20:27:58 ubuntu python[4146]: TTS TX: 202752 / 231584
+Dec 31 20:27:58 ubuntu python[4146]: TTS ACK: 202752
+Dec 31 20:27:58 ubuntu python[4146]: TTS TX: 204800 / 231584
+Dec 31 20:27:58 ubuntu python[4146]: TTS ACK: 204800
+Dec 31 20:27:58 ubuntu python[4146]: TTS TX: 206848 / 231584
+Dec 31 20:27:58 ubuntu python[4146]: TTS ACK: 206848
+Dec 31 20:27:58 ubuntu python[4146]: TTS TX: 208896 / 231584
+Dec 31 20:27:59 ubuntu python[4146]: TTS ACK: 208896
+Dec 31 20:27:59 ubuntu python[4146]: TTS TX: 210944 / 231584
+Dec 31 20:28:00 ubuntu python[4146]: TTS ACK: 210944
+Dec 31 20:28:00 ubuntu python[4146]: TTS TX: 212992 / 231584
+Dec 31 20:28:00 ubuntu python[4146]: TTS ACK: 212992
+Dec 31 20:28:00 ubuntu python[4146]: TTS TX: 215040 / 231584
+Dec 31 20:28:00 ubuntu python[4146]: TTS ACK: 215040
+Dec 31 20:28:00 ubuntu python[4146]: TTS TX: 217088 / 231584
+Dec 31 20:28:00 ubuntu python[4146]: TTS ACK: 217088
+Dec 31 20:28:00 ubuntu python[4146]: TTS TX: 219136 / 231584
+Dec 31 20:28:00 ubuntu python[4146]: TTS ACK: 219136
+Dec 31 20:28:00 ubuntu python[4146]: TTS TX: 221184 / 231584
+Dec 31 20:28:01 ubuntu python[4146]: TTS ACK: 221184
+Dec 31 20:28:01 ubuntu python[4146]: TTS TX: 223232 / 231584
+Dec 31 20:28:03 ubuntu python[4146]: TTS ACK: 223232
+Dec 31 20:28:03 ubuntu python[4146]: TTS TX: 225280 / 231584
+Dec 31 20:28:04 ubuntu python[4146]: TTS ACK: 225280
+Dec 31 20:28:04 ubuntu python[4146]: TTS TX: 227328 / 231584
+Dec 31 20:28:04 ubuntu python[4146]: TTS ACK: 227328
+Dec 31 20:28:04 ubuntu python[4146]: TTS TX: 229376 / 231584
+Dec 31 20:28:04 ubuntu python[4146]: TTS ACK: 229376
+Dec 31 20:28:04 ubuntu python[4146]: TTS TX: 231424 / 231584
+Dec 31 20:28:05 ubuntu python[4146]: TTS ACK: 231424
+Dec 31 20:28:05 ubuntu python[4146]: TTS TX: 231584 / 231584
+Dec 31 20:28:05 ubuntu python[4146]: TTS ACK: 231584
+Dec 31 20:28:05 ubuntu python[4146]: TOTAL: 59.332 s
+Dec 31 20:28:28 ubuntu python[4146]: QUERY_START:
+Dec 31 20:28:28 ubuntu python[4146]: Esperando 105644 bytes
+Dec 31 20:28:29 ubuntu python[4146]: AUDIO RX: 8192 / 105644
+Dec 31 20:28:29 ubuntu python[4146]: AUDIO RX: 16384 / 105644
+Dec 31 20:28:29 ubuntu python[4146]: AUDIO RX: 24576 / 105644
+Dec 31 20:28:30 ubuntu python[4146]: AUDIO RX: 32768 / 105644
+Dec 31 20:28:31 ubuntu python[4146]: AUDIO RX: 40960 / 105644
+Dec 31 20:28:31 ubuntu python[4146]: AUDIO RX: 49152 / 105644
+Dec 31 20:28:35 ubuntu python[4146]: AUDIO RX: 57344 / 105644
+Dec 31 20:28:37 ubuntu python[4146]: AUDIO RX: 65536 / 105644
+Dec 31 20:28:38 ubuntu python[4146]: AUDIO RX: 73728 / 105644
+Dec 31 20:28:39 ubuntu python[4146]: AUDIO RX: 81920 / 105644
+Dec 31 20:28:40 ubuntu python[4146]: AUDIO RX: 90112 / 105644
+Dec 31 20:28:40 ubuntu python[4146]: AUDIO RX: 98304 / 105644
+Dec 31 20:28:43 ubuntu python[4146]: AUDIO RX: 105644 / 105644
+Dec 31 20:28:43 ubuntu python[4146]: QUERY_END:
+Dec 31 20:28:43 ubuntu python[4146]: Recibido: 105644 / 105644
+Dec 31 20:28:43 ubuntu python[4146]: ============================================================
+Dec 31 20:28:43 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:28:43 ubuntu python[4146]: Bytes: 105644
+Dec 31 20:28:43 ubuntu python[4146]: ============================================================
+Dec 31 20:28:45 ubuntu python[4146]: Vosk: 1.818 s
+Dec 31 20:28:45 ubuntu python[4146]: TRANSCRIPCION: en calles este el terminal terrestre ambato
+Dec 31 20:28:45 ubuntu python[4146]: No es comando fisico
+Dec 31 20:28:45 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:28:45 ubuntu python[4146]: ============================================================
+Dec 31 20:28:45 ubuntu python[4146]: TEXTO: en calles este el terminal terrestre ambato
+Dec 31 20:28:45 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:28:46 ubuntu python[4146]: Ollama terminado en: 0.891 s
+Dec 31 20:28:49 ubuntu python[4146]: Piper terminado en: 3.106 s
+Dec 31 20:28:49 ubuntu python[4146]: TOTAL: 4.0 s
+Dec 31 20:28:49 ubuntu python[4146]: Qwen/router/Piper: 4.006 s
+Dec 31 20:28:49 ubuntu python[4146]: Respuesta: Moviendo la cabeza.
+Dec 31 20:28:49 ubuntu python[4146]: Audio Piper: 68256 bytes
+Dec 31 20:28:49 ubuntu python[4146]: TTS TX: 2048 / 68256
+Dec 31 20:28:49 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:28:49 ubuntu python[4146]: TTS TX: 4096 / 68256
+Dec 31 20:28:49 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:28:49 ubuntu python[4146]: TTS TX: 6144 / 68256
+Dec 31 20:28:50 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:28:50 ubuntu python[4146]: TTS TX: 8192 / 68256
+Dec 31 20:28:50 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:28:50 ubuntu python[4146]: TTS TX: 10240 / 68256
+Dec 31 20:28:54 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:28:54 ubuntu python[4146]: TTS TX: 12288 / 68256
+Dec 31 20:28:59 ubuntu python[4146]: ERROR PROCESANDO AUDIO: RuntimeError('TIMEOUT esperando TTS ACK en 12288/68256')
+Dec 31 20:29:03 ubuntu python[4146]: QUERY_START:
+Dec 31 20:29:03 ubuntu python[4146]: Esperando 33324 bytes
+Dec 31 20:29:04 ubuntu python[4146]: AUDIO RX: 8192 / 33324
+Dec 31 20:29:08 ubuntu python[4146]: AUDIO RX: 16384 / 33324
+Dec 31 20:29:08 ubuntu python[4146]: AUDIO RX: 24576 / 33324
+Dec 31 20:29:10 ubuntu python[4146]: AUDIO RX: 32768 / 33324
+Dec 31 20:29:10 ubuntu python[4146]: AUDIO RX: 33324 / 33324
+Dec 31 20:29:10 ubuntu python[4146]: QUERY_END:
+Dec 31 20:29:10 ubuntu python[4146]: Recibido: 33324 / 33324
+Dec 31 20:29:10 ubuntu python[4146]: ============================================================
+Dec 31 20:29:10 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:29:10 ubuntu python[4146]: Bytes: 33324
+Dec 31 20:29:10 ubuntu python[4146]: ============================================================
+Dec 31 20:29:11 ubuntu python[4146]: Vosk: 0.93 s
+Dec 31 20:29:11 ubuntu python[4146]: TRANSCRIPCION: enciende la luz
+Dec 31 20:29:11 ubuntu python[4146]: ========================================
+Dec 31 20:29:11 ubuntu python[4146]: COMANDO RAPIDO - SIN QWEN / SIN PIPER
+Dec 31 20:29:11 ubuntu python[4146]: ========================================
+Dec 31 20:29:11 ubuntu python[4146]: {"keyword": "mini indi", "target": "light", "action": "on"}
+Dec 31 20:29:11 ubuntu python[4146]: COMANDO ENVIADO A CORES3
+Dec 31 20:29:11 ubuntu python[4146]: Qwen omitido
+Dec 31 20:29:11 ubuntu python[4146]: Piper omitido
+Dec 31 20:29:11 ubuntu python[4146]: TOTAL COMANDO: 0.936 s
+Dec 31 20:29:43 ubuntu python[4146]: QUERY_START:
+Dec 31 20:29:43 ubuntu python[4146]: Esperando 40364 bytes
+Dec 31 20:29:45 ubuntu python[4146]: AUDIO RX: 8192 / 40364
+Dec 31 20:29:47 ubuntu python[4146]: AUDIO RX: 16384 / 40364
+Dec 31 20:29:48 ubuntu python[4146]: AUDIO RX: 24576 / 40364
+Dec 31 20:29:48 ubuntu python[4146]: AUDIO RX: 32768 / 40364
+Dec 31 20:29:48 ubuntu python[4146]: AUDIO RX: 40364 / 40364
+Dec 31 20:29:49 ubuntu python[4146]: QUERY_END:
+Dec 31 20:29:49 ubuntu python[4146]: Recibido: 40364 / 40364
+Dec 31 20:29:49 ubuntu python[4146]: ============================================================
+Dec 31 20:29:49 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:29:49 ubuntu python[4146]: Bytes: 40364
+Dec 31 20:29:49 ubuntu python[4146]: ============================================================
+Dec 31 20:29:50 ubuntu python[4146]: Vosk: 1.121 s
+Dec 31 20:29:50 ubuntu python[4146]: TRANSCRIPCION: el color de la luz
+Dec 31 20:29:50 ubuntu python[4146]: No es comando fisico
+Dec 31 20:29:50 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:29:50 ubuntu python[4146]: ============================================================
+Dec 31 20:29:50 ubuntu python[4146]: TEXTO: el color de la luz
+Dec 31 20:29:50 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:29:50 ubuntu python[4146]: Ollama terminado en: 0.497 s
+Dec 31 20:29:53 ubuntu python[4146]: Piper terminado en: 3.235 s
+Dec 31 20:29:53 ubuntu python[4146]: TOTAL: 3.738 s
+Dec 31 20:29:53 ubuntu python[4146]: Qwen/router/Piper: 3.743 s
+Dec 31 20:29:53 ubuntu python[4146]: Respuesta: La luz es de color blanco.
+Dec 31 20:29:53 ubuntu python[4146]: Audio Piper: 90784 bytes
+Dec 31 20:29:53 ubuntu python[4146]: TTS TX: 2048 / 90784
+Dec 31 20:29:53 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:29:53 ubuntu python[4146]: TTS TX: 4096 / 90784
+Dec 31 20:29:54 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:29:54 ubuntu python[4146]: TTS TX: 6144 / 90784
+Dec 31 20:29:54 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:29:54 ubuntu python[4146]: TTS TX: 8192 / 90784
+Dec 31 20:29:54 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:29:54 ubuntu python[4146]: TTS TX: 10240 / 90784
+Dec 31 20:29:54 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:29:54 ubuntu python[4146]: TTS TX: 12288 / 90784
+Dec 31 20:29:54 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:29:54 ubuntu python[4146]: TTS TX: 14336 / 90784
+Dec 31 20:29:55 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:29:55 ubuntu python[4146]: TTS TX: 16384 / 90784
+Dec 31 20:29:56 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:29:56 ubuntu python[4146]: TTS TX: 18432 / 90784
+Dec 31 20:29:56 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:29:56 ubuntu python[4146]: TTS TX: 20480 / 90784
+Dec 31 20:29:57 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:29:57 ubuntu python[4146]: TTS TX: 22528 / 90784
+Dec 31 20:29:57 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:29:57 ubuntu python[4146]: TTS TX: 24576 / 90784
+Dec 31 20:29:57 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:29:57 ubuntu python[4146]: TTS TX: 26624 / 90784
+Dec 31 20:29:57 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:29:57 ubuntu python[4146]: TTS TX: 28672 / 90784
+Dec 31 20:29:57 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:29:57 ubuntu python[4146]: TTS TX: 30720 / 90784
+Dec 31 20:29:58 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:29:58 ubuntu python[4146]: TTS TX: 32768 / 90784
+Dec 31 20:29:58 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:29:58 ubuntu python[4146]: TTS TX: 34816 / 90784
+Dec 31 20:29:59 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:29:59 ubuntu python[4146]: TTS TX: 36864 / 90784
+Dec 31 20:29:59 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:29:59 ubuntu python[4146]: TTS TX: 38912 / 90784
+Dec 31 20:29:59 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:29:59 ubuntu python[4146]: TTS TX: 40960 / 90784
+Dec 31 20:30:00 ubuntu python[4146]: TTS ACK: 40960
+Dec 31 20:30:00 ubuntu python[4146]: TTS TX: 43008 / 90784
+Dec 31 20:30:00 ubuntu python[4146]: TTS ACK: 43008
+Dec 31 20:30:00 ubuntu python[4146]: TTS TX: 45056 / 90784
+Dec 31 20:30:00 ubuntu python[4146]: TTS ACK: 45056
+Dec 31 20:30:00 ubuntu python[4146]: TTS TX: 47104 / 90784
+Dec 31 20:30:03 ubuntu python[4146]: TTS ACK: 47104
+Dec 31 20:30:03 ubuntu python[4146]: TTS TX: 49152 / 90784
+Dec 31 20:30:03 ubuntu python[4146]: TTS ACK: 49152
+Dec 31 20:30:03 ubuntu python[4146]: TTS TX: 51200 / 90784
+Dec 31 20:30:04 ubuntu python[4146]: TTS ACK: 51200
+Dec 31 20:30:04 ubuntu python[4146]: TTS TX: 53248 / 90784
+Dec 31 20:30:04 ubuntu python[4146]: TTS ACK: 53248
+Dec 31 20:30:04 ubuntu python[4146]: TTS TX: 55296 / 90784
+Dec 31 20:30:05 ubuntu python[4146]: TTS ACK: 55296
+Dec 31 20:30:05 ubuntu python[4146]: TTS TX: 57344 / 90784
+Dec 31 20:30:05 ubuntu python[4146]: TTS ACK: 57344
+Dec 31 20:30:05 ubuntu python[4146]: TTS TX: 59392 / 90784
+Dec 31 20:30:05 ubuntu python[4146]: TTS ACK: 59392
+Dec 31 20:30:05 ubuntu python[4146]: TTS TX: 61440 / 90784
+Dec 31 20:30:06 ubuntu python[4146]: TTS ACK: 61440
+Dec 31 20:30:06 ubuntu python[4146]: TTS TX: 63488 / 90784
+Dec 31 20:30:06 ubuntu python[4146]: TTS ACK: 63488
+Dec 31 20:30:06 ubuntu python[4146]: TTS TX: 65536 / 90784
+Dec 31 20:30:06 ubuntu python[4146]: TTS ACK: 65536
+Dec 31 20:30:06 ubuntu python[4146]: TTS TX: 67584 / 90784
+Dec 31 20:30:08 ubuntu python[4146]: TTS ACK: 67584
+Dec 31 20:30:08 ubuntu python[4146]: TTS TX: 69632 / 90784
+Dec 31 20:30:08 ubuntu python[4146]: TTS ACK: 69632
+Dec 31 20:30:08 ubuntu python[4146]: TTS TX: 71680 / 90784
+Dec 31 20:30:08 ubuntu python[4146]: TTS ACK: 71680
+Dec 31 20:30:08 ubuntu python[4146]: TTS TX: 73728 / 90784
+Dec 31 20:30:09 ubuntu python[4146]: TTS ACK: 73728
+Dec 31 20:30:09 ubuntu python[4146]: TTS TX: 75776 / 90784
+Dec 31 20:30:09 ubuntu python[4146]: TTS ACK: 75776
+Dec 31 20:30:09 ubuntu python[4146]: TTS TX: 77824 / 90784
+Dec 31 20:30:10 ubuntu python[4146]: TTS ACK: 77824
+Dec 31 20:30:10 ubuntu python[4146]: TTS TX: 79872 / 90784
+Dec 31 20:30:10 ubuntu python[4146]: TTS ACK: 79872
+Dec 31 20:30:10 ubuntu python[4146]: TTS TX: 81920 / 90784
+Dec 31 20:30:10 ubuntu python[4146]: TTS ACK: 81920
+Dec 31 20:30:10 ubuntu python[4146]: TTS TX: 83968 / 90784
+Dec 31 20:30:10 ubuntu python[4146]: TTS ACK: 83968
+Dec 31 20:30:10 ubuntu python[4146]: TTS TX: 86016 / 90784
+Dec 31 20:30:10 ubuntu python[4146]: TTS ACK: 86016
+Dec 31 20:30:10 ubuntu python[4146]: TTS TX: 88064 / 90784
+Dec 31 20:30:11 ubuntu python[4146]: TTS ACK: 88064
+Dec 31 20:30:11 ubuntu python[4146]: TTS TX: 90112 / 90784
+Dec 31 20:30:11 ubuntu python[4146]: TTS ACK: 90112
+Dec 31 20:30:11 ubuntu python[4146]: TTS TX: 90784 / 90784
+Dec 31 20:30:11 ubuntu python[4146]: TTS ACK: 90784
+Dec 31 20:30:11 ubuntu python[4146]: TOTAL: 22.417 s
+Dec 31 20:30:27 ubuntu python[4146]: QUERY_START:
+Dec 31 20:30:27 ubuntu python[4146]: Esperando 122924 bytes
+Dec 31 20:30:28 ubuntu python[4146]: AUDIO RX: 8192 / 122924
+Dec 31 20:30:29 ubuntu python[4146]: AUDIO RX: 16384 / 122924
+Dec 31 20:30:29 ubuntu python[4146]: AUDIO RX: 24576 / 122924
+Dec 31 20:30:29 ubuntu python[4146]: AUDIO RX: 32768 / 122924
+Dec 31 20:30:30 ubuntu python[4146]: AUDIO RX: 40960 / 122924
+Dec 31 20:30:30 ubuntu python[4146]: AUDIO RX: 49152 / 122924
+Dec 31 20:30:30 ubuntu python[4146]: AUDIO RX: 57344 / 122924
+Dec 31 20:30:30 ubuntu python[4146]: AUDIO RX: 65536 / 122924
+Dec 31 20:30:31 ubuntu python[4146]: AUDIO RX: 73728 / 122924
+Dec 31 20:30:31 ubuntu python[4146]: AUDIO RX: 81920 / 122924
+Dec 31 20:30:32 ubuntu python[4146]: AUDIO RX: 90112 / 122924
+Dec 31 20:30:32 ubuntu python[4146]: AUDIO RX: 98304 / 122924
+Dec 31 20:30:32 ubuntu python[4146]: AUDIO RX: 106496 / 122924
+Dec 31 20:30:32 ubuntu python[4146]: AUDIO RX: 114688 / 122924
+Dec 31 20:30:32 ubuntu python[4146]: AUDIO RX: 122880 / 122924
+Dec 31 20:30:32 ubuntu python[4146]: AUDIO RX: 122924 / 122924
+Dec 31 20:30:32 ubuntu python[4146]: QUERY_END:
+Dec 31 20:30:32 ubuntu python[4146]: Recibido: 122924 / 122924
+Dec 31 20:30:32 ubuntu python[4146]: ============================================================
+Dec 31 20:30:32 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:30:32 ubuntu python[4146]: Bytes: 122924
+Dec 31 20:30:32 ubuntu python[4146]: ============================================================
+Dec 31 20:30:34 ubuntu python[4146]: Vosk: 1.602 s
+Dec 31 20:30:34 ubuntu python[4146]: TRANSCRIPCION: en qué lugar de embates del terminal terrestre
+Dec 31 20:30:34 ubuntu python[4146]: No es comando fisico
+Dec 31 20:30:34 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:30:34 ubuntu python[4146]: ============================================================
+Dec 31 20:30:34 ubuntu python[4146]: TEXTO: en qué lugar de embates del terminal terrestre
+Dec 31 20:30:34 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:30:35 ubuntu python[4146]: Ollama terminado en: 0.616 s
+Dec 31 20:30:38 ubuntu python[4146]: Piper terminado en: 3.465 s
+Dec 31 20:30:38 ubuntu python[4146]: TOTAL: 4.084 s
+Dec 31 20:30:38 ubuntu python[4146]: Qwen/router/Piper: 4.087 s
+Dec 31 20:30:38 ubuntu python[4146]: Respuesta: En la parte posterior del terminal terrestre.
+Dec 31 20:30:38 ubuntu python[4146]: Audio Piper: 122528 bytes
+Dec 31 20:30:38 ubuntu python[4146]: TTS TX: 2048 / 122528
+Dec 31 20:30:39 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:30:39 ubuntu python[4146]: TTS TX: 4096 / 122528
+Dec 31 20:30:39 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:30:39 ubuntu python[4146]: TTS TX: 6144 / 122528
+Dec 31 20:30:39 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:30:39 ubuntu python[4146]: TTS TX: 8192 / 122528
+Dec 31 20:30:40 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:30:40 ubuntu python[4146]: TTS TX: 10240 / 122528
+Dec 31 20:30:40 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:30:40 ubuntu python[4146]: TTS TX: 12288 / 122528
+Dec 31 20:30:40 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:30:40 ubuntu python[4146]: TTS TX: 14336 / 122528
+Dec 31 20:30:40 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:30:40 ubuntu python[4146]: TTS TX: 16384 / 122528
+Dec 31 20:30:40 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:30:40 ubuntu python[4146]: TTS TX: 18432 / 122528
+Dec 31 20:30:42 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:30:42 ubuntu python[4146]: TTS TX: 20480 / 122528
+Dec 31 20:30:42 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:30:42 ubuntu python[4146]: TTS TX: 22528 / 122528
+Dec 31 20:30:42 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:30:42 ubuntu python[4146]: TTS TX: 24576 / 122528
+Dec 31 20:30:42 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:30:42 ubuntu python[4146]: TTS TX: 26624 / 122528
+Dec 31 20:30:42 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:30:42 ubuntu python[4146]: TTS TX: 28672 / 122528
+Dec 31 20:30:42 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:30:42 ubuntu python[4146]: TTS TX: 30720 / 122528
+Dec 31 20:30:45 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:30:45 ubuntu python[4146]: TTS TX: 32768 / 122528
+Dec 31 20:30:45 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:30:45 ubuntu python[4146]: TTS TX: 34816 / 122528
+Dec 31 20:30:45 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:30:45 ubuntu python[4146]: TTS TX: 36864 / 122528
+Dec 31 20:30:46 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:30:46 ubuntu python[4146]: TTS TX: 38912 / 122528
+Dec 31 20:30:46 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:30:46 ubuntu python[4146]: TTS TX: 40960 / 122528
+Dec 31 20:30:46 ubuntu python[4146]: TTS ACK: 40960
+Dec 31 20:30:46 ubuntu python[4146]: TTS TX: 43008 / 122528
+Dec 31 20:30:46 ubuntu python[4146]: TTS ACK: 43008
+Dec 31 20:30:46 ubuntu python[4146]: TTS TX: 45056 / 122528
+Dec 31 20:30:46 ubuntu python[4146]: TTS ACK: 45056
+Dec 31 20:30:46 ubuntu python[4146]: TTS TX: 47104 / 122528
+Dec 31 20:30:47 ubuntu python[4146]: TTS ACK: 47104
+Dec 31 20:30:47 ubuntu python[4146]: TTS TX: 49152 / 122528
+Dec 31 20:30:47 ubuntu python[4146]: TTS ACK: 49152
+Dec 31 20:30:47 ubuntu python[4146]: TTS TX: 51200 / 122528
+Dec 31 20:30:47 ubuntu python[4146]: TTS ACK: 51200
+Dec 31 20:30:47 ubuntu python[4146]: TTS TX: 53248 / 122528
+Dec 31 20:30:48 ubuntu python[4146]: TTS ACK: 53248
+Dec 31 20:30:48 ubuntu python[4146]: TTS TX: 55296 / 122528
+Dec 31 20:30:48 ubuntu python[4146]: TTS ACK: 55296
+Dec 31 20:30:48 ubuntu python[4146]: TTS TX: 57344 / 122528
+Dec 31 20:30:48 ubuntu python[4146]: TTS ACK: 57344
+Dec 31 20:30:48 ubuntu python[4146]: TTS TX: 59392 / 122528
+Dec 31 20:30:48 ubuntu python[4146]: TTS ACK: 59392
+Dec 31 20:30:48 ubuntu python[4146]: TTS TX: 61440 / 122528
+Dec 31 20:30:49 ubuntu python[4146]: TTS ACK: 61440
+Dec 31 20:30:49 ubuntu python[4146]: TTS TX: 63488 / 122528
+Dec 31 20:30:49 ubuntu python[4146]: TTS ACK: 63488
+Dec 31 20:30:49 ubuntu python[4146]: TTS TX: 65536 / 122528
+Dec 31 20:30:49 ubuntu python[4146]: TTS ACK: 65536
+Dec 31 20:30:49 ubuntu python[4146]: TTS TX: 67584 / 122528
+Dec 31 20:30:49 ubuntu python[4146]: TTS ACK: 67584
+Dec 31 20:30:49 ubuntu python[4146]: TTS TX: 69632 / 122528
+Dec 31 20:30:49 ubuntu python[4146]: TTS ACK: 69632
+Dec 31 20:30:49 ubuntu python[4146]: TTS TX: 71680 / 122528
+Dec 31 20:30:49 ubuntu python[4146]: TTS ACK: 71680
+Dec 31 20:30:49 ubuntu python[4146]: TTS TX: 73728 / 122528
+Dec 31 20:30:49 ubuntu python[4146]: TTS ACK: 73728
+Dec 31 20:30:49 ubuntu python[4146]: TTS TX: 75776 / 122528
+Dec 31 20:30:50 ubuntu python[4146]: TTS ACK: 75776
+Dec 31 20:30:50 ubuntu python[4146]: TTS TX: 77824 / 122528
+Dec 31 20:30:50 ubuntu python[4146]: TTS ACK: 77824
+Dec 31 20:30:50 ubuntu python[4146]: TTS TX: 79872 / 122528
+Dec 31 20:30:50 ubuntu python[4146]: TTS ACK: 79872
+Dec 31 20:30:50 ubuntu python[4146]: TTS TX: 81920 / 122528
+Dec 31 20:30:50 ubuntu python[4146]: TTS ACK: 81920
+Dec 31 20:30:50 ubuntu python[4146]: TTS TX: 83968 / 122528
+Dec 31 20:30:51 ubuntu python[4146]: TTS ACK: 83968
+Dec 31 20:30:51 ubuntu python[4146]: TTS TX: 86016 / 122528
+Dec 31 20:30:51 ubuntu python[4146]: TTS ACK: 86016
+Dec 31 20:30:51 ubuntu python[4146]: TTS TX: 88064 / 122528
+Dec 31 20:30:51 ubuntu python[4146]: TTS ACK: 88064
+Dec 31 20:30:51 ubuntu python[4146]: TTS TX: 90112 / 122528
+Dec 31 20:30:51 ubuntu python[4146]: TTS ACK: 90112
+Dec 31 20:30:51 ubuntu python[4146]: TTS TX: 92160 / 122528
+Dec 31 20:30:52 ubuntu python[4146]: TTS ACK: 92160
+Dec 31 20:30:52 ubuntu python[4146]: TTS TX: 94208 / 122528
+Dec 31 20:30:56 ubuntu python[4146]: TTS ACK: 94208
+Dec 31 20:30:56 ubuntu python[4146]: TTS TX: 96256 / 122528
+Dec 31 20:30:56 ubuntu python[4146]: TTS ACK: 96256
+Dec 31 20:30:56 ubuntu python[4146]: TTS TX: 98304 / 122528
+Dec 31 20:30:56 ubuntu python[4146]: TTS ACK: 98304
+Dec 31 20:30:56 ubuntu python[4146]: TTS TX: 100352 / 122528
+Dec 31 20:30:57 ubuntu python[4146]: TTS ACK: 100352
+Dec 31 20:30:57 ubuntu python[4146]: TTS TX: 102400 / 122528
+Dec 31 20:30:57 ubuntu python[4146]: TTS ACK: 102400
+Dec 31 20:30:57 ubuntu python[4146]: TTS TX: 104448 / 122528
+Dec 31 20:30:57 ubuntu python[4146]: TTS ACK: 104448
+Dec 31 20:30:57 ubuntu python[4146]: TTS TX: 106496 / 122528
+Dec 31 20:30:57 ubuntu python[4146]: TTS ACK: 106496
+Dec 31 20:30:57 ubuntu python[4146]: TTS TX: 108544 / 122528
+Dec 31 20:30:57 ubuntu python[4146]: TTS ACK: 108544
+Dec 31 20:30:57 ubuntu python[4146]: TTS TX: 110592 / 122528
+Dec 31 20:30:58 ubuntu python[4146]: TTS ACK: 110592
+Dec 31 20:30:58 ubuntu python[4146]: TTS TX: 112640 / 122528
+Dec 31 20:30:59 ubuntu python[4146]: TTS ACK: 112640
+Dec 31 20:30:59 ubuntu python[4146]: TTS TX: 114688 / 122528
+Dec 31 20:30:59 ubuntu python[4146]: TTS ACK: 114688
+Dec 31 20:30:59 ubuntu python[4146]: TTS TX: 116736 / 122528
+Dec 31 20:30:59 ubuntu python[4146]: TTS ACK: 116736
+Dec 31 20:30:59 ubuntu python[4146]: TTS TX: 118784 / 122528
+Dec 31 20:31:00 ubuntu python[4146]: TTS ACK: 118784
+Dec 31 20:31:00 ubuntu python[4146]: TTS TX: 120832 / 122528
+Dec 31 20:31:00 ubuntu python[4146]: TTS ACK: 120832
+Dec 31 20:31:00 ubuntu python[4146]: TTS TX: 122528 / 122528
+Dec 31 20:31:00 ubuntu python[4146]: TTS ACK: 122528
+Dec 31 20:31:00 ubuntu python[4146]: TOTAL: 27.474 s
+Dec 31 20:31:13 ubuntu python[4146]: QUERY_START:
+Dec 31 20:31:13 ubuntu python[4146]: Esperando 74924 bytes
+Dec 31 20:31:13 ubuntu python[4146]: AUDIO RX: 8192 / 74924
+Dec 31 20:31:15 ubuntu python[4146]: AUDIO RX: 16384 / 74924
+Dec 31 20:31:16 ubuntu python[4146]: AUDIO RX: 24576 / 74924
+Dec 31 20:31:16 ubuntu python[4146]: AUDIO RX: 32768 / 74924
+Dec 31 20:31:17 ubuntu python[4146]: AUDIO RX: 40960 / 74924
+Dec 31 20:31:18 ubuntu python[4146]: AUDIO RX: 49152 / 74924
+Dec 31 20:31:19 ubuntu python[4146]: AUDIO RX: 57344 / 74924
+Dec 31 20:31:19 ubuntu python[4146]: AUDIO RX: 65536 / 74924
+Dec 31 20:31:20 ubuntu python[4146]: AUDIO RX: 73728 / 74924
+Dec 31 20:31:20 ubuntu python[4146]: AUDIO RX: 74924 / 74924
+Dec 31 20:31:20 ubuntu python[4146]: QUERY_END:
+Dec 31 20:31:20 ubuntu python[4146]: Recibido: 74924 / 74924
+Dec 31 20:31:20 ubuntu python[4146]: ============================================================
+Dec 31 20:31:20 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:31:20 ubuntu python[4146]: Bytes: 74924
+Dec 31 20:31:20 ubuntu python[4146]: ============================================================
+Dec 31 20:31:21 ubuntu python[4146]: Vosk: 0.946 s
+Dec 31 20:31:21 ubuntu python[4146]: TRANSCRIPCION: cambia el color de la luz
+Dec 31 20:31:21 ubuntu python[4146]: No es comando fisico
+Dec 31 20:31:21 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:31:21 ubuntu python[4146]: ============================================================
+Dec 31 20:31:21 ubuntu python[4146]: TEXTO: cambia el color de la luz
+Dec 31 20:31:21 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:31:22 ubuntu python[4146]: Ollama terminado en: 0.836 s
+Dec 31 20:31:25 ubuntu python[4146]: Piper terminado en: 3.233 s
+Dec 31 20:31:25 ubuntu python[4146]: TOTAL: 4.074 s
+Dec 31 20:31:25 ubuntu python[4146]: Qwen/router/Piper: 4.079 s
+Dec 31 20:31:25 ubuntu python[4146]: Respuesta: No puedo realizar ese movimiento.
+Dec 31 20:31:25 ubuntu python[4146]: Audio Piper: 101536 bytes
+Dec 31 20:31:25 ubuntu python[4146]: TTS TX: 2048 / 101536
+Dec 31 20:31:26 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:31:26 ubuntu python[4146]: TTS TX: 4096 / 101536
+Dec 31 20:31:26 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:31:26 ubuntu python[4146]: TTS TX: 6144 / 101536
+Dec 31 20:31:26 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:31:26 ubuntu python[4146]: TTS TX: 8192 / 101536
+Dec 31 20:31:26 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:31:26 ubuntu python[4146]: TTS TX: 10240 / 101536
+Dec 31 20:31:26 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:31:26 ubuntu python[4146]: TTS TX: 12288 / 101536
+Dec 31 20:31:27 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:31:27 ubuntu python[4146]: TTS TX: 14336 / 101536
+Dec 31 20:31:27 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:31:27 ubuntu python[4146]: TTS TX: 16384 / 101536
+Dec 31 20:31:27 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:31:27 ubuntu python[4146]: TTS TX: 18432 / 101536
+Dec 31 20:31:27 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:31:27 ubuntu python[4146]: TTS TX: 20480 / 101536
+Dec 31 20:31:27 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:31:27 ubuntu python[4146]: TTS TX: 22528 / 101536
+Dec 31 20:31:27 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:31:27 ubuntu python[4146]: TTS TX: 24576 / 101536
+Dec 31 20:31:27 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:31:27 ubuntu python[4146]: TTS TX: 26624 / 101536
+Dec 31 20:31:28 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:31:28 ubuntu python[4146]: TTS TX: 28672 / 101536
+Dec 31 20:31:28 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:31:28 ubuntu python[4146]: TTS TX: 30720 / 101536
+Dec 31 20:31:28 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:31:28 ubuntu python[4146]: TTS TX: 32768 / 101536
+Dec 31 20:31:28 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:31:28 ubuntu python[4146]: TTS TX: 34816 / 101536
+Dec 31 20:31:29 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:31:29 ubuntu python[4146]: TTS TX: 36864 / 101536
+Dec 31 20:31:29 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:31:29 ubuntu python[4146]: TTS TX: 38912 / 101536
+Dec 31 20:31:30 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:31:30 ubuntu python[4146]: TTS TX: 40960 / 101536
+Dec 31 20:31:30 ubuntu python[4146]: TTS ACK: 40960
+Dec 31 20:31:30 ubuntu python[4146]: TTS TX: 43008 / 101536
+Dec 31 20:31:30 ubuntu python[4146]: TTS ACK: 43008
+Dec 31 20:31:30 ubuntu python[4146]: TTS TX: 45056 / 101536
+Dec 31 20:31:30 ubuntu python[4146]: TTS ACK: 45056
+Dec 31 20:31:30 ubuntu python[4146]: TTS TX: 47104 / 101536
+Dec 31 20:31:30 ubuntu python[4146]: TTS ACK: 47104
+Dec 31 20:31:30 ubuntu python[4146]: TTS TX: 49152 / 101536
+Dec 31 20:31:30 ubuntu python[4146]: TTS ACK: 49152
+Dec 31 20:31:30 ubuntu python[4146]: TTS TX: 51200 / 101536
+Dec 31 20:31:30 ubuntu python[4146]: TTS ACK: 51200
+Dec 31 20:31:30 ubuntu python[4146]: TTS TX: 53248 / 101536
+Dec 31 20:31:30 ubuntu python[4146]: TTS ACK: 53248
+Dec 31 20:31:30 ubuntu python[4146]: TTS TX: 55296 / 101536
+Dec 31 20:31:31 ubuntu python[4146]: TTS ACK: 55296
+Dec 31 20:31:31 ubuntu python[4146]: TTS TX: 57344 / 101536
+Dec 31 20:31:31 ubuntu python[4146]: TTS ACK: 57344
+Dec 31 20:31:31 ubuntu python[4146]: TTS TX: 59392 / 101536
+Dec 31 20:31:31 ubuntu python[4146]: TTS ACK: 59392
+Dec 31 20:31:31 ubuntu python[4146]: TTS TX: 61440 / 101536
+Dec 31 20:31:31 ubuntu python[4146]: TTS ACK: 61440
+Dec 31 20:31:31 ubuntu python[4146]: TTS TX: 63488 / 101536
+Dec 31 20:31:31 ubuntu python[4146]: TTS ACK: 63488
+Dec 31 20:31:31 ubuntu python[4146]: TTS TX: 65536 / 101536
+Dec 31 20:31:31 ubuntu python[4146]: TTS ACK: 65536
+Dec 31 20:31:31 ubuntu python[4146]: TTS TX: 67584 / 101536
+Dec 31 20:31:32 ubuntu python[4146]: TTS ACK: 67584
+Dec 31 20:31:32 ubuntu python[4146]: TTS TX: 69632 / 101536
+Dec 31 20:31:32 ubuntu python[4146]: TTS ACK: 69632
+Dec 31 20:31:32 ubuntu python[4146]: TTS TX: 71680 / 101536
+Dec 31 20:31:32 ubuntu python[4146]: TTS ACK: 71680
+Dec 31 20:31:32 ubuntu python[4146]: TTS TX: 73728 / 101536
+Dec 31 20:31:32 ubuntu python[4146]: TTS ACK: 73728
+Dec 31 20:31:32 ubuntu python[4146]: TTS TX: 75776 / 101536
+Dec 31 20:31:33 ubuntu python[4146]: TTS ACK: 75776
+Dec 31 20:31:33 ubuntu python[4146]: TTS TX: 77824 / 101536
+Dec 31 20:31:34 ubuntu python[4146]: TTS ACK: 77824
+Dec 31 20:31:34 ubuntu python[4146]: TTS TX: 79872 / 101536
+Dec 31 20:31:34 ubuntu python[4146]: TTS ACK: 79872
+Dec 31 20:31:34 ubuntu python[4146]: TTS TX: 81920 / 101536
+Dec 31 20:31:35 ubuntu python[4146]: TTS ACK: 81920
+Dec 31 20:31:35 ubuntu python[4146]: TTS TX: 83968 / 101536
+Dec 31 20:31:35 ubuntu python[4146]: TTS ACK: 83968
+Dec 31 20:31:35 ubuntu python[4146]: TTS TX: 86016 / 101536
+Dec 31 20:31:36 ubuntu python[4146]: TTS ACK: 86016
+Dec 31 20:31:36 ubuntu python[4146]: TTS TX: 88064 / 101536
+Dec 31 20:31:36 ubuntu python[4146]: TTS ACK: 88064
+Dec 31 20:31:36 ubuntu python[4146]: TTS TX: 90112 / 101536
+Dec 31 20:31:36 ubuntu python[4146]: TTS ACK: 90112
+Dec 31 20:31:36 ubuntu python[4146]: TTS TX: 92160 / 101536
+Dec 31 20:31:36 ubuntu python[4146]: TTS ACK: 92160
+Dec 31 20:31:36 ubuntu python[4146]: TTS TX: 94208 / 101536
+Dec 31 20:31:37 ubuntu python[4146]: TTS ACK: 94208
+Dec 31 20:31:37 ubuntu python[4146]: TTS TX: 96256 / 101536
+Dec 31 20:31:37 ubuntu python[4146]: TTS ACK: 96256
+Dec 31 20:31:37 ubuntu python[4146]: TTS TX: 98304 / 101536
+Dec 31 20:31:37 ubuntu python[4146]: TTS ACK: 98304
+Dec 31 20:31:37 ubuntu python[4146]: TTS TX: 100352 / 101536
+Dec 31 20:31:38 ubuntu python[4146]: TTS ACK: 100352
+Dec 31 20:31:38 ubuntu python[4146]: TTS TX: 101536 / 101536
+Dec 31 20:31:38 ubuntu python[4146]: TTS ACK: 101536
+Dec 31 20:31:38 ubuntu python[4146]: TOTAL: 18.068 s
+Dec 31 20:31:53 ubuntu python[4146]: QUERY_START:
+Dec 31 20:31:53 ubuntu python[4146]: Esperando 116524 bytes
+Dec 31 20:31:53 ubuntu python[4146]: AUDIO RX: 8192 / 116524
+Dec 31 20:31:54 ubuntu python[4146]: AUDIO RX: 16384 / 116524
+Dec 31 20:31:55 ubuntu python[4146]: AUDIO RX: 24576 / 116524
+Dec 31 20:31:55 ubuntu python[4146]: AUDIO RX: 32768 / 116524
+Dec 31 20:31:56 ubuntu python[4146]: AUDIO RX: 40960 / 116524
+Dec 31 20:31:56 ubuntu python[4146]: AUDIO RX: 49152 / 116524
+Dec 31 20:31:58 ubuntu python[4146]: AUDIO RX: 57344 / 116524
+Dec 31 20:31:59 ubuntu python[4146]: AUDIO RX: 65536 / 116524
+Dec 31 20:32:00 ubuntu python[4146]: AUDIO RX: 73728 / 116524
+Dec 31 20:32:01 ubuntu python[4146]: AUDIO RX: 81920 / 116524
+Dec 31 20:32:01 ubuntu python[4146]: AUDIO RX: 90112 / 116524
+Dec 31 20:32:01 ubuntu python[4146]: AUDIO RX: 98304 / 116524
+Dec 31 20:32:02 ubuntu python[4146]: AUDIO RX: 106496 / 116524
+Dec 31 20:32:03 ubuntu python[4146]: AUDIO RX: 114688 / 116524
+Dec 31 20:32:04 ubuntu python[4146]: AUDIO RX: 116524 / 116524
+Dec 31 20:32:04 ubuntu python[4146]: QUERY_END:
+Dec 31 20:32:04 ubuntu python[4146]: Recibido: 116524 / 116524
+Dec 31 20:32:04 ubuntu python[4146]: ============================================================
+Dec 31 20:32:04 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:32:04 ubuntu python[4146]: Bytes: 116524
+Dec 31 20:32:04 ubuntu python[4146]: ============================================================
+Dec 31 20:32:06 ubuntu python[4146]: Vosk: 1.74 s
+Dec 31 20:32:06 ubuntu python[4146]: TRANSCRIPCION: dónde está el hospital regional de muerto
+Dec 31 20:32:06 ubuntu python[4146]: No es comando fisico
+Dec 31 20:32:06 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:32:06 ubuntu python[4146]: ============================================================
+Dec 31 20:32:06 ubuntu python[4146]: TEXTO: dónde está el hospital regional de muerto
+Dec 31 20:32:06 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:32:07 ubuntu python[4146]: Ollama terminado en: 0.973 s
+Dec 31 20:32:11 ubuntu python[4146]: Piper terminado en: 4.027 s
+Dec 31 20:32:11 ubuntu python[4146]: TOTAL: 5.005 s
+Dec 31 20:32:11 ubuntu python[4146]: Qwen/router/Piper: 5.01 s
+Dec 31 20:32:11 ubuntu python[4146]: Respuesta: Lo siento, pero no tengo la capacidad de proporcionar información sobre el hospital regional de Muerto.
+Dec 31 20:32:11 ubuntu python[4146]: Audio Piper: 277664 bytes
+Dec 31 20:32:11 ubuntu python[4146]: TTS TX: 2048 / 277664
+Dec 31 20:32:11 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:32:11 ubuntu python[4146]: TTS TX: 4096 / 277664
+Dec 31 20:32:12 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:32:12 ubuntu python[4146]: TTS TX: 6144 / 277664
+Dec 31 20:32:12 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:32:12 ubuntu python[4146]: TTS TX: 8192 / 277664
+Dec 31 20:32:13 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:32:13 ubuntu python[4146]: TTS TX: 10240 / 277664
+Dec 31 20:32:13 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:32:13 ubuntu python[4146]: TTS TX: 12288 / 277664
+Dec 31 20:32:13 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:32:13 ubuntu python[4146]: TTS TX: 14336 / 277664
+Dec 31 20:32:13 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:32:13 ubuntu python[4146]: TTS TX: 16384 / 277664
+Dec 31 20:32:13 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:32:13 ubuntu python[4146]: TTS TX: 18432 / 277664
+Dec 31 20:32:13 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:32:13 ubuntu python[4146]: TTS TX: 20480 / 277664
+Dec 31 20:32:14 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:32:14 ubuntu python[4146]: TTS TX: 22528 / 277664
+Dec 31 20:32:15 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:32:15 ubuntu python[4146]: TTS TX: 24576 / 277664
+Dec 31 20:32:16 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:32:16 ubuntu python[4146]: TTS TX: 26624 / 277664
+Dec 31 20:32:16 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:32:16 ubuntu python[4146]: TTS TX: 28672 / 277664
+Dec 31 20:32:17 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:32:17 ubuntu python[4146]: TTS TX: 30720 / 277664
+Dec 31 20:32:17 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:32:17 ubuntu python[4146]: TTS TX: 32768 / 277664
+Dec 31 20:32:18 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:32:18 ubuntu python[4146]: TTS TX: 34816 / 277664
+Dec 31 20:32:18 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:32:18 ubuntu python[4146]: TTS TX: 36864 / 277664
+Dec 31 20:32:20 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:32:20 ubuntu python[4146]: TTS TX: 38912 / 277664
+Dec 31 20:32:25 ubuntu python[4146]: ERROR PROCESANDO AUDIO: RuntimeError('TIMEOUT esperando TTS ACK en 38912/277664')
+Dec 31 20:32:37 ubuntu python[4146]: QUERY_START:
+Dec 31 20:32:37 ubuntu python[4146]: Esperando 135724 bytes
+Dec 31 20:32:38 ubuntu python[4146]: AUDIO RX: 8192 / 135724
+Dec 31 20:32:39 ubuntu python[4146]: AUDIO RX: 16384 / 135724
+Dec 31 20:32:39 ubuntu python[4146]: AUDIO RX: 24576 / 135724
+Dec 31 20:32:39 ubuntu python[4146]: AUDIO RX: 32768 / 135724
+Dec 31 20:32:43 ubuntu python[4146]: AUDIO RX: 40960 / 135724
+Dec 31 20:32:43 ubuntu python[4146]: AUDIO RX: 49152 / 135724
+Dec 31 20:32:43 ubuntu python[4146]: AUDIO RX: 57344 / 135724
+Dec 31 20:32:44 ubuntu python[4146]: AUDIO RX: 65536 / 135724
+Dec 31 20:32:44 ubuntu python[4146]: AUDIO RX: 73728 / 135724
+Dec 31 20:32:44 ubuntu python[4146]: AUDIO RX: 81920 / 135724
+Dec 31 20:32:45 ubuntu python[4146]: AUDIO RX: 90112 / 135724
+Dec 31 20:32:45 ubuntu python[4146]: AUDIO RX: 98304 / 135724
+Dec 31 20:32:45 ubuntu python[4146]: AUDIO RX: 106496 / 135724
+Dec 31 20:32:46 ubuntu python[4146]: AUDIO RX: 114688 / 135724
+Dec 31 20:32:46 ubuntu python[4146]: AUDIO RX: 122880 / 135724
+Dec 31 20:32:47 ubuntu python[4146]: AUDIO RX: 131072 / 135724
+Dec 31 20:32:47 ubuntu python[4146]: AUDIO RX: 135724 / 135724
+Dec 31 20:32:48 ubuntu python[4146]: QUERY_END:
+Dec 31 20:32:48 ubuntu python[4146]: Recibido: 135724 / 135724
+Dec 31 20:32:48 ubuntu python[4146]: ============================================================
+Dec 31 20:32:48 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:32:48 ubuntu python[4146]: Bytes: 135724
+Dec 31 20:32:48 ubuntu python[4146]: ============================================================
+Dec 31 20:32:49 ubuntu python[4146]: Vosk: 1.572 s
+Dec 31 20:32:49 ubuntu python[4146]: TRANSCRIPCION: dónde está ubicada en el hospital regional de ambato
+Dec 31 20:32:49 ubuntu python[4146]: No es comando fisico
+Dec 31 20:32:49 ubuntu python[4146]: Procesando respuesta...
+Dec 31 20:32:49 ubuntu python[4146]: ============================================================
+Dec 31 20:32:49 ubuntu python[4146]: TEXTO: dónde está ubicada en el hospital regional de ambato
+Dec 31 20:32:49 ubuntu python[4146]: RUTA: LLM
+Dec 31 20:32:51 ubuntu python[4146]: Ollama terminado en: 1.731 s
+Dec 31 20:32:56 ubuntu python[4146]: Piper terminado en: 5.058 s
+Dec 31 20:32:56 ubuntu python[4146]: TOTAL: 6.793 s
+Dec 31 20:32:56 ubuntu python[4146]: Qwen/router/Piper: 6.798 s
+Dec 31 20:32:56 ubuntu python[4146]: Respuesta: Lo siento, pero como asistente de inteligencia artificial, no tengo la capacidad de proporcionar información geográfica o ubicación específica. Te recomendaría que consultes la página web
+Dec 31 20:32:56 ubuntu python[4146]: Audio Piper: 554772 bytes
+Dec 31 20:32:56 ubuntu python[4146]: TTS TX: 2048 / 554772
+Dec 31 20:32:56 ubuntu python[4146]: TTS ACK: 2048
+Dec 31 20:32:56 ubuntu python[4146]: TTS TX: 4096 / 554772
+Dec 31 20:32:56 ubuntu python[4146]: TTS ACK: 4096
+Dec 31 20:32:56 ubuntu python[4146]: TTS TX: 6144 / 554772
+Dec 31 20:32:56 ubuntu python[4146]: TTS ACK: 6144
+Dec 31 20:32:56 ubuntu python[4146]: TTS TX: 8192 / 554772
+Dec 31 20:32:57 ubuntu python[4146]: TTS ACK: 8192
+Dec 31 20:32:57 ubuntu python[4146]: TTS TX: 10240 / 554772
+Dec 31 20:32:57 ubuntu python[4146]: TTS ACK: 10240
+Dec 31 20:32:57 ubuntu python[4146]: TTS TX: 12288 / 554772
+Dec 31 20:32:58 ubuntu python[4146]: TTS ACK: 12288
+Dec 31 20:32:58 ubuntu python[4146]: TTS TX: 14336 / 554772
+Dec 31 20:32:58 ubuntu python[4146]: TTS ACK: 14336
+Dec 31 20:32:58 ubuntu python[4146]: TTS TX: 16384 / 554772
+Dec 31 20:32:58 ubuntu python[4146]: TTS ACK: 16384
+Dec 31 20:32:58 ubuntu python[4146]: TTS TX: 18432 / 554772
+Dec 31 20:32:58 ubuntu python[4146]: TTS ACK: 18432
+Dec 31 20:32:58 ubuntu python[4146]: TTS TX: 20480 / 554772
+Dec 31 20:32:58 ubuntu python[4146]: TTS ACK: 20480
+Dec 31 20:32:58 ubuntu python[4146]: TTS TX: 22528 / 554772
+Dec 31 20:32:58 ubuntu python[4146]: TTS ACK: 22528
+Dec 31 20:32:58 ubuntu python[4146]: TTS TX: 24576 / 554772
+Dec 31 20:32:58 ubuntu python[4146]: TTS ACK: 24576
+Dec 31 20:32:58 ubuntu python[4146]: TTS TX: 26624 / 554772
+Dec 31 20:32:58 ubuntu python[4146]: TTS ACK: 26624
+Dec 31 20:32:58 ubuntu python[4146]: TTS TX: 28672 / 554772
+Dec 31 20:32:58 ubuntu python[4146]: TTS ACK: 28672
+Dec 31 20:32:58 ubuntu python[4146]: TTS TX: 30720 / 554772
+Dec 31 20:32:59 ubuntu python[4146]: TTS ACK: 30720
+Dec 31 20:32:59 ubuntu python[4146]: TTS TX: 32768 / 554772
+Dec 31 20:32:59 ubuntu python[4146]: TTS ACK: 32768
+Dec 31 20:32:59 ubuntu python[4146]: TTS TX: 34816 / 554772
+Dec 31 20:32:59 ubuntu python[4146]: TTS ACK: 34816
+Dec 31 20:32:59 ubuntu python[4146]: TTS TX: 36864 / 554772
+Dec 31 20:32:59 ubuntu python[4146]: TTS ACK: 36864
+Dec 31 20:32:59 ubuntu python[4146]: TTS TX: 38912 / 554772
+Dec 31 20:32:59 ubuntu python[4146]: TTS ACK: 38912
+Dec 31 20:32:59 ubuntu python[4146]: TTS TX: 40960 / 554772
+Dec 31 20:32:59 ubuntu python[4146]: TTS ACK: 40960
+Dec 31 20:32:59 ubuntu python[4146]: TTS TX: 43008 / 554772
+Dec 31 20:32:59 ubuntu python[4146]: TTS ACK: 43008
+Dec 31 20:32:59 ubuntu python[4146]: TTS TX: 45056 / 554772
+Dec 31 20:32:59 ubuntu python[4146]: TTS ACK: 45056
+Dec 31 20:32:59 ubuntu python[4146]: TTS TX: 47104 / 554772
+Dec 31 20:33:00 ubuntu python[4146]: TTS ACK: 47104
+Dec 31 20:33:00 ubuntu python[4146]: TTS TX: 49152 / 554772
+Dec 31 20:33:00 ubuntu python[4146]: TTS ACK: 49152
+Dec 31 20:33:00 ubuntu python[4146]: TTS TX: 51200 / 554772
+Dec 31 20:33:00 ubuntu python[4146]: TTS ACK: 51200
+Dec 31 20:33:00 ubuntu python[4146]: TTS TX: 53248 / 554772
+Dec 31 20:33:00 ubuntu python[4146]: TTS ACK: 53248
+Dec 31 20:33:00 ubuntu python[4146]: TTS TX: 55296 / 554772
+Dec 31 20:33:00 ubuntu python[4146]: TTS ACK: 55296
+Dec 31 20:33:00 ubuntu python[4146]: TTS TX: 57344 / 554772
+Dec 31 20:33:00 ubuntu python[4146]: TTS ACK: 57344
+Dec 31 20:33:00 ubuntu python[4146]: TTS TX: 59392 / 554772
+Dec 31 20:33:01 ubuntu python[4146]: TTS ACK: 59392
+Dec 31 20:33:01 ubuntu python[4146]: TTS TX: 61440 / 554772
+Dec 31 20:33:01 ubuntu python[4146]: TTS ACK: 61440
+Dec 31 20:33:01 ubuntu python[4146]: TTS TX: 63488 / 554772
+Dec 31 20:33:01 ubuntu python[4146]: TTS ACK: 63488
+Dec 31 20:33:01 ubuntu python[4146]: TTS TX: 65536 / 554772
+Dec 31 20:33:02 ubuntu python[4146]: TTS ACK: 65536
+Dec 31 20:33:02 ubuntu python[4146]: TTS TX: 67584 / 554772
+Dec 31 20:33:02 ubuntu python[4146]: TTS ACK: 67584
+Dec 31 20:33:02 ubuntu python[4146]: TTS TX: 69632 / 554772
+Dec 31 20:33:02 ubuntu python[4146]: TTS ACK: 69632
+Dec 31 20:33:02 ubuntu python[4146]: TTS TX: 71680 / 554772
+Dec 31 20:33:02 ubuntu python[4146]: TTS ACK: 71680
+Dec 31 20:33:02 ubuntu python[4146]: TTS TX: 73728 / 554772
+Dec 31 20:33:02 ubuntu python[4146]: TTS ACK: 73728
+Dec 31 20:33:02 ubuntu python[4146]: TTS TX: 75776 / 554772
+Dec 31 20:33:02 ubuntu python[4146]: TTS ACK: 75776
+Dec 31 20:33:02 ubuntu python[4146]: TTS TX: 77824 / 554772
+Dec 31 20:33:02 ubuntu python[4146]: TTS ACK: 77824
+Dec 31 20:33:02 ubuntu python[4146]: TTS TX: 79872 / 554772
+Dec 31 20:33:02 ubuntu python[4146]: TTS ACK: 79872
+Dec 31 20:33:02 ubuntu python[4146]: TTS TX: 81920 / 554772
+Dec 31 20:33:02 ubuntu python[4146]: TTS ACK: 81920
+Dec 31 20:33:02 ubuntu python[4146]: TTS TX: 83968 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 83968
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 86016 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 86016
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 88064 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 88064
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 90112 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 90112
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 92160 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 92160
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 94208 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 94208
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 96256 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 96256
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 98304 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 98304
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 100352 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 100352
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 102400 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 102400
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 104448 / 554772
+Dec 31 20:33:03 ubuntu python[4146]: TTS ACK: 104448
+Dec 31 20:33:03 ubuntu python[4146]: TTS TX: 106496 / 554772
+Dec 31 20:33:04 ubuntu python[4146]: TTS ACK: 106496
+Dec 31 20:33:04 ubuntu python[4146]: TTS TX: 108544 / 554772
+Dec 31 20:33:04 ubuntu python[4146]: TTS ACK: 108544
+Dec 31 20:33:04 ubuntu python[4146]: TTS TX: 110592 / 554772
+Dec 31 20:33:04 ubuntu python[4146]: TTS ACK: 110592
+Dec 31 20:33:04 ubuntu python[4146]: TTS TX: 112640 / 554772
+Dec 31 20:33:04 ubuntu python[4146]: TTS ACK: 112640
+Dec 31 20:33:04 ubuntu python[4146]: TTS TX: 114688 / 554772
+Dec 31 20:33:05 ubuntu python[4146]: TTS ACK: 114688
+Dec 31 20:33:05 ubuntu python[4146]: TTS TX: 116736 / 554772
+Dec 31 20:33:05 ubuntu python[4146]: TTS ACK: 116736
+Dec 31 20:33:05 ubuntu python[4146]: TTS TX: 118784 / 554772
+Dec 31 20:33:05 ubuntu python[4146]: TTS ACK: 118784
+Dec 31 20:33:05 ubuntu python[4146]: TTS TX: 120832 / 554772
+Dec 31 20:33:05 ubuntu python[4146]: TTS ACK: 120832
+Dec 31 20:33:05 ubuntu python[4146]: TTS TX: 122880 / 554772
+Dec 31 20:33:05 ubuntu python[4146]: TTS ACK: 122880
+Dec 31 20:33:05 ubuntu python[4146]: TTS TX: 124928 / 554772
+Dec 31 20:33:06 ubuntu python[4146]: TTS ACK: 124928
+Dec 31 20:33:06 ubuntu python[4146]: TTS TX: 126976 / 554772
+Dec 31 20:33:06 ubuntu python[4146]: TTS ACK: 126976
+Dec 31 20:33:06 ubuntu python[4146]: TTS TX: 129024 / 554772
+Dec 31 20:33:06 ubuntu python[4146]: TTS ACK: 129024
+Dec 31 20:33:06 ubuntu python[4146]: TTS TX: 131072 / 554772
+Dec 31 20:33:06 ubuntu python[4146]: TTS ACK: 131072
+Dec 31 20:33:06 ubuntu python[4146]: TTS TX: 133120 / 554772
+Dec 31 20:33:06 ubuntu python[4146]: TTS ACK: 133120
+Dec 31 20:33:06 ubuntu python[4146]: TTS TX: 135168 / 554772
+Dec 31 20:33:06 ubuntu python[4146]: TTS ACK: 135168
+Dec 31 20:33:06 ubuntu python[4146]: TTS TX: 137216 / 554772
+Dec 31 20:33:07 ubuntu python[4146]: TTS ACK: 137216
+Dec 31 20:33:07 ubuntu python[4146]: TTS TX: 139264 / 554772
+Dec 31 20:33:07 ubuntu python[4146]: TTS ACK: 139264
+Dec 31 20:33:07 ubuntu python[4146]: TTS TX: 141312 / 554772
+Dec 31 20:33:07 ubuntu python[4146]: TTS ACK: 141312
+Dec 31 20:33:07 ubuntu python[4146]: TTS TX: 143360 / 554772
+Dec 31 20:33:07 ubuntu python[4146]: TTS ACK: 143360
+Dec 31 20:33:07 ubuntu python[4146]: TTS TX: 145408 / 554772
+Dec 31 20:33:07 ubuntu python[4146]: TTS ACK: 145408
+Dec 31 20:33:07 ubuntu python[4146]: TTS TX: 147456 / 554772
+Dec 31 20:33:07 ubuntu python[4146]: TTS ACK: 147456
+Dec 31 20:33:07 ubuntu python[4146]: TTS TX: 149504 / 554772
+Dec 31 20:33:08 ubuntu python[4146]: TTS ACK: 149504
+Dec 31 20:33:08 ubuntu python[4146]: TTS TX: 151552 / 554772
+Dec 31 20:33:08 ubuntu python[4146]: TTS ACK: 151552
+Dec 31 20:33:08 ubuntu python[4146]: TTS TX: 153600 / 554772
+Dec 31 20:33:08 ubuntu python[4146]: TTS ACK: 153600
+Dec 31 20:33:08 ubuntu python[4146]: TTS TX: 155648 / 554772
+Dec 31 20:33:08 ubuntu python[4146]: TTS ACK: 155648
+Dec 31 20:33:08 ubuntu python[4146]: TTS TX: 157696 / 554772
+Dec 31 20:33:08 ubuntu python[4146]: TTS ACK: 157696
+Dec 31 20:33:08 ubuntu python[4146]: TTS TX: 159744 / 554772
+Dec 31 20:33:08 ubuntu python[4146]: TTS ACK: 159744
+Dec 31 20:33:08 ubuntu python[4146]: TTS TX: 161792 / 554772
+Dec 31 20:33:08 ubuntu python[4146]: TTS ACK: 161792
+Dec 31 20:33:08 ubuntu python[4146]: TTS TX: 163840 / 554772
+Dec 31 20:33:09 ubuntu python[4146]: TTS ACK: 163840
+Dec 31 20:33:09 ubuntu python[4146]: TTS TX: 165888 / 554772
+Dec 31 20:33:09 ubuntu python[4146]: TTS ACK: 165888
+Dec 31 20:33:09 ubuntu python[4146]: TTS TX: 167936 / 554772
+Dec 31 20:33:09 ubuntu python[4146]: TTS ACK: 167936
+Dec 31 20:33:09 ubuntu python[4146]: TTS TX: 169984 / 554772
+Dec 31 20:33:09 ubuntu python[4146]: TTS ACK: 169984
+Dec 31 20:33:09 ubuntu python[4146]: TTS TX: 172032 / 554772
+Dec 31 20:33:09 ubuntu python[4146]: TTS ACK: 172032
+Dec 31 20:33:09 ubuntu python[4146]: TTS TX: 174080 / 554772
+Dec 31 20:33:10 ubuntu python[4146]: TTS ACK: 174080
+Dec 31 20:33:10 ubuntu python[4146]: TTS TX: 176128 / 554772
+Dec 31 20:33:10 ubuntu python[4146]: TTS ACK: 176128
+Dec 31 20:33:10 ubuntu python[4146]: TTS TX: 178176 / 554772
+Dec 31 20:33:10 ubuntu python[4146]: TTS ACK: 178176
+Dec 31 20:33:10 ubuntu python[4146]: TTS TX: 180224 / 554772
+Dec 31 20:33:10 ubuntu python[4146]: TTS ACK: 180224
+Dec 31 20:33:10 ubuntu python[4146]: TTS TX: 182272 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 182272
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 184320 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 184320
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 186368 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 186368
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 188416 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 188416
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 190464 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 190464
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 192512 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 192512
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 194560 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 194560
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 196608 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 196608
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 198656 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 198656
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 200704 / 554772
+Dec 31 20:33:11 ubuntu python[4146]: TTS ACK: 200704
+Dec 31 20:33:11 ubuntu python[4146]: TTS TX: 202752 / 554772
+Dec 31 20:33:12 ubuntu python[4146]: TTS ACK: 202752
+Dec 31 20:33:12 ubuntu python[4146]: TTS TX: 204800 / 554772
+Dec 31 20:33:12 ubuntu python[4146]: TTS ACK: 204800
+Dec 31 20:33:12 ubuntu python[4146]: TTS TX: 206848 / 554772
+Dec 31 20:33:12 ubuntu python[4146]: TTS ACK: 206848
+Dec 31 20:33:12 ubuntu python[4146]: TTS TX: 208896 / 554772
+Dec 31 20:33:12 ubuntu python[4146]: TTS ACK: 208896
+Dec 31 20:33:12 ubuntu python[4146]: TTS TX: 210944 / 554772
+Dec 31 20:33:12 ubuntu python[4146]: TTS ACK: 210944
+Dec 31 20:33:12 ubuntu python[4146]: TTS TX: 212992 / 554772
+Dec 31 20:33:12 ubuntu python[4146]: TTS ACK: 212992
+Dec 31 20:33:12 ubuntu python[4146]: TTS TX: 215040 / 554772
+Dec 31 20:33:12 ubuntu python[4146]: TTS ACK: 215040
+Dec 31 20:33:12 ubuntu python[4146]: TTS TX: 217088 / 554772
+Dec 31 20:33:13 ubuntu python[4146]: TTS ACK: 217088
+Dec 31 20:33:13 ubuntu python[4146]: TTS TX: 219136 / 554772
+Dec 31 20:33:13 ubuntu python[4146]: TTS ACK: 219136
+Dec 31 20:33:13 ubuntu python[4146]: TTS TX: 221184 / 554772
+Dec 31 20:33:13 ubuntu python[4146]: TTS ACK: 221184
+Dec 31 20:33:13 ubuntu python[4146]: TTS TX: 223232 / 554772
+Dec 31 20:33:13 ubuntu python[4146]: TTS ACK: 223232
+Dec 31 20:33:13 ubuntu python[4146]: TTS TX: 225280 / 554772
+Dec 31 20:33:13 ubuntu python[4146]: TTS ACK: 225280
+Dec 31 20:33:13 ubuntu python[4146]: TTS TX: 227328 / 554772
+Dec 31 20:33:13 ubuntu python[4146]: TTS ACK: 227328
+Dec 31 20:33:13 ubuntu python[4146]: TTS TX: 229376 / 554772
+Dec 31 20:33:13 ubuntu python[4146]: TTS ACK: 229376
+Dec 31 20:33:13 ubuntu python[4146]: TTS TX: 231424 / 554772
+Dec 31 20:33:14 ubuntu python[4146]: TTS ACK: 231424
+Dec 31 20:33:14 ubuntu python[4146]: TTS TX: 233472 / 554772
+Dec 31 20:33:14 ubuntu python[4146]: TTS ACK: 233472
+Dec 31 20:33:14 ubuntu python[4146]: TTS TX: 235520 / 554772
+Dec 31 20:33:15 ubuntu python[4146]: TTS ACK: 235520
+Dec 31 20:33:15 ubuntu python[4146]: TTS TX: 237568 / 554772
+Dec 31 20:33:15 ubuntu python[4146]: TTS ACK: 237568
+Dec 31 20:33:15 ubuntu python[4146]: TTS TX: 239616 / 554772
+Dec 31 20:33:15 ubuntu python[4146]: TTS ACK: 239616
+Dec 31 20:33:15 ubuntu python[4146]: TTS TX: 241664 / 554772
+Dec 31 20:33:15 ubuntu python[4146]: TTS ACK: 241664
+Dec 31 20:33:15 ubuntu python[4146]: TTS TX: 243712 / 554772
+Dec 31 20:33:16 ubuntu python[4146]: TTS ACK: 243712
+Dec 31 20:33:16 ubuntu python[4146]: TTS TX: 245760 / 554772
+Dec 31 20:33:16 ubuntu python[4146]: TTS ACK: 245760
+Dec 31 20:33:16 ubuntu python[4146]: TTS TX: 247808 / 554772
+Dec 31 20:33:16 ubuntu python[4146]: TTS ACK: 247808
+Dec 31 20:33:16 ubuntu python[4146]: TTS TX: 249856 / 554772
+Dec 31 20:33:17 ubuntu python[4146]: TTS ACK: 249856
+Dec 31 20:33:17 ubuntu python[4146]: TTS TX: 251904 / 554772
+Dec 31 20:33:17 ubuntu python[4146]: TTS ACK: 251904
+Dec 31 20:33:17 ubuntu python[4146]: TTS TX: 253952 / 554772
+Dec 31 20:33:18 ubuntu python[4146]: TTS ACK: 253952
+Dec 31 20:33:18 ubuntu python[4146]: TTS TX: 256000 / 554772
+Dec 31 20:33:18 ubuntu python[4146]: TTS ACK: 256000
+Dec 31 20:33:18 ubuntu python[4146]: TTS TX: 258048 / 554772
+Dec 31 20:33:18 ubuntu python[4146]: TTS ACK: 258048
+Dec 31 20:33:18 ubuntu python[4146]: TTS TX: 260096 / 554772
+Dec 31 20:33:18 ubuntu python[4146]: TTS ACK: 260096
+Dec 31 20:33:18 ubuntu python[4146]: TTS TX: 262144 / 554772
+Dec 31 20:33:19 ubuntu python[4146]: TTS ACK: 262144
+Dec 31 20:33:19 ubuntu python[4146]: TTS TX: 264192 / 554772
+Dec 31 20:33:19 ubuntu python[4146]: TTS ACK: 264192
+Dec 31 20:33:19 ubuntu python[4146]: TTS TX: 266240 / 554772
+Dec 31 20:33:19 ubuntu python[4146]: TTS ACK: 266240
+Dec 31 20:33:19 ubuntu python[4146]: TTS TX: 268288 / 554772
+Dec 31 20:33:19 ubuntu python[4146]: TTS ACK: 268288
+Dec 31 20:33:19 ubuntu python[4146]: TTS TX: 270336 / 554772
+Dec 31 20:33:19 ubuntu python[4146]: TTS ACK: 270336
+Dec 31 20:33:19 ubuntu python[4146]: TTS TX: 272384 / 554772
+Dec 31 20:33:19 ubuntu python[4146]: TTS ACK: 272384
+Dec 31 20:33:19 ubuntu python[4146]: TTS TX: 274432 / 554772
+Dec 31 20:33:22 ubuntu python[4146]: TTS ACK: 274432
+Dec 31 20:33:22 ubuntu python[4146]: TTS TX: 276480 / 554772
+Dec 31 20:33:22 ubuntu python[4146]: TTS ACK: 276480
+Dec 31 20:33:22 ubuntu python[4146]: TTS TX: 278528 / 554772
+Dec 31 20:33:22 ubuntu python[4146]: TTS ACK: 278528
+Dec 31 20:33:22 ubuntu python[4146]: TTS TX: 280576 / 554772
+Dec 31 20:33:22 ubuntu python[4146]: TTS ACK: 280576
+Dec 31 20:33:22 ubuntu python[4146]: TTS TX: 282624 / 554772
+Dec 31 20:33:22 ubuntu python[4146]: TTS ACK: 282624
+Dec 31 20:33:22 ubuntu python[4146]: TTS TX: 284672 / 554772
+Dec 31 20:33:22 ubuntu python[4146]: TTS ACK: 284672
+Dec 31 20:33:22 ubuntu python[4146]: TTS TX: 286720 / 554772
+Dec 31 20:33:22 ubuntu python[4146]: TTS ACK: 286720
+Dec 31 20:33:22 ubuntu python[4146]: TTS TX: 288768 / 554772
+Dec 31 20:33:23 ubuntu python[4146]: TTS ACK: 288768
+Dec 31 20:33:23 ubuntu python[4146]: TTS TX: 290816 / 554772
+Dec 31 20:33:23 ubuntu python[4146]: TTS ACK: 290816
+Dec 31 20:33:23 ubuntu python[4146]: TTS TX: 292864 / 554772
+Dec 31 20:33:24 ubuntu python[4146]: TTS ACK: 292864
+Dec 31 20:33:24 ubuntu python[4146]: TTS TX: 294912 / 554772
+Dec 31 20:33:24 ubuntu python[4146]: TTS ACK: 294912
+Dec 31 20:33:24 ubuntu python[4146]: TTS TX: 296960 / 554772
+Dec 31 20:33:24 ubuntu python[4146]: TTS ACK: 296960
+Dec 31 20:33:24 ubuntu python[4146]: TTS TX: 299008 / 554772
+Dec 31 20:33:24 ubuntu python[4146]: TTS ACK: 299008
+Dec 31 20:33:24 ubuntu python[4146]: TTS TX: 301056 / 554772
+Dec 31 20:33:24 ubuntu python[4146]: TTS ACK: 301056
+Dec 31 20:33:24 ubuntu python[4146]: TTS TX: 303104 / 554772
+Dec 31 20:33:24 ubuntu python[4146]: TTS ACK: 303104
+Dec 31 20:33:24 ubuntu python[4146]: TTS TX: 305152 / 554772
+Dec 31 20:33:25 ubuntu python[4146]: TTS ACK: 305152
+Dec 31 20:33:25 ubuntu python[4146]: TTS TX: 307200 / 554772
+Dec 31 20:33:25 ubuntu python[4146]: TTS ACK: 307200
+Dec 31 20:33:25 ubuntu python[4146]: TTS TX: 309248 / 554772
+Dec 31 20:33:25 ubuntu python[4146]: TTS ACK: 309248
+Dec 31 20:33:25 ubuntu python[4146]: TTS TX: 311296 / 554772
+Dec 31 20:33:25 ubuntu python[4146]: TTS ACK: 311296
+Dec 31 20:33:25 ubuntu python[4146]: TTS TX: 313344 / 554772
+Dec 31 20:33:25 ubuntu python[4146]: TTS ACK: 313344
+Dec 31 20:33:25 ubuntu python[4146]: TTS TX: 315392 / 554772
+Dec 31 20:33:26 ubuntu python[4146]: TTS ACK: 315392
+Dec 31 20:33:26 ubuntu python[4146]: TTS TX: 317440 / 554772
+Dec 31 20:33:26 ubuntu python[4146]: TTS ACK: 317440
+Dec 31 20:33:26 ubuntu python[4146]: TTS TX: 319488 / 554772
+Dec 31 20:33:26 ubuntu python[4146]: TTS ACK: 319488
+Dec 31 20:33:26 ubuntu python[4146]: TTS TX: 321536 / 554772
+Dec 31 20:33:26 ubuntu python[4146]: TTS ACK: 321536
+Dec 31 20:33:26 ubuntu python[4146]: TTS TX: 323584 / 554772
+Dec 31 20:33:26 ubuntu python[4146]: TTS ACK: 323584
+Dec 31 20:33:26 ubuntu python[4146]: TTS TX: 325632 / 554772
+Dec 31 20:33:26 ubuntu python[4146]: TTS ACK: 325632
+Dec 31 20:33:26 ubuntu python[4146]: TTS TX: 327680 / 554772
+Dec 31 20:33:26 ubuntu python[4146]: TTS ACK: 327680
+Dec 31 20:33:26 ubuntu python[4146]: TTS TX: 329728 / 554772
+Dec 31 20:33:26 ubuntu python[4146]: TTS ACK: 329728
+Dec 31 20:33:26 ubuntu python[4146]: TTS TX: 331776 / 554772
+Dec 31 20:33:26 ubuntu python[4146]: TTS ACK: 331776
+Dec 31 20:33:26 ubuntu python[4146]: TTS TX: 333824 / 554772
+Dec 31 20:33:27 ubuntu python[4146]: TTS ACK: 333824
+Dec 31 20:33:27 ubuntu python[4146]: TTS TX: 335872 / 554772
+Dec 31 20:33:27 ubuntu python[4146]: TTS ACK: 335872
+Dec 31 20:33:27 ubuntu python[4146]: TTS TX: 337920 / 554772
+Dec 31 20:33:27 ubuntu python[4146]: TTS ACK: 337920
+Dec 31 20:33:27 ubuntu python[4146]: TTS TX: 339968 / 554772
+Dec 31 20:33:27 ubuntu python[4146]: TTS ACK: 339968
+Dec 31 20:33:27 ubuntu python[4146]: TTS TX: 342016 / 554772
+Dec 31 20:33:27 ubuntu python[4146]: TTS ACK: 342016
+Dec 31 20:33:27 ubuntu python[4146]: TTS TX: 344064 / 554772
+Dec 31 20:33:27 ubuntu python[4146]: TTS ACK: 344064
+Dec 31 20:33:27 ubuntu python[4146]: TTS TX: 346112 / 554772
+Dec 31 20:33:27 ubuntu python[4146]: TTS ACK: 346112
+Dec 31 20:33:27 ubuntu python[4146]: TTS TX: 348160 / 554772
+Dec 31 20:33:27 ubuntu python[4146]: TTS ACK: 348160
+Dec 31 20:33:27 ubuntu python[4146]: TTS TX: 350208 / 554772
+Dec 31 20:33:28 ubuntu python[4146]: TTS ACK: 350208
+Dec 31 20:33:28 ubuntu python[4146]: TTS TX: 352256 / 554772
+Dec 31 20:33:28 ubuntu python[4146]: TTS ACK: 352256
+Dec 31 20:33:28 ubuntu python[4146]: TTS TX: 354304 / 554772
+Dec 31 20:33:28 ubuntu python[4146]: TTS ACK: 354304
+Dec 31 20:33:28 ubuntu python[4146]: TTS TX: 356352 / 554772
+Dec 31 20:33:28 ubuntu python[4146]: TTS ACK: 356352
+Dec 31 20:33:28 ubuntu python[4146]: TTS TX: 358400 / 554772
+Dec 31 20:33:28 ubuntu python[4146]: TTS ACK: 358400
+Dec 31 20:33:28 ubuntu python[4146]: TTS TX: 360448 / 554772
+Dec 31 20:33:28 ubuntu python[4146]: TTS ACK: 360448
+Dec 31 20:33:28 ubuntu python[4146]: TTS TX: 362496 / 554772
+Dec 31 20:33:29 ubuntu python[4146]: TTS ACK: 362496
+Dec 31 20:33:29 ubuntu python[4146]: TTS TX: 364544 / 554772
+Dec 31 20:33:29 ubuntu python[4146]: TTS ACK: 364544
+Dec 31 20:33:29 ubuntu python[4146]: TTS TX: 366592 / 554772
+Dec 31 20:33:29 ubuntu python[4146]: TTS ACK: 366592
+Dec 31 20:33:29 ubuntu python[4146]: TTS TX: 368640 / 554772
+Dec 31 20:33:29 ubuntu python[4146]: TTS ACK: 368640
+Dec 31 20:33:29 ubuntu python[4146]: TTS TX: 370688 / 554772
+Dec 31 20:33:29 ubuntu python[4146]: TTS ACK: 370688
+Dec 31 20:33:29 ubuntu python[4146]: TTS TX: 372736 / 554772
+Dec 31 20:33:29 ubuntu python[4146]: TTS ACK: 372736
+Dec 31 20:33:29 ubuntu python[4146]: TTS TX: 374784 / 554772
+Dec 31 20:33:29 ubuntu python[4146]: TTS ACK: 374784
+Dec 31 20:33:29 ubuntu python[4146]: TTS TX: 376832 / 554772
+Dec 31 20:33:29 ubuntu python[4146]: TTS ACK: 376832
+Dec 31 20:33:29 ubuntu python[4146]: TTS TX: 378880 / 554772
+Dec 31 20:33:29 ubuntu python[4146]: TTS ACK: 378880
+Dec 31 20:33:29 ubuntu python[4146]: TTS TX: 380928 / 554772
+Dec 31 20:33:30 ubuntu python[4146]: TTS ACK: 380928
+Dec 31 20:33:30 ubuntu python[4146]: TTS TX: 382976 / 554772
+Dec 31 20:33:30 ubuntu python[4146]: TTS ACK: 382976
+Dec 31 20:33:30 ubuntu python[4146]: TTS TX: 385024 / 554772
+Dec 31 20:33:30 ubuntu python[4146]: TTS ACK: 385024
+Dec 31 20:33:30 ubuntu python[4146]: TTS TX: 387072 / 554772
+Dec 31 20:33:30 ubuntu python[4146]: TTS ACK: 387072
+Dec 31 20:33:30 ubuntu python[4146]: TTS TX: 389120 / 554772
+Dec 31 20:33:30 ubuntu python[4146]: TTS ACK: 389120
+Dec 31 20:33:30 ubuntu python[4146]: TTS TX: 391168 / 554772
+Dec 31 20:33:30 ubuntu python[4146]: TTS ACK: 391168
+Dec 31 20:33:30 ubuntu python[4146]: TTS TX: 393216 / 554772
+Dec 31 20:33:31 ubuntu python[4146]: TTS ACK: 393216
+Dec 31 20:33:31 ubuntu python[4146]: TTS TX: 395264 / 554772
+Dec 31 20:33:31 ubuntu python[4146]: TTS ACK: 395264
+Dec 31 20:33:31 ubuntu python[4146]: TTS TX: 397312 / 554772
+Dec 31 20:33:31 ubuntu python[4146]: TTS ACK: 397312
+Dec 31 20:33:31 ubuntu python[4146]: TTS TX: 399360 / 554772
+Dec 31 20:33:31 ubuntu python[4146]: TTS ACK: 399360
+Dec 31 20:33:31 ubuntu python[4146]: TTS TX: 401408 / 554772
+Dec 31 20:33:31 ubuntu python[4146]: TTS ACK: 401408
+Dec 31 20:33:31 ubuntu python[4146]: TTS TX: 403456 / 554772
+Dec 31 20:33:31 ubuntu python[4146]: TTS ACK: 403456
+Dec 31 20:33:31 ubuntu python[4146]: TTS TX: 405504 / 554772
+Dec 31 20:33:31 ubuntu python[4146]: TTS ACK: 405504
+Dec 31 20:33:31 ubuntu python[4146]: TTS TX: 407552 / 554772
+Dec 31 20:33:32 ubuntu python[4146]: TTS ACK: 407552
+Dec 31 20:33:32 ubuntu python[4146]: TTS TX: 409600 / 554772
+Dec 31 20:33:32 ubuntu python[4146]: TTS ACK: 409600
+Dec 31 20:33:32 ubuntu python[4146]: TTS TX: 411648 / 554772
+Dec 31 20:33:32 ubuntu python[4146]: TTS ACK: 411648
+Dec 31 20:33:32 ubuntu python[4146]: TTS TX: 413696 / 554772
+Dec 31 20:33:32 ubuntu python[4146]: TTS ACK: 413696
+Dec 31 20:33:32 ubuntu python[4146]: TTS TX: 415744 / 554772
+Dec 31 20:33:32 ubuntu python[4146]: TTS ACK: 415744
+Dec 31 20:33:32 ubuntu python[4146]: TTS TX: 417792 / 554772
+Dec 31 20:33:32 ubuntu python[4146]: TTS ACK: 417792
+Dec 31 20:33:32 ubuntu python[4146]: TTS TX: 419840 / 554772
+Dec 31 20:33:33 ubuntu python[4146]: TTS ACK: 419840
+Dec 31 20:33:33 ubuntu python[4146]: TTS TX: 421888 / 554772
+Dec 31 20:33:33 ubuntu python[4146]: TTS ACK: 421888
+Dec 31 20:33:33 ubuntu python[4146]: TTS TX: 423936 / 554772
+Dec 31 20:33:33 ubuntu python[4146]: TTS ACK: 423936
+Dec 31 20:33:33 ubuntu python[4146]: TTS TX: 425984 / 554772
+Dec 31 20:33:33 ubuntu python[4146]: TTS ACK: 425984
+Dec 31 20:33:33 ubuntu python[4146]: TTS TX: 428032 / 554772
+Dec 31 20:33:33 ubuntu python[4146]: TTS ACK: 428032
+Dec 31 20:33:33 ubuntu python[4146]: TTS TX: 430080 / 554772
+Dec 31 20:33:33 ubuntu python[4146]: TTS ACK: 430080
+Dec 31 20:33:33 ubuntu python[4146]: TTS TX: 432128 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 432128
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 434176 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 434176
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 436224 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 436224
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 438272 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 438272
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 440320 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 440320
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 442368 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 442368
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 444416 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 444416
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 446464 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 446464
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 448512 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 448512
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 450560 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 450560
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 452608 / 554772
+Dec 31 20:33:34 ubuntu python[4146]: TTS ACK: 452608
+Dec 31 20:33:34 ubuntu python[4146]: TTS TX: 454656 / 554772
+Dec 31 20:33:35 ubuntu python[4146]: TTS ACK: 454656
+Dec 31 20:33:35 ubuntu python[4146]: TTS TX: 456704 / 554772
+Dec 31 20:33:35 ubuntu python[4146]: TTS ACK: 456704
+Dec 31 20:33:35 ubuntu python[4146]: TTS TX: 458752 / 554772
+Dec 31 20:33:35 ubuntu python[4146]: TTS ACK: 458752
+Dec 31 20:33:35 ubuntu python[4146]: TTS TX: 460800 / 554772
+Dec 31 20:33:35 ubuntu python[4146]: TTS ACK: 460800
+Dec 31 20:33:35 ubuntu python[4146]: TTS TX: 462848 / 554772
+Dec 31 20:33:35 ubuntu python[4146]: TTS ACK: 462848
+Dec 31 20:33:35 ubuntu python[4146]: TTS TX: 464896 / 554772
+Dec 31 20:33:35 ubuntu python[4146]: TTS ACK: 464896
+Dec 31 20:33:35 ubuntu python[4146]: TTS TX: 466944 / 554772
+Dec 31 20:33:35 ubuntu python[4146]: TTS ACK: 466944
+Dec 31 20:33:35 ubuntu python[4146]: TTS TX: 468992 / 554772
+Dec 31 20:33:35 ubuntu python[4146]: TTS ACK: 468992
+Dec 31 20:33:35 ubuntu python[4146]: TTS TX: 471040 / 554772
+Dec 31 20:33:36 ubuntu python[4146]: TTS ACK: 471040
+Dec 31 20:33:36 ubuntu python[4146]: TTS TX: 473088 / 554772
+Dec 31 20:33:36 ubuntu python[4146]: TTS ACK: 473088
+Dec 31 20:33:36 ubuntu python[4146]: TTS TX: 475136 / 554772
+Dec 31 20:33:36 ubuntu python[4146]: TTS ACK: 475136
+Dec 31 20:33:36 ubuntu python[4146]: TTS TX: 477184 / 554772
+Dec 31 20:33:36 ubuntu python[4146]: TTS ACK: 477184
+Dec 31 20:33:36 ubuntu python[4146]: TTS TX: 479232 / 554772
+Dec 31 20:33:36 ubuntu python[4146]: TTS ACK: 479232
+Dec 31 20:33:36 ubuntu python[4146]: TTS TX: 481280 / 554772
+Dec 31 20:33:36 ubuntu python[4146]: TTS ACK: 481280
+Dec 31 20:33:36 ubuntu python[4146]: TTS TX: 483328 / 554772
+Dec 31 20:33:36 ubuntu python[4146]: TTS ACK: 483328
+Dec 31 20:33:36 ubuntu python[4146]: TTS TX: 485376 / 554772
+Dec 31 20:33:36 ubuntu python[4146]: TTS ACK: 485376
+Dec 31 20:33:36 ubuntu python[4146]: TTS TX: 487424 / 554772
+Dec 31 20:33:37 ubuntu python[4146]: TTS ACK: 487424
+Dec 31 20:33:37 ubuntu python[4146]: TTS TX: 489472 / 554772
+Dec 31 20:33:37 ubuntu python[4146]: TTS ACK: 489472
+Dec 31 20:33:37 ubuntu python[4146]: TTS TX: 491520 / 554772
+Dec 31 20:33:37 ubuntu python[4146]: TTS ACK: 491520
+Dec 31 20:33:37 ubuntu python[4146]: TTS TX: 493568 / 554772
+Dec 31 20:33:37 ubuntu python[4146]: TTS ACK: 493568
+Dec 31 20:33:37 ubuntu python[4146]: TTS TX: 495616 / 554772
+Dec 31 20:33:37 ubuntu python[4146]: TTS ACK: 495616
+Dec 31 20:33:37 ubuntu python[4146]: TTS TX: 497664 / 554772
+Dec 31 20:33:38 ubuntu python[4146]: TTS ACK: 497664
+Dec 31 20:33:38 ubuntu python[4146]: TTS TX: 499712 / 554772
+Dec 31 20:33:38 ubuntu python[4146]: TTS ACK: 499712
+Dec 31 20:33:38 ubuntu python[4146]: TTS TX: 501760 / 554772
+Dec 31 20:33:38 ubuntu python[4146]: TTS ACK: 501760
+Dec 31 20:33:38 ubuntu python[4146]: TTS TX: 503808 / 554772
+Dec 31 20:33:38 ubuntu python[4146]: TTS ACK: 503808
+Dec 31 20:33:38 ubuntu python[4146]: TTS TX: 505856 / 554772
+Dec 31 20:33:39 ubuntu python[4146]: TTS ACK: 505856
+Dec 31 20:33:39 ubuntu python[4146]: TTS TX: 507904 / 554772
+Dec 31 20:33:39 ubuntu python[4146]: TTS ACK: 507904
+Dec 31 20:33:39 ubuntu python[4146]: TTS TX: 509952 / 554772
+Dec 31 20:33:39 ubuntu python[4146]: TTS ACK: 509952
+Dec 31 20:33:39 ubuntu python[4146]: TTS TX: 512000 / 554772
+Dec 31 20:33:39 ubuntu python[4146]: TTS ACK: 512000
+Dec 31 20:33:39 ubuntu python[4146]: TTS TX: 514048 / 554772
+Dec 31 20:33:39 ubuntu python[4146]: TTS ACK: 514048
+Dec 31 20:33:39 ubuntu python[4146]: TTS TX: 516096 / 554772
+Dec 31 20:33:39 ubuntu python[4146]: TTS ACK: 516096
+Dec 31 20:33:39 ubuntu python[4146]: TTS TX: 518144 / 554772
+Dec 31 20:33:39 ubuntu python[4146]: TTS ACK: 518144
+Dec 31 20:33:39 ubuntu python[4146]: TTS TX: 520192 / 554772
+Dec 31 20:33:40 ubuntu python[4146]: TTS ACK: 520192
+Dec 31 20:33:40 ubuntu python[4146]: TTS TX: 522240 / 554772
+Dec 31 20:33:40 ubuntu python[4146]: TTS ACK: 522240
+Dec 31 20:33:40 ubuntu python[4146]: TTS TX: 524288 / 554772
+Dec 31 20:33:40 ubuntu python[4146]: TTS ACK: 524288
+Dec 31 20:33:40 ubuntu python[4146]: TTS TX: 526336 / 554772
+Dec 31 20:33:40 ubuntu python[4146]: TTS ACK: 526336
+Dec 31 20:33:40 ubuntu python[4146]: TTS TX: 528384 / 554772
+Dec 31 20:33:40 ubuntu python[4146]: TTS ACK: 528384
+Dec 31 20:33:40 ubuntu python[4146]: TTS TX: 530432 / 554772
+Dec 31 20:33:41 ubuntu python[4146]: TTS ACK: 530432
+Dec 31 20:33:41 ubuntu python[4146]: TTS TX: 532480 / 554772
+Dec 31 20:33:41 ubuntu python[4146]: TTS ACK: 532480
+Dec 31 20:33:41 ubuntu python[4146]: TTS TX: 534528 / 554772
+Dec 31 20:33:41 ubuntu python[4146]: TTS ACK: 534528
+Dec 31 20:33:41 ubuntu python[4146]: TTS TX: 536576 / 554772
+Dec 31 20:33:41 ubuntu python[4146]: TTS ACK: 536576
+Dec 31 20:33:41 ubuntu python[4146]: TTS TX: 538624 / 554772
+Dec 31 20:33:41 ubuntu python[4146]: TTS ACK: 538624
+Dec 31 20:33:41 ubuntu python[4146]: TTS TX: 540672 / 554772
+Dec 31 20:33:41 ubuntu python[4146]: TTS ACK: 540672
+Dec 31 20:33:41 ubuntu python[4146]: TTS TX: 542720 / 554772
+Dec 31 20:33:42 ubuntu python[4146]: TTS ACK: 542720
+Dec 31 20:33:42 ubuntu python[4146]: TTS TX: 544768 / 554772
+Dec 31 20:33:42 ubuntu python[4146]: TTS ACK: 544768
+Dec 31 20:33:42 ubuntu python[4146]: TTS TX: 546816 / 554772
+Dec 31 20:33:42 ubuntu python[4146]: TTS ACK: 546816
+Dec 31 20:33:42 ubuntu python[4146]: TTS TX: 548864 / 554772
+Dec 31 20:33:42 ubuntu python[4146]: TTS ACK: 548864
+Dec 31 20:33:42 ubuntu python[4146]: TTS TX: 550912 / 554772
+Dec 31 20:33:42 ubuntu python[4146]: TTS ACK: 550912
+Dec 31 20:33:42 ubuntu python[4146]: TTS TX: 552960 / 554772
+Dec 31 20:33:42 ubuntu python[4146]: TTS ACK: 552960
+Dec 31 20:33:42 ubuntu python[4146]: TTS TX: 554772 / 554772
+Dec 31 20:33:42 ubuntu python[4146]: TTS ACK: 554772
+Dec 31 20:33:42 ubuntu python[4146]: TOTAL: 54.594 s
+Dec 31 20:34:01 ubuntu python[4146]: QUERY_START:
+Dec 31 20:34:01 ubuntu python[4146]: Esperando 37804 bytes
+Dec 31 20:34:01 ubuntu python[4146]: AUDIO RX: 8192 / 37804
+Dec 31 20:34:01 ubuntu python[4146]: AUDIO RX: 16384 / 37804
+Dec 31 20:34:01 ubuntu python[4146]: AUDIO RX: 24576 / 37804
+Dec 31 20:34:02 ubuntu python[4146]: AUDIO RX: 32768 / 37804
+Dec 31 20:34:02 ubuntu python[4146]: AUDIO RX: 37804 / 37804
+Dec 31 20:34:02 ubuntu python[4146]: QUERY_END:
+Dec 31 20:34:02 ubuntu python[4146]: Recibido: 37804 / 37804
+Dec 31 20:34:02 ubuntu python[4146]: ============================================================
+Dec 31 20:34:02 ubuntu python[4146]: AUDIO COMPLETO RECIBIDO
+Dec 31 20:34:02 ubuntu python[4146]: Bytes: 37804
+Dec 31 20:34:02 ubuntu python[4146]: ============================================================
+Dec 31 20:34:03 ubuntu python[4146]: Vosk: 0.76 s
+Dec 31 20:34:03 ubuntu python[4146]: TRANSCRIPCION: apaga la luz
+Dec 31 20:34:03 ubuntu python[4146]: ========================================
+Dec 31 20:34:03 ubuntu python[4146]: COMANDO RAPIDO - SIN QWEN / SIN PIPER
+Dec 31 20:34:03 ubuntu python[4146]: ========================================
+Dec 31 20:34:03 ubuntu python[4146]: {"keyword": "mini indi", "target": "light", "action": "off"}
+Dec 31 20:34:03 ubuntu python[4146]: COMANDO ENVIADO A CORES3
+Dec 31 20:34:03 ubuntu python[4146]: Qwen omitido
+Dec 31 20:34:03 ubuntu python[4146]: Piper omitido
+Dec 31 20:34:03 ubuntu python[4146]: TOTAL COMANDO: 0.766 s
+Dec 31 20:34:25 ubuntu python[4146]: ============================================================
+Dec 31 20:34:25 ubuntu python[4146]: CoreS3 conectado: ('192.168.50.208', 60107)
+Dec 31 20:34:25 ubuntu python[4146]: ============================================================

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Si utiliza este repositorio, cite el informe técnico de Mini INDI."
+title: "Mini INDI: Sistema AIoT Distribuido para Interacción Ciudadana y Resiliencia en Espacios Urbanos Inteligentes"
+type: software
+authors:
+  - family-names: "[APELLIDO AUTOR 1]"
+    given-names: "[NOMBRE AUTOR 1]"
+version: "0.9-concurso"
+date-released: 2026-10-19
+repository-code: "https://github.com/[USUARIO]/mini-indi-uleam-2026"
