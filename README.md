@@ -23,18 +23,6 @@ python scripts/recompute_metrics.py
 
 La media de latencia extremo-a-extremo se calcula **solo con interacciones exitosas que poseen tiempos completos explícitos**. Los dos ensayos con timeout TTS no se completan con tiempos aproximados.
 
-## Compilar el artículo
-
-```bash
-cd paper
-pdflatex mini_indi_uleam_2026.tex
-bibtex mini_indi_uleam_2026
-pdflatex mini_indi_uleam_2026.tex
-pdflatex mini_indi_uleam_2026.tex
-```
-
-Antes de enviar, sustituir los campos `[NOMBRE ...]`, `[CORREO ...]`, `[CARRERA]`, `[CIUDAD]` y `[NOMBRE DEL TUTOR]`.
-
 ## Configuración de la CoreS3
 
 El repositorio **no publica credenciales reales**. Copiar:
@@ -53,6 +41,3 @@ La versión de firmware incluida implementa el wake word local mediante **MFCC +
 
 El conjunto crudo de voces usado durante el desarrollo del wake word no se incluye porque contiene archivos potencialmente identificables. El repositorio publica únicamente código, logs de evaluación y resultados necesarios para reproducir las métricas reportadas.
 
-## Licencia
-
-Aún no se ha seleccionado una licencia definitiva. Antes de publicar en GitHub, los autores deben elegir explícitamente una licencia para software y documentación. Véase `LICENSE-NOTICE.md`.
