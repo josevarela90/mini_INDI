@@ -1,4 +1,4 @@
-# Matriz de cobertura de la Rúbrica A — IoT ULEAM 2026
+# Evaluación
 
 | Criterio | Puntos | Evidencia preparada en el artículo/repositorio |
 |---|---:|---|
