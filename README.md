@@ -33,7 +33,7 @@ cp firmware/cores3/include/secrets.example.h firmware/cores3/include/secrets.h
 
 y editar la red local antes de compilar.
 
-## Nota científica importante
+## Nota 
 
 La versión de firmware incluida implementa el wake word local mediante **MFCC + SVM**. El software de Jetson dispone de backends ASR locales Vosk y Whisper/whisper.cpp; la campaña experimental documentada en este repositorio se ejecutó con **Vosk**, por lo que las latencias publicadas corresponden a ese backend.
 
