@@ -15,9 +15,9 @@ La campaña procesada consta de 11 interacciones aceptadas por el wake word loca
 - Consultas informativas: 7/9 = 77,8%.
 - Comandos IoT: 2/2 = 100% (muestra exploratoria).
 - Éxito global: 9/11 = 81,8%.
-- Wake local: 209,36 ms de media.
-- Latencia extremo-a-extremo explícita: 39,090 s de media, mediana 29,307 s, rango 4,544–77,789 s, n=9.
-- Consultas informativas completas: 48,349 s de media, n=7.
-- Comandos IoT completos: 6,684 s de media, n=2.
+- Wake local: 20,936 ms de media.
+- Latencia extremo-a-extremo explícita: 3,9090 s de media, mediana 2,9307 s, rango 0,4544–7,7789 s, n=9.
+- Consultas informativas completas: 4,8349 s de media, n=7.
+- Comandos IoT completos: 0,6684 s de media, n=2.
 
 Ejecutar `python scripts/recompute_metrics.py` para regenerar la tabla.
