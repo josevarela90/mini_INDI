@@ -1,7 +1,7 @@
 # Mini INDI — Concurso Nacional IoT ULEAM 2026
 
 Repositorio de transparencia y reproducibilidad para **Mini INDI: Sistema AIoT Distribuido para Interacción Ciudadana y Resiliencia en Espacios Urbanos Inteligentes**.
-[![Ver la demostración de E-TWIN](mini_INDI/video_miniINDI.png)](https://www.youtube.com/shorts/aSO5r5apowY)
+[![Ver la demostración de E-TWIN](josevarela90/mini_INDI/video_miniINDI.png)](https://www.youtube.com/shorts/aSO5r5apowY)
 
 **Haz clic en la imagen para abrir el video.**
 
